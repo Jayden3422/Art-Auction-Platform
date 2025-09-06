@@ -66,11 +66,11 @@ export default {
         },
     },
     methods: {
-        // 生成一个随机数
+        // Generate a random number
         randomNum(min, max) {
             return Math.floor(Math.random() * (max - min) + min);
         },
-        // 生成一个随机的颜色
+        // Generate a random color
         randomColor(min, max) {
             let r = this.randomNum(min, max);
             let g = this.randomNum(min, max);
@@ -81,13 +81,13 @@ export default {
             let canvas = document.getElementById("s-canvas");
             let ctx = canvas.getContext("2d");
             ctx.textBaseline = "bottom";
-            // 绘制背景
+            // Draw the background
             ctx.fillStyle = this.randomColor(
                 this.backgroundColorMin,
                 this.backgroundColorMax
             );
             ctx.fillRect(0, 0, this.contentWidth, this.contentHeight);
-            // 绘制文字
+            // Draw text
             for (let i = 0; i < this.identifyCode.value.length; i++) {
                 this.drawText(ctx, this.identifyCode.value[i], i);
             }
@@ -103,16 +103,16 @@ export default {
                 (i + 1) * (this.contentWidth / (this.identifyCode.value.length + 1));
             let y = this.randomNum(this.fontSizeMax, this.contentHeight - 5);
             let deg = this.randomNum(-30, 30);
-            // 修改坐标原点和旋转角度
+            // Modify the coordinate origin and rotation angle
             ctx.translate(x, y);
             ctx.rotate((deg * Math.PI) / 270);
             ctx.fillText(txt, 0, 0);
-            // 恢复坐标原点和旋转角度
+            // Restore coordinate origin and rotation angle
             ctx.rotate((-deg * Math.PI) / 270);
             ctx.translate(-x, -y);
         },
         drawLine(ctx) {
-            // 绘制干扰线
+            // Draw interference lines
             for (let i = 0; i < 2; i++) {
                 ctx.strokeStyle = this.randomColor(
                     this.lineColorMin,
@@ -131,7 +131,7 @@ export default {
             }
         },
         drawDot(ctx) {
-            // 绘制干扰点
+            // Draw interference points
             for (let i = 0; i < 20; i++) {
                 ctx.fillStyle = this.randomColor(0, 255);
                 ctx.beginPath();

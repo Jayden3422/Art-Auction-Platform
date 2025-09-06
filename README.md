@@ -135,6 +135,7 @@ The following is the report in exported pdf format:
 
 ![report-pdf](README.assets/report-pdf.png)
 
+
 ## System architecture design
 
 The system architecture is shown in the figure. Process 1 shows how the platform manages user permissions based on the user ID according to the permissions dictionary in the database. Process 2 shows how the backend uses the mongodb package to perform operations such as add, delete, modify, and query on the MongoDB database. Process 3 shows how the backend interacts with the frontend through Axios. Process 4 shows how the frontend and backend interact by sending HTTP requests and responses. Process 5 shows how the frontend identifies roles based on different user tokens and determines whether the user can access corresponding modules and operations based on user permissions, thereby protecting the security of the platform and data.
@@ -159,6 +160,15 @@ Buyers and sellers enter the required information, including username, email add
 
 ![Snipaste_2025-09-05_23-04-19](README.assets/Snipaste_2025-09-05_23-04-19.png)
 
+#### Verification code drawing
+
+In `frontend\src\components\Identify.vue`.
+
+Use this function to draw a 4-digit verification code, and draw interference lines and random color points.
+
+Here are the examples:
+
+![image-20250906013936314](README.assets/image-20250906013936314.png)
 
 ### Artwork publishing module
 
