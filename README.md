@@ -7,7 +7,7 @@ This is my undergraduate thesis project: an online art auction platform built to
 
 With the rise of the internet, art trading is shifting online. This platform simplifies traditional auction processes, promotes cultural exchange, and provides data insights for market analysis.
 
-### Key Features
+### Key Points
 
 - User registration and login.
 - Art listing and publishing. 
@@ -24,6 +24,8 @@ With the rise of the internet, art trading is shifting online. This platform sim
 - Other: `Ant design of vue`, `websocket`
 
 ## Installation and Setup
+
+This project uses `node.js 20`.
 
 ### Frontend
 
