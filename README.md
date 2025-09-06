@@ -21,7 +21,7 @@ With the rise of the internet, art trading is shifting online. This platform sim
 - Frontend: `HTML5`, `CSS3`, `Javascript`, `Vue.js`.
 - Backend: `Node.js`, `Express.js`.
 - Database: `MongoDB`. 
-- Other: `Ant design of vue`, `websocket`
+- Other: `Ant design of vue`, `websocket`, `Less`, `Axios`, `Echarts`.
 
 ## Installation and Setup
 
