@@ -67,7 +67,7 @@ The tool function I made using `WebSocket` in `frontend\src\ws`.
 
 This module allows users to browse artworks that are about to be auctioned, currently being auctioned, and have already been auctioned. Each stage displays basic information about the artwork and its corresponding auction status. In the upcoming auction section, users can preview artworks and follow auctions of interest; in the ongoing auction section, users can bid in real time and view the auction progress; and in the completed auction section, users can view the final transaction price and bidding history. For items that have been auctioned successfully, users can view related orders and understand their real-time status. This feature allows users to conveniently browse and participate in auctions, enjoying a rich and diverse art auction experience.
 
-<img src="README.assets/image-20250906011844019.png" alt="image-20250906011844019" style="zoom: 90%;" />
+<img src="README.assets/Artwork auction module timing diagram.png" alt="image-20250906011844019" style="zoom: 90%;" />
 
 A Buyer's Perspective on Unsold Artworks: 
 
