@@ -1,0 +1,8438 @@
+/*
+ Navicat Premium Dump Script
+
+ Source Server         : MongoDB
+ Source Server Type    : MongoDB
+ Source Server Version : 80013 (8.0.13)
+ Source Host           : localhost:27017
+ Source Schema         : liujinqi
+
+ Target Server Type    : MongoDB
+ Target Server Version : 80013 (8.0.13)
+ File Encoding         : 65001
+
+ Date: 05/09/2025 22:35:09
+*/
+
+
+// ----------------------------
+// Collection structure for admin
+// ----------------------------
+db.getCollection("admin").drop();
+db.createCollection("admin");
+
+// ----------------------------
+// Documents of admin
+// ----------------------------
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ad3"),
+    ADMIN_ID: Int32("1"),
+    ADMIN_NAME: "Tian Xiuying",
+    EMAIL: "tian524@hotmail.com",
+    ADMIN_PASS: "NilRwWPzEK",
+    ADMIN_INTRO: "k2IUngSuK2",
+    PHONE: "18317431628",
+    PASS_SALT: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFTUFJTCI6InRpYW41MjRAaG90bWFpbC5jb20iLCJQZXJtaXNzaW9uIjoyLCJwaWRzIjoiWy0xLCAwLCAxLCAxMiwgMTMsIDIsIDMsIDMxLCAzMiwgNCwgNDEsIDUsIDYsIDcsIDgsIDldIiwiaWF0IjoxNzU3MTIwNDM0LCJleHAiOjE3NTg0MTY0MzR9.SYg-9s5B6n4mJNdeP1MCbszR3Ors9quRJo1tz248Zz8",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ad4"),
+    ADMIN_ID: Int32("2"),
+    ADMIN_NAME: "He Yuning",
+    EMAIL: "yhe@outlook.com",
+    ADMIN_PASS: "m2V55ETF26",
+    ADMIN_INTRO: "xOJD1dzZaB",
+    PHONE: "202205659",
+    PASS_SALT: "ZurCH8aHm6",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ad5"),
+    ADMIN_ID: Int32("3"),
+    ADMIN_NAME: "Melissa Thompson",
+    EMAIL: "thompsonmelissa@hotmail.com",
+    ADMIN_PASS: "inmnt6ij5q",
+    ADMIN_INTRO: "gKVhsb9Em4",
+    PHONE: "202366821",
+    PASS_SALT: "hc3KlJmA96",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ad6"),
+    ADMIN_ID: Int32("4"),
+    ADMIN_NAME: "Alexander Sullivan",
+    EMAIL: "sullivanale925@yahoo.com",
+    ADMIN_PASS: "YPUVpvH9Lq",
+    ADMIN_INTRO: "ngpBdBGW7B",
+    PHONE: "76043210494",
+    PASS_SALT: "DHxLWqmyzu",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ad7"),
+    ADMIN_ID: Int32("5"),
+    ADMIN_NAME: "Wei Ziyi",
+    EMAIL: "ziyiwe911@yahoo.com",
+    ADMIN_PASS: "u0OT6pLonL",
+    ADMIN_INTRO: "I9hz0u5tZd",
+    PHONE: "209686718",
+    PASS_SALT: "3nOK9YxaT7",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ad8"),
+    ADMIN_ID: Int32("6"),
+    ADMIN_NAME: "Deborah Bailey",
+    EMAIL: "bailed9@gmail.com",
+    ADMIN_PASS: "vpbqtOyon6",
+    ADMIN_INTRO: "BeYAnIRvdJ",
+    PHONE: "102168365",
+    PASS_SALT: "0H1zQVj3Rg",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ad9"),
+    ADMIN_ID: Int32("7"),
+    ADMIN_NAME: "Fred Green",
+    EMAIL: "gfred@gmail.com",
+    ADMIN_PASS: "QOZeVwAJe3",
+    ADMIN_INTRO: "vR4ZoF0BBO",
+    PHONE: "2188264511",
+    PASS_SALT: "tmt6OvBAlJ",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ada"),
+    ADMIN_ID: Int32("8"),
+    ADMIN_NAME: "Ma Xiuying",
+    EMAIL: "maxiuying@hotmail.com",
+    ADMIN_PASS: "YxnCb9IzHi",
+    ADMIN_INTRO: "U4N9KY0cpn",
+    PHONE: "19144233263",
+    PASS_SALT: "FF2ibcpTRL",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052adb"),
+    ADMIN_ID: Int32("9"),
+    ADMIN_NAME: "Ronald Turner",
+    EMAIL: "turner2007@outlook.com",
+    ADMIN_PASS: "ds3r2kqVxl",
+    ADMIN_INTRO: "7k2qrEEtjK",
+    PHONE: "13241965064",
+    PASS_SALT: "UIhig8VTAf",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052adc"),
+    ADMIN_ID: Int32("10"),
+    ADMIN_NAME: "Mao Rui",
+    EMAIL: "rumao911@gmail.com",
+    ADMIN_PASS: "DkilMD8rWm",
+    ADMIN_INTRO: "CdXVrn1ziB",
+    PHONE: "2001575578",
+    PASS_SALT: "dX62YK7fB1",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052add"),
+    ADMIN_ID: Int32("11"),
+    ADMIN_NAME: "Anna Mendez",
+    EMAIL: "annamende@outlook.com",
+    ADMIN_PASS: "2BSN4Nw8m0",
+    ADMIN_INTRO: "zCyxsnG6LY",
+    PHONE: "19356305777",
+    PASS_SALT: "84qx6bwMSb",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ade"),
+    ADMIN_ID: Int32("12"),
+    ADMIN_NAME: "Zou Ziyi",
+    EMAIL: "zouz@mail.com",
+    ADMIN_PASS: "Gx1EGNr7Lg",
+    ADMIN_INTRO: "ZO1QcqFgdU",
+    PHONE: "14855256719",
+    PASS_SALT: "dkAZzI483l",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052adf"),
+    ADMIN_ID: Int32("13"),
+    ADMIN_NAME: "Zou Yuning",
+    EMAIL: "yzo@gmail.com",
+    ADMIN_PASS: "NqokhdROj5",
+    ADMIN_INTRO: "Mh3Q7pUpTW",
+    PHONE: "14385881151",
+    PASS_SALT: "mjGz20i5Fw",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae0"),
+    ADMIN_ID: Int32("14"),
+    ADMIN_NAME: "Hou Yuning",
+    EMAIL: "hyuning5@mail.com",
+    ADMIN_PASS: "5nMq9nTS4D",
+    ADMIN_INTRO: "eFK3SYtylz",
+    PHONE: "14276047106",
+    PASS_SALT: "vruP7xB4ZZ",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae1"),
+    ADMIN_ID: Int32("15"),
+    ADMIN_NAME: "Virginia Castillo",
+    EMAIL: "virginiac@gmail.com",
+    ADMIN_PASS: "1cIxawZ9xP",
+    ADMIN_INTRO: "O7ZltEhj3Z",
+    PHONE: "7552531666",
+    PASS_SALT: "MsPN48P2fo",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae2"),
+    ADMIN_ID: Int32("16"),
+    ADMIN_NAME: "Wei Lu",
+    EMAIL: "lu1960@yahoo.com",
+    ADMIN_PASS: "IChc9mv3uj",
+    ADMIN_INTRO: "jyw31OY3lj",
+    PHONE: "15224307056",
+    PASS_SALT: "je58uezhsu",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae3"),
+    ADMIN_ID: Int32("17"),
+    ADMIN_NAME: "Zheng Yuning",
+    EMAIL: "zheyuning@icloud.com",
+    ADMIN_PASS: "39pTxec6mM",
+    ADMIN_INTRO: "dzSGUNkViB",
+    PHONE: "76027380385",
+    PASS_SALT: "cSxSZoYYAQ",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae4"),
+    ADMIN_ID: Int32("18"),
+    ADMIN_NAME: "Yan Ziyi",
+    EMAIL: "zyan2@outlook.com",
+    ADMIN_PASS: "TU6un48vA4",
+    ADMIN_INTRO: "lgvojWlABV",
+    PHONE: "16517595937",
+    PASS_SALT: "pTnsubrO85",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae5"),
+    ADMIN_ID: Int32("19"),
+    ADMIN_NAME: "Xiong Lan",
+    EMAIL: "lanxiong@hotmail.com",
+    ADMIN_PASS: "35dGY2xHOP",
+    ADMIN_INTRO: "b6Cm08460o",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "2134598674",
+    PASS_SALT: "uwvFri0lI4",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae6"),
+    ADMIN_ID: Int32("20"),
+    ADMIN_NAME: "Peter Owens",
+    EMAIL: "peter327@outlook.com",
+    ADMIN_PASS: "qjUjQFFsuP",
+    ADMIN_INTRO: "VfRn2lA0lq",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "284850760",
+    PASS_SALT: "uXBvGMFBup",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae7"),
+    ADMIN_ID: Int32("21"),
+    ADMIN_NAME: "Zou Lu",
+    EMAIL: "lu8@gmail.com",
+    ADMIN_PASS: "oaDU6FuRZf",
+    ADMIN_INTRO: "ALs8qBkdCT",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "13359194657",
+    PASS_SALT: "EdZTTjOYVs",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae8"),
+    ADMIN_ID: Int32("22"),
+    ADMIN_NAME: "Chen Zhennan",
+    EMAIL: "zhennanchen@gmail.com",
+    ADMIN_PASS: "Rthfl8pCc4",
+    ADMIN_INTRO: "PZ5SzCcJHH",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "15550838563",
+    PASS_SALT: "ix3IvS7xiq",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ae9"),
+    ADMIN_ID: Int32("23"),
+    ADMIN_NAME: "He Zitao",
+    EMAIL: "he4@outlook.com",
+    ADMIN_PASS: "2bSF9tW6Sw",
+    ADMIN_INTRO: "bNSMQEQUtD",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "14291629551",
+    PASS_SALT: "iWCzlQg24k",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052aea"),
+    ADMIN_ID: Int32("24"),
+    ADMIN_NAME: "Lü Jiehong",
+    EMAIL: "jiehong423@outlook.com",
+    ADMIN_PASS: "3gst9SVu01",
+    ADMIN_INTRO: "jP4vNiyyAm",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "13940552212",
+    PASS_SALT: "IiGxJAsOnq",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052aeb"),
+    ADMIN_ID: Int32("25"),
+    ADMIN_NAME: "He Jiehong",
+    EMAIL: "hejie@icloud.com",
+    ADMIN_PASS: "sZtgCujEBr",
+    ADMIN_INTRO: "tQewxw49nJ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "13883547293",
+    PASS_SALT: "U4y4XKA8E1",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052aec"),
+    ADMIN_ID: Int32("26"),
+    ADMIN_NAME: "Carol Henry",
+    EMAIL: "chenry@icloud.com",
+    ADMIN_PASS: "aOjrUQ0Eam",
+    ADMIN_INTRO: "m1kKiB0ME4",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "19461583919",
+    PASS_SALT: "dR1Y056ShP",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052aed"),
+    ADMIN_ID: Int32("27"),
+    ADMIN_NAME: "Zheng Yuning",
+    EMAIL: "yuzheng@gmail.com",
+    ADMIN_PASS: "QomDo7289D",
+    ADMIN_INTRO: "mybw78ZC4F",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "213860846",
+    PASS_SALT: "M68nFLBBU5",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052aee"),
+    ADMIN_ID: Int32("28"),
+    ADMIN_NAME: "Martha West",
+    EMAIL: "westmar1979@icloud.com",
+    ADMIN_PASS: "gnfHtgPUUS",
+    ADMIN_INTRO: "InOqHfahzk",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "13209946497",
+    PASS_SALT: "7OCF9FDPOL",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052aef"),
+    ADMIN_ID: Int32("29"),
+    ADMIN_NAME: "Gao Yuning",
+    EMAIL: "ygao@yahoo.com",
+    ADMIN_PASS: "Uhidv7xF5q",
+    ADMIN_INTRO: "A0TnPJmq6N",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "2839412901",
+    PASS_SALT: "opoepOiVad",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af0"),
+    ADMIN_ID: Int32("30"),
+    ADMIN_NAME: "Yu Zhennan",
+    EMAIL: "yuzh@hotmail.com",
+    ADMIN_PASS: "1yr6xODvgO",
+    ADMIN_INTRO: "eeKiUhJ8rk",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76009708237",
+    PASS_SALT: "gNjtQ8PiaV",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af1"),
+    ADMIN_ID: Int32("31"),
+    ADMIN_NAME: "Xue Zitao",
+    EMAIL: "zixue@outlook.com",
+    ADMIN_PASS: "Fqm3G8fOFq",
+    ADMIN_INTRO: "2kOVfxEG3k",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "18335098161",
+    PASS_SALT: "bBDmLw95Tj",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af2"),
+    ADMIN_ID: Int32("32"),
+    ADMIN_NAME: "Li Shihan",
+    EMAIL: "shihanli@icloud.com",
+    ADMIN_PASS: "5UNPWcCYN5",
+    ADMIN_INTRO: "3KRVaTRgnZ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "13566469533",
+    PASS_SALT: "ByLUkgAcNc",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af3"),
+    ADMIN_ID: Int32("33"),
+    ADMIN_NAME: "Hao Lu",
+    EMAIL: "lu73@gmail.com",
+    ADMIN_PASS: "Byw3I8hydq",
+    ADMIN_INTRO: "j5XrQciBjN",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "109633497",
+    PASS_SALT: "V0UQr88k32",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af4"),
+    ADMIN_ID: Int32("34"),
+    ADMIN_NAME: "Cheryl Patel",
+    EMAIL: "patelcheryl615@outlook.com",
+    ADMIN_PASS: "xiPaEjpBvQ",
+    ADMIN_INTRO: "pJ8g9Ff0Zg",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76079759676",
+    PASS_SALT: "TqNi5vJ9wg",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af5"),
+    ADMIN_ID: Int32("35"),
+    ADMIN_NAME: "Lucille Russell",
+    EMAIL: "lucillerussell@gmail.com",
+    ADMIN_PASS: "89yZR8srNb",
+    ADMIN_INTRO: "TUjSuQtMet",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "1034235384",
+    PASS_SALT: "k2CkEAqwZA",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af6"),
+    ADMIN_ID: Int32("36"),
+    ADMIN_NAME: "Ricky Wells",
+    EMAIL: "riwells1@gmail.com",
+    ADMIN_PASS: "ld93EGxql2",
+    ADMIN_INTRO: "B3OQVWsQPH",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76087727838",
+    PASS_SALT: "AJam5jWumj",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af7"),
+    ADMIN_ID: Int32("37"),
+    ADMIN_NAME: "Lisa Boyd",
+    EMAIL: "lisaboyd@icloud.com",
+    ADMIN_PASS: "7ZzpjHmAIo",
+    ADMIN_INTRO: "K3zWtIOejf",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7551702658",
+    PASS_SALT: "kpBJeVaC2Q",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af8"),
+    ADMIN_ID: Int32("38"),
+    ADMIN_NAME: "Jeffrey Mitchell",
+    EMAIL: "mitj@gmail.com",
+    ADMIN_PASS: "bcl296NXkO",
+    ADMIN_INTRO: "oRtPeHLck6",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7601902443",
+    PASS_SALT: "ub67HlZVj2",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052af9"),
+    ADMIN_ID: Int32("39"),
+    ADMIN_NAME: "Victoria Adams",
+    EMAIL: "adamsvict@icloud.com",
+    ADMIN_PASS: "H7LE7OM5M3",
+    ADMIN_INTRO: "b5X5b6qvrd",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76054138319",
+    PASS_SALT: "J1Dbw9QyWk",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052afa"),
+    ADMIN_ID: Int32("40"),
+    ADMIN_NAME: "Fu Zhiyuan",
+    EMAIL: "zf403@gmail.com",
+    ADMIN_PASS: "HIgRiZwjZf",
+    ADMIN_INTRO: "8VMbSewYT2",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "17338650840",
+    PASS_SALT: "drBVQzKWvf",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052afb"),
+    ADMIN_ID: Int32("41"),
+    ADMIN_NAME: "Wang Lan",
+    EMAIL: "lanwa@hotmail.com",
+    ADMIN_PASS: "4Rk7yIi0Ok",
+    ADMIN_INTRO: "akAcMSYcvs",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76988110903",
+    PASS_SALT: "scpcwLvLqJ",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052afc"),
+    ADMIN_ID: Int32("42"),
+    ADMIN_NAME: "Duan Lu",
+    EMAIL: "ld220@hotmail.com",
+    ADMIN_PASS: "oIAF9VN6Lb",
+    ADMIN_INTRO: "KF2QbqObph",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76938803762",
+    PASS_SALT: "i1FShbos42",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052afd"),
+    ADMIN_ID: Int32("43"),
+    ADMIN_NAME: "Kimberly Morgan",
+    EMAIL: "morgankimberly@gmail.com",
+    ADMIN_PASS: "dEd3PnNdaE",
+    ADMIN_INTRO: "mJIAkejcL1",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "101395493",
+    PASS_SALT: "tqLqb9ezK4",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052afe"),
+    ADMIN_ID: Int32("44"),
+    ADMIN_NAME: "Douglas Brown",
+    EMAIL: "brownd@outlook.com",
+    ADMIN_PASS: "HJEHQAnwCf",
+    ADMIN_INTRO: "hqojkSdmk0",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "107539370",
+    PASS_SALT: "I9bYOUmz8Q",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052aff"),
+    ADMIN_ID: Int32("45"),
+    ADMIN_NAME: "Lei Lan",
+    EMAIL: "lei10@gmail.com",
+    ADMIN_PASS: "MVYFbhpEsX",
+    ADMIN_INTRO: "BLD6KrT4aJ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16497871540",
+    PASS_SALT: "ul6PpurK1r",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b00"),
+    ADMIN_ID: Int32("46"),
+    ADMIN_NAME: "Sylvia Woods",
+    EMAIL: "woods1@icloud.com",
+    ADMIN_PASS: "HhCMlY3UEv",
+    ADMIN_INTRO: "e9vvBVBzoq",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "2088772337",
+    PASS_SALT: "OYkChx8HBd",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b01"),
+    ADMIN_ID: Int32("47"),
+    ADMIN_NAME: "Rachel Hughes",
+    EMAIL: "hurachel9@gmail.com",
+    ADMIN_PASS: "b4CBDFj5AH",
+    ADMIN_INTRO: "CFGAzvdloj",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "103024763",
+    PASS_SALT: "zS6k2qS8kN",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b02"),
+    ADMIN_ID: Int32("48"),
+    ADMIN_NAME: "Yan Lan",
+    EMAIL: "yal46@mail.com",
+    ADMIN_PASS: "Y4nOaC0bqO",
+    ADMIN_INTRO: "d5RhzaoXov",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76925214534",
+    PASS_SALT: "tBNRVmXPkb",
+    ADMIN_STATUS: Int32("0")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b03"),
+    ADMIN_ID: Int32("49"),
+    ADMIN_NAME: "Jiang Zhennan",
+    EMAIL: "zhennanjiang50@hotmail.com",
+    ADMIN_PASS: "R2i8NYAo5C",
+    ADMIN_INTRO: "SODoiVeR8X",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16625119072",
+    PASS_SALT: "VCVpUOT1XA",
+    ADMIN_STATUS: Int32("1")
+} ]);
+db.getCollection("admin").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b04"),
+    ADMIN_ID: Int32("50"),
+    ADMIN_NAME: "Lin Anqi",
+    EMAIL: "lian@outlook.com",
+    ADMIN_PASS: "gPanHhAv7B",
+    ADMIN_INTRO: "sLqtCIdYJz",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7601659310",
+    PASS_SALT: "xk1h5iCNh5",
+    ADMIN_STATUS: Int32("1")
+} ]);
+
+// ----------------------------
+// Collection structure for announcement
+// ----------------------------
+db.getCollection("announcement").drop();
+db.createCollection("announcement");
+
+// ----------------------------
+// Documents of announcement
+// ----------------------------
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b05"),
+    ANNOUNCEMENT_ID: Int32("1"),
+    UPLOADER_ID: Int32("42"),
+    TITLE: "Tang Dynasty Style in Light and Shadow",
+    CONTENT: "A shadow puppet work imbued with the ancient charm of the Tang Dynasty, drawing on elements of Tang Dynasty architecture, dance, and opera, showcases the unique charm of traditional Chinese culture. Each puppet is meticulously handcrafted, blending folklore with artistic innovation, making it an excellent addition to your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b06"),
+    ANNOUNCEMENT_ID: Int32("2"),
+    UPLOADER_ID: Int32("14"),
+    TITLE: "Jiyun Years",
+    CONTENT: "A unique shadow puppet artwork, inspired by the unique customs and practices of southern Hebei, deeply captures the essence of southern Hebei culture. Each puppet imbued with meticulous craftsmanship and profound cultural connotations, will surely add a unique charm to your art collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b07"),
+    ANNOUNCEMENT_ID: Int32("3"),
+    UPLOADER_ID: Int32("9"),
+    TITLE: "Impressions of Xiaoyi",
+    CONTENT: "A group of vivid shadow puppet artworks, drawing on the historical landscape and folk customs of Xiaoyi, inherits the essence of Chinese folk art. Each puppet is meticulously carved by the artist, showcasing delicate lines and rich colors, making it a treasured piece in your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b08"),
+    ANNOUNCEMENT_ID: Int32("4"),
+    UPLOADER_ID: Int32("21"),
+    TITLE: "Impressions of Fuzhou",
+    CONTENT: "A group of shadow puppets with distinct local characteristics, inspired by the traditional folk customs and natural landscapes of Fuzhou, showcases the profound heritage of traditional Chinese culture. Each shadow puppet embodies the artist's profound understanding of Fuzhou culture and their creative skills, making it a must-have addition to your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b09"),
+    ANNOUNCEMENT_ID: Int32("5"),
+    UPLOADER_ID: Int32("9"),
+    TITLE: "Impressions of Water Villages",
+    CONTENT: "A stunning Suzhou embroidery piece, featuring the ancient bridges of Zhouzhuang, perfectly blends the charm of the waterside village with traditional craftsmanship. Every stitch and thread embodies the artist's meticulous effort and wisdom, resulting in a vibrant, exquisite, and uniquely captivating work of art.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b0a"),
+    ANNOUNCEMENT_ID: Int32("6"),
+    UPLOADER_ID: Int32("49"),
+    TITLE: "Seaside Charms and Humaneness",
+    CONTENT: "A collection of unique Haining shadow puppets, inspired by the region's folklore and everyday scenes, showcases the unique charm of Haining culture. Each piece, handcrafted by a dedicated artist, is exquisitely crafted and inherits the essence of traditional Chinese art.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b0b"),
+    ANNOUNCEMENT_ID: Int32("7"),
+    UPLOADER_ID: Int32("10"),
+    TITLE: "Impressions of Jiangcheng",
+    CONTENT: "A vibrant and engaging collection of shadow puppetry, drawing on the local customs and practices of the Jianghan Plain, blends traditional and modern artistic techniques. Each piece possesses unique aesthetic value and cultural significance, making it a treasured addition to your collection. A lifelike clay figurine, crafted using the traditional Huishan clay figurine craft, depicts the beloved character of Ah Fu, showcasing a positive and optimistic outlook on life. Each figurine is meticulously crafted, lifelike, and holds profound meaning, making it a truly exquisite addition to your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b0c"),
+    ANNOUNCEMENT_ID: Int32("8"),
+    UPLOADER_ID: Int32("2"),
+    TITLE: "Laughing at Life",
+    CONTENT: "A heartwarming and endearing collection of clay figurines, featuring silkworms and cats, expresses a yearning for and cherishment of a peaceful life. Each figurine is meticulously carved by the artist, offering vivid forms and rich emotions, making it a perfect addition to your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b0d"),
+    ANNOUNCEMENT_ID: Int32("9"),
+    UPLOADER_ID: Int32("48"),
+    TITLE: "Peaceful Years",
+    CONTENT: "A peaceful clay figurine, featuring the Spring Ox, symbolizes Chinese New Year wishes and hopes for the future. Each figurine is meticulously crafted, with flowing lines and beautiful shapes, making it a lucky charm for your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b0e"),
+    ANNOUNCEMENT_ID: Int32("10"),
+    UPLOADER_ID: Int32("16"),
+    TITLE: "The Ox Turns the World Around",
+    CONTENT: "A unique clay figurine, featuring the image of Hua Xiren, symbolizes wealth and prosperity. Each figurine is meticulously crafted by the artist, boasting vibrant colors and lifelike forms, making it a unique addition to your collection. A clay figurine artwork imbued with humanistic sentiment, inspired by the image of Norman Bethune, expresses reverence and admiration for the compassionate heart of a doctor. Each figurine embodies the artist's painstaking effort and wisdom, remaining lifelike and deeply moving.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b0f"),
+    ANNOUNCEMENT_ID: Int32("11"),
+    UPLOADER_ID: Int32("2"),
+    TITLE: "Blooming Flowers Bring Prosperity",
+    CONTENT: "A unique collection of clay figurines, inspired by Xizhi's love for geese, showcases the sentiments and demeanor of ancient Chinese literati. Each goose figurine is meticulously crafted, lifelike, and imbued with profound meaning, making it a unique addition to your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b10"),
+    ANNOUNCEMENT_ID: Int32("12"),
+    UPLOADER_ID: Int32("21"),
+    TITLE: "The Benevolent Heart of a Doctor",
+    CONTENT: "A stunning Suzhou embroidery piece, inspired by the peacock, showcases the exquisite craftsmanship and elegance of traditional Chinese embroidery. Every stitch and thread embodies the painstaking effort and wisdom of the embroiderers, creating vibrant colors and flowing lines, a truly dazzling piece for your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b11"),
+    ANNOUNCEMENT_ID: Int32("13"),
+    UPLOADER_ID: Int32("24"),
+    TITLE: "Loving Geese",
+    CONTENT: "A festive Suzhou embroidery piece, inspired by the golden monkey, symbolizes happiness and good fortune. Each piece is meticulously crafted by the embroiderers, resulting in exquisite craftsmanship and vivid images, making it a treasured addition to your collection. This vibrant collection of Suzhou embroidery pieces, inspired by the Six Cranes, showcases traditional Chinese culture's appreciation and pursuit of natural beauty. Each piece exudes a rich cultural heritage and artistic spirit, with flowing lines and vibrant colors, making it a masterpiece for your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b12"),
+    ANNOUNCEMENT_ID: Int32("14"),
+    UPLOADER_ID: Int32("28"),
+    TITLE: "Peacock Spreads its Feathers",
+    CONTENT: "A heartwarming and endearing collection of clay figurines, featuring silkworms and cats, expresses a yearning for and cherishment of a peaceful life. Each figurine is meticulously carved by the artist, offering vivid forms and rich emotions, making it a perfect addition to your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b13"),
+    ANNOUNCEMENT_ID: Int32("15"),
+    UPLOADER_ID: Int32("26"),
+    TITLE: "Golden Monkey Brings Prosperity",
+    CONTENT: "A peaceful clay figurine, featuring the Spring Ox, symbolizes Chinese New Year wishes and hopes for the future. Each figurine is meticulously crafted, with flowing lines and beautiful shapes, making it a lucky charm for your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b14"),
+    ANNOUNCEMENT_ID: Int32("16"),
+    UPLOADER_ID: Int32("48"),
+    TITLE: "Crane Dances in the Clouds",
+    CONTENT: "A unique clay figurine, featuring the image of Hua Xiren, symbolizes wealth and prosperity. Each figurine is meticulously crafted by the artist, boasting vibrant colors and lifelike forms, making it a unique addition to your collection. A clay figurine artwork imbued with humanistic sentiment, inspired by the image of Norman Bethune, expresses reverence and admiration for the compassionate heart of a doctor. Each figurine embodies the artist's painstaking effort and wisdom, remaining lifelike and deeply moving.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b15"),
+    ANNOUNCEMENT_ID: Int32("17"),
+    UPLOADER_ID: Int32("17"),
+    TITLE: "Collector of Wind, Eternal Journey",
+    CONTENT: "\"The Collector of Wind\" is a work of art that embodies the timeless beauty of wind. This work captures the fluidity and lightness of wind, showcasing its invisible beauty. The artist uses abstract forms to depict the mystery and power of wind, evoking awe and admiration for the power of nature. This artwork will become a source of inspiration in your home, forever guiding you to explore the beauty of nature.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b16"),
+    ANNOUNCEMENT_ID: Int32("18"),
+    UPLOADER_ID: Int32("26"),
+    TITLE: "The Collision of Thoughts, the Flow of Art",
+    CONTENT: "\"Thoughts\" is a work of art that showcases the fluid beauty of thought and imagination. This work blends the collision of ideas with artistic expression, presenting a rich and colorful image. The artist uses abstract forms to depict the freedom of thought and the boundaries of imagination, evoking exploration and reflection on the inner world. This artwork will become a spiritual journey in your home, forever inspiring you to pursue freedom of thought and innovation.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b17"),
+    ANNOUNCEMENT_ID: Int32("19"),
+    UPLOADER_ID: Int32("4"),
+    TITLE: "Rising Power, the Enlightenment of the Soul",
+    CONTENT: "\"Rising\" is a work of art that embodies strength and hope. This work blends the power of rising with the enlightenment of the soul, presenting an inspiring image. Through majestic images and inspiring gestures, the artist expresses the yearning and pursuit of hope and dreams. This artwork will become a dream journey in your home, forever inspiring you to forge ahead and strive for excellence. \"Beginning\" is an artwork that embodies new beginnings and infinite possibilities. This work, with its simple form, expresses a fresh start and a vision for the future, presenting boundless imagination and possibilities. The artist uses abstraction to create this vibrant and hopeful image, evoking anticipation and longing for a new life. This artwork will become a beacon of hope in your home, forever inspiring you to pursue your dreams and forge ahead.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b18"),
+    ANNOUNCEMENT_ID: Int32("20"),
+    UPLOADER_ID: Int32("42"),
+    TITLE: "A New Beginning, Infinite Possibilities",
+    CONTENT: "\"Etherea\" is an artwork that embodies the beauty of a phantasmagorical world beyond reality. This work blends fantasy and reality to create a scene filled with mystery and imagination. Using vibrant colors and flowing lines, the artist depicts a wondrous realm beyond the real world, leading the viewer on a journey of discovery deep within. This artwork will become a fantasy destination in your home, forever inspiring you to explore the unknown and pursue beauty.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b19"),
+    ANNOUNCEMENT_ID: Int32("21"),
+    UPLOADER_ID: Int32("29"),
+    TITLE: "A Vision Beyond Reality",
+    CONTENT: "\"Archetipo\" is an artwork that embodies the timeless beauty of archetypes. Through its simple form and profound meaning, this work demonstrates the important role and enduring power of archetypes in human culture. The artist uses abstraction to express the universality and rich connotations of archetypes, prompting viewers to reflect and rethink human culture and traditions. This artwork will become a cultural heritage in your home, forever inspiring your respect and reverence for human wisdom.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b1a"),
+    ANNOUNCEMENT_ID: Int32("22"),
+    UPLOADER_ID: Int32("15"),
+    TITLE: "The Eternal Power of Archetypes",
+    CONTENT: "\"VERTICAL GREEN\" is a work of art that embodies the vitality and vibrancy of greenery. Through the image of vertically growing plants, this work showcases the tenacity and vitality of life. Using simple yet powerful lines and colors, the artist depicts a magnificent scene of life growing vertically, evoking awe and admiration for the miracle of life. This artwork will become a source of vitality in your home, forever inspiring you to explore the beauty and meaning of life.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b1b"),
+    ANNOUNCEMENT_ID: Int32("23"),
+    UPLOADER_ID: Int32("33"),
+    TITLE: "The Vitality of Vertical Growth",
+    CONTENT: "\"Marea Tidal Cabinet\" is a work of art that captures the beauty and eternal movement of the tides. Through flowing lines and rich colors, this piece depicts the majestic scene of waves crashing against the shore. With unique design and exquisite craftsmanship, the artist perfectly combines the dynamic and beautiful nature of the tides, evoking awe and awe in the viewer's admiration for the power of nature. This artwork will become the soul of the ocean in your home, forever creating an atmosphere of movement and vitality. The \"DeErosion Wall Decor\" is a work that showcases the imprint of time and the timeless beauty of art. This piece simulates the effects of natural weathering, showcasing the traces and beauty left by time in nature. With exquisite craftsmanship and unique design, the artist transforms the wall into a scene imbued with stories and history, evoking reflection and appreciation for the passage of time. This piece will become an artistic landscape in your home, forever showcasing the beauty and mystery of time.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b1c"),
+    ANNOUNCEMENT_ID: Int32("24"),
+    UPLOADER_ID: Int32("24"),
+    TITLE: "The Beauty of Tides, Eternal Movement",
+    CONTENT: "The \"ALCHEMY\" piece embodies the alchemy of art and the wonder of transformation. By blending diverse materials and elements, this artwork creates a mysterious and captivating effect. With ingenious imagination and ingenious technique, the artist seamlessly combines the mystery of alchemy with the beauty of art, creating a scene full of transformation and mystery. This piece will become a marvel in your home, forever showcasing the infinite possibilities of art.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b1d"),
+    ANNOUNCEMENT_ID: Int32("25"),
+    UPLOADER_ID: Int32("20"),
+    TITLE: "The Mark of Time, the Eternity of Art",
+    CONTENT: "The \"Guest Stone\" is a piece of stone that embodies the uncanny beauty of nature. Praised for its unique form and texture, this stone is hailed as a work of art from nature. Its naturally formed lines and colors create a natural beauty and unique charm that will leave you breathtaking. This Laibin stone will become a natural treasure in your home, forever radiating the unique charm of nature.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b1e"),
+    ANNOUNCEMENT_ID: Int32("26"),
+    UPLOADER_ID: Int32("31"),
+    TITLE: "The Alchemy of Art, the Miracle of Transformation",
+    CONTENT: "Guangxi Hongshui River Stone is a stone that showcases the natural beauty of Guangxi. This stone has attracted attention for its vibrant red color and unique veining, earning it the nickname \"Hongshui Treasure.\" Its naturally formed veins and colors create a unique poetic and mysterious quality that will captivate and captivate. This Hongshui River Stone will become a natural spirit in your home, forever radiating the unique charm of nature.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b1f"),
+    ANNOUNCEMENT_ID: Int32("27"),
+    UPLOADER_ID: Int32("37"),
+    TITLE: "Laibin Stone, Nature's Gift, the Beauty of Stone Study",
+    CONTENT: "Guangxi Sanjiang Stone is a treasure that showcases the gentle beauty of wax stone. This stone has attracted attention for its soft, waxy texture and vibrant hues, earning it the nickname \"Nature's Spirit.\" Its naturally formed lines and veins resemble a natural painting, allowing you to experience the magic and tenderness of nature. This wax stone will become a natural treasure in your home, forever radiating the mystery and charm of nature.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b20"),
+    ANNOUNCEMENT_ID: Int32("28"),
+    UPLOADER_ID: Int32("25"),
+    TITLE: "The beauty of red water, the poetry of stone",
+    CONTENT: "Guangxi Sanjiang Wax Stone is a treasure that showcases the gentle beauty of wax stone. This stone, renowned for its waxy, soft texture and vibrant colors, is hailed as a natural spirit. Its naturally formed lines and veins resemble a natural painting, evoking the wonder and beauty of nature. This wax stone will become a natural treasure in your home, forever radiating the mystery and charm of nature.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b21"),
+    ANNOUNCEMENT_ID: Int32("29"),
+    UPLOADER_ID: Int32("45"),
+    TITLE: "The softness of stone, its inherent aura",
+    CONTENT: "The \"Big Fossil\" is a marvel that reveals the imprints of life spanning billions of years. This fossil, renowned for its enormous size and rich collection, is hailed as a trace of life. Its sedimentary textures and forms, like witnesses of time, allow people to experience the wonder and transformation of life. This fossil will become a journey through time in your home, forever showcasing the grandeur and wonder of life.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b22"),
+    ANNOUNCEMENT_ID: Int32("30"),
+    UPLOADER_ID: Int32("5"),
+    TITLE: "The softness of wax stone, the spirit of nature",
+    CONTENT: "The \"Inner Mongolia Jigu Stone\" is a treasure that embodies ancient wisdom. This stone, renowned for its rich historical background and unique cultural value, is known as \"Stone Culture.\" Its traces of cultural heritage and millennia of wisdom resemble a precious legacy left by ancient sages, inspiring contemplation and admiration. This Jigu Stone will become a source of wisdom in your home, forever showcasing the splendor and charm of ancient culture.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b23"),
+    ANNOUNCEMENT_ID: Int32("31"),
+    UPLOADER_ID: Int32("29"),
+    TITLE: "The marks of billions of years, the traces of life",
+    CONTENT: "The \"Big Fossil\" is a marvel that reveals the imprints of life spanning billions of years. This fossil, renowned for its enormous size and rich collection, is hailed as a trace of life. Its sedimentary textures and forms, like witnesses of time, allow people to experience the wonder and transformation of life. This fossil will become a journey through time in your home, forever showcasing the grandeur and wonder of life.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b24"),
+    ANNOUNCEMENT_ID: Int32("32"),
+    UPLOADER_ID: Int32("36"),
+    TITLE: "Ancient wisdom, the culture of stone",
+    CONTENT: "Guangxi Sanjiang Stone is a treasure that showcases the gentle beauty of wax stone. This stone has attracted attention for its soft, waxy texture and vibrant hues, earning it the nickname \"Nature's Spirit.\" Its naturally formed lines and veins resemble a natural painting, allowing you to experience the magic and tenderness of nature. This wax stone will become a natural treasure in your home, forever radiating the mystery and charm of nature.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b25"),
+    ANNOUNCEMENT_ID: Int32("33"),
+    UPLOADER_ID: Int32("44"),
+    TITLE: "The elegance of pottery, the spirit of mountains and rivers",
+    CONTENT: "The Jingdezhen Landscape Ceramic Vase is a work of art that showcases the elegance of ceramics and the beauty of nature. This vase has been highly praised for its exquisite craftsmanship and unique design, and is considered a treasure of ceramics. Its intricately carved patterns and lines evoke the spirit of mountains and rivers flowing through the ceramic, evoking the purity and charm of natural beauty. This vase will become a beautiful piece of art in your home, forever radiating the elegance of ceramics and the spirit of mountains and rivers.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b26"),
+    ANNOUNCEMENT_ID: Int32("34"),
+    UPLOADER_ID: Int32("24"),
+    TITLE: "Royal treasures, a symbol of good fortune",
+    CONTENT: "The Qianlong Period Famille Rose Hollow-cut \"Auspicious and Abundant\" Revolving Heart Vase is a stunning example of ancient Chinese ceramic art. This porcelain vase has garnered attention for its exquisite craftsmanship and unique design, and is considered a treasure of the imperial court. Its delicate famille rose decoration and hollow-cut carvings embody auspicious motifs from traditional Chinese culture, symbolizing happiness and good fortune. This porcelain vase will become a treasured piece in your home, forever radiating royal splendor and auspicious blessings. The \"Light Yellow Ground Yangcai Long-Neck Gourd Vase with a Longevity Pattern\" is a rare piece that embodies the auspicious meanings of traditional Chinese culture. This vase is highly praised for its intricate painting and ornate decoration, and is considered a symbol of good fortune and prosperity. Its exquisite patterns and profound themes express the Chinese yearning for longevity and happiness. This vase will become a lucky treasure in your home, forever conveying the beautiful wishes of longevity and happiness.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b27"),
+    ANNOUNCEMENT_ID: Int32("35"),
+    UPLOADER_ID: Int32("42"),
+    TITLE: "Longevity as great as the Southern Mountains, blessings as vast as the Eastern Sea",
+    CONTENT: "The \"Blue and White Ruyi Plum Vase with Overhanging Shoulders and Broken Branches of Flowers and Fruits\" is a rare piece that showcases the art of traditional Chinese blue and white porcelain. This vase has attracted attention for its exquisite blue and white painting and elegant design, and is considered a symbol of good fortune and prosperity. The patterns and decorations on the vase symbolize good fortune and prosperity, representing beautiful wishes and hopes. This vase will become a lucky item in your home, forever exuding auspicious and auspicious aura.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b28"),
+    ANNOUNCEMENT_ID: Int32("36"),
+    UPLOADER_ID: Int32("20"),
+    TITLE: "Good fortune and prosperity, blossoming flowers",
+    CONTENT: "The \"Chenghua Doucai Chicken Cup\" is a rare piece that showcases the porcelain craftsmanship of the Ming Dynasty. This cup has attracted considerable attention for its exquisite Doucai (doucai) painting and elegant form, earning it the reputation of a historical heirloom. Its unique pattern and Doucai decoration embody the exquisite craftsmanship and exceptional quality of ancient Chinese ceramics. This cup will become a treasured collectible in your home, forever carrying the glory of history and the essence of culture.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b29"),
+    ANNOUNCEMENT_ID: Int32("37"),
+    UPLOADER_ID: Int32("47"),
+    TITLE: "Appreciation of treasures, historical heritage",
+    CONTENT: "The \"Ru Kiln Celadon Glaze Sunflower Washbasin\" is a treasure that showcases the exquisite craftsmanship of ancient Chinese Ru kiln porcelain. With its azure glaze and sunflower motif, this washbasin embodies the spiritual energy and vitality of heaven and earth. Its exquisite craftsmanship and unique design have captivated countless art collectors. This washbasin is more than just a work of art; it is a testament to history, offering an immersive experience of the beauty of ancient kilns and immersing you in the mystical atmosphere of ancient craftsmanship.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b2a"),
+    ANNOUNCEMENT_ID: Int32("38"),
+    UPLOADER_ID: Int32("4"),
+    TITLE: "The spiritual energy of heaven and earth, treasures from ancient kilns",
+    CONTENT: "The \"Ru Kiln Celadon Glaze Washbasin\" is a treasure that showcases the craftsmanship of ancient Chinese Ru kiln porcelain. Its azure glaze and auspicious dog motif create a vibrant spring scene. Its exquisite craftsmanship and elegant form add to its infinite charm. This wash basin is not only a work of art but also a cultural treasure. It will bring you the freshness and joy of spring, allowing you to experience the spirit of ancient wisdom and the beauty of life.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b2b"),
+    ANNOUNCEMENT_ID: Int32("39"),
+    UPLOADER_ID: Int32("6"),
+    TITLE: "The spiritual energy of heaven and earth, the auspicious dog's springtime journey",
+    CONTENT: "The \"Flower-Painted Guiguzi Descending the Mountain Jar\" is a treasured example of ancient Chinese ceramic painting. With its exquisite depiction of a descending mountain, this jar embodies the admiration and depiction of natural landscapes by ancient Chinese literati. Its unique style and enigmatic imagery have attracted the attention of countless collectors. This jar is not only a work of art but also a cultural legacy, offering an immersive artistic experience and allowing you to appreciate the secrets of ancient wisdom and art.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b2c"),
+    ANNOUNCEMENT_ID: Int32("40"),
+    UPLOADER_ID: Int32("46"),
+    TITLE: "Heirloom treasures, a mysterious painting realm",
+    CONTENT: "The \"Imperial Enamel-Painted Hammered Vase\" is a distinguished piece that showcases the craftsmanship of ancient Chinese imperial kiln porcelain. With its vibrant enamel painting and exquisite craftsmanship, this hammered vase embodies the nobility and glory of the imperial kilns. Its unique shape and ornate decoration are breathtaking. More than just a work of art, this hammered vase is a symbol of imperial honor, immersing you in a royal atmosphere and allowing you to experience the splendor of ancient royalty. The \"Amphora Vase with Deep Blue and Gold-Painted Floral Patterns\" is a rare work of art that showcases the craftsmanship of ancient Chinese famille rose porcelain. With its vibrant deep blue and gold-painted openings and famille rose floral motifs, this vase showcases the unique charm of ancient Chinese porcelain art. Its exquisite craftsmanship and ornate decorations add to its infinite charm. More than just a work of art, this amphora is a cultural heritage, offering an immersive experience of artistic beauty and allowing you to experience ancient wisdom and the beauty of life.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b2d"),
+    ANNOUNCEMENT_ID: Int32("41"),
+    UPLOADER_ID: Int32("45"),
+    TITLE: "Royal honor, brilliant paintings",
+    CONTENT: "The \"Amphora Vase with Deep Blue and Gold-Painted Floral Patterns\" is a rare work of art that showcases the craftsmanship of ancient Chinese famille rose porcelain. With its vibrant deep blue and gold-painted openings and famille rose floral motifs, this vase showcases the unique charm of ancient Chinese porcelain art. Its exquisite craftsmanship and ornate decorations add to its infinite charm. More than just a work of art, this amphora is a cultural heritage, offering an immersive experience of artistic beauty and allowing you to experience ancient wisdom and the beauty of life.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b2e"),
+    ANNOUNCEMENT_ID: Int32("42"),
+    UPLOADER_ID: Int32("22"),
+    TITLE: "The beauty of art, vibrant colors",
+    CONTENT: "\"Crane's Lotus with Fragrance\" captures the harmony and vitality of nature. The artist's delicate brushstrokes capture the graceful beauty of the lotus and bring the cranes dancing on the lake to life. This work evokes a sense of being transported to a lush lotus pond, embracing the tranquility of nature and the vitality of life. It will be a fine addition to your personal collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b2f"),
+    ANNOUNCEMENT_ID: Int32("43"),
+    UPLOADER_ID: Int32("22"),
+    TITLE: "Explore the beauty of nature",
+    CONTENT: "\"Refined Lotus\" is a masterpiece of traditional Chinese gongbi painting, showcasing the exquisite techniques and unique charm of Chinese painting. The artist uses delicate lines to depict the texture of the lotus leaves and rich colors to depict the delicate beauty of the lotus flowers. This work not only showcases the charm of traditional Chinese brushwork but also offers a magnificent interpretation of Chinese cultural traditions. It will be a treasured treasure in your collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b30"),
+    ANNOUNCEMENT_ID: Int32("44"),
+    UPLOADER_ID: Int32("22"),
+    TITLE: "Appreciate the beauty of tradition",
+    CONTENT: "\"Full Moon in the Heart of the Sky\" is a mesmerizing moonlit landscape. Using deep colors and flowing lines, the artist depicts the bright moon hanging high in the sky, quietly illuminating the earth. This work not only captures the beauty of nature but also expresses people's yearning for inner peace and tranquility. It will be a shower of moonlight in your personal collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b31"),
+    ANNOUNCEMENT_ID: Int32("45"),
+    UPLOADER_ID: Int32("22"),
+    TITLE: "Immerse yourself in the beauty of a moonlit night",
+    CONTENT: "\"Flowers Flying Everywhere in Spring\" captures the vibrant energy of spring and the lushness of blooming flowers. With vivid brushstrokes and rich colors, the artist depicts the beautiful scene of petals falling in the spring breeze during the blooming season. This work evokes the breath of spring, filled with vitality and energy. It will be a refreshing touch of spring in your personal collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b32"),
+    ANNOUNCEMENT_ID: Int32("46"),
+    UPLOADER_ID: Int32("22"),
+    TITLE: "Feel the beauty of spring",
+    CONTENT: "\"Drunk Sleeping Under the Flower Shade, Fragrance Filling My Clothes\" is a poetic painting depicting a person immersed in the joy of reading amidst nature. Using soft colors and delicate brushstrokes, the artist depicts a reader soundly asleep on a bluestone beneath a vine. This work blends reading with nature, evoking the fragrance of knowledge and a tranquil soul. It will become a tranquil place for reading in your personal collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b33"),
+    ANNOUNCEMENT_ID: Int32("47"),
+    UPLOADER_ID: Int32("22"),
+    TITLE: "Be captivated by the beauty of books",
+    CONTENT: "\"Reading Under the Vine\" is a uniquely artistic work, capturing the beautiful harmony of reading and nature. The artist's delicate brushstrokes depict the entwined vines and the serene demeanor of the reader beneath the shade, blending natural scenery with a humanistic touch. This work not only demonstrates the spiritual nourishment of the natural environment but also beautifully captures the quiet moments of reading. It will be a refined addition to your personal collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+db.getCollection("announcement").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b34"),
+    ANNOUNCEMENT_ID: Int32("48"),
+    UPLOADER_ID: Int32("23"),
+    TITLE: "Explore the beauty of leisure",
+    CONTENT: "\"Drunk Sleeping Under the Flower Shade, Fragrance Filling My Clothes\" is a poetic painting depicting a person immersed in the joy of reading amidst nature. Using soft colors and delicate brushstrokes, the artist depicts a reader soundly asleep on a bluestone beneath a vine. This work blends reading with nature, evoking the fragrance of knowledge and a tranquil soul. It will become a tranquil place for reading in your personal collection.",
+    TIME: ISODate("2023-07-21T09:04:05.006Z")
+} ]);
+
+// ----------------------------
+// Collection structure for buyr_order
+// ----------------------------
+db.getCollection("buyr_order").drop();
+db.createCollection("buyr_order");
+
+// ----------------------------
+// Documents of buyr_order
+// ----------------------------
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b35"),
+    ORDER_ID: Int32("1"),
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("8"),
+    GOOD_ID: Int32("15"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1413.49,
+    ADDRESS: "Room 15, China Resources Building, 22 Hongqiao Road, Xuhui District, Shanghai, China",
+    NAME: "Zhang Jialun",
+    PHONE: "19510771013",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "SdXQbdjJgt",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "You must be the change you wish to see in the world. It provides strong authentication and secure encrypted communications between                    ",
+    CREATED_BY: Int32("37"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("28"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b36"),
+    ORDER_ID: Int32("2"),
+    USER_ID: Int32("21"),
+    SELLER_ID: Int32("7"),
+    GOOD_ID: Int32("2"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2982.19,
+    ADDRESS: "Room 20, 284 Shuangqing Road, Chenghua District, Chengdu, China",
+    NAME: "Guo Yuning",
+    PHONE: "2828837425",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "JRSrF0k8fp",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Champions keep playing until they get it right. The first step is as good as half over. The past has no power over the present moment.",
+    CREATED_BY: Int32("21"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("29"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b37"),
+    ORDER_ID: Int32("3"),
+    USER_ID: Int32("49"),
+    SELLER_ID: Int32("38"),
+    GOOD_ID: Int32("1"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 897.44,
+    ADDRESS: "Room 18, 692 Daxin South Road, Daxin Business District, Tianhe District, Zhongshan, China",
+    NAME: "Alice Lee",
+    PHONE: "14228177503",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "MD1tAGETIB",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Navicat authorizes you to make connection to remote servers running on different platforms (i.e. Windows, macOS, Linux and UNIX), and                 ",
+    CREATED_BY: Int32("49"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("14"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b38"),
+    ORDER_ID: Int32("4"),
+    USER_ID: Int32("21"),
+    SELLER_ID: Int32("47"),
+    GOOD_ID: Int32("3"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2737.64,
+    ADDRESS: "Building 27, 165 Huaihai Middle Road, Huangpu District, Shanghai, China",
+    NAME: "Liao Jialun",
+    PHONE: "13478100489",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "LdkU8XAsOZ",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "With its well-designed Graphical User Interface(GUI), Navicat lets you quickly and easily create, organize, access and share information              ",
+    CREATED_BY: Int32("21"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("4"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b39"),
+    ORDER_ID: Int32("5"),
+    USER_ID: Int32("4"),
+    SELLER_ID: Int32("38"),
+    GOOD_ID: Int32("9"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2509.11,
+    ADDRESS: "Building 2, 636 Qingshuihe 1st Road, Luohu District, Shenzhen, China",
+    NAME: "Zheng Anqi",
+    PHONE: "75515768799",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "gKtTeFdylf",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "Always keep your eyes open. Keep watching. Because whatever you see can inspire you. To successfully establish a new connection to                    ",
+    CREATED_BY: Int32("4"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("22"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b3a"),
+    ORDER_ID: Int32("6"),
+    USER_ID: Int32("29"),
+    SELLER_ID: Int32("44"),
+    GOOD_ID: Int32("2"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1568.57,
+    ADDRESS: "23rd Floor, 815 Jingtian East 1st Street, Futian District, Shenzhen, China",
+    NAME: "Yan Zitao",
+    PHONE: "16342609702",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "vT7L4te83s",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "If it scares you, it might be a good thing to try. You cannot save people, you can just love them. If opportunity doesn’t knock, build a door.",
+    CREATED_BY: Int32("29"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("48"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b3b"),
+    ORDER_ID: Int32("7"),
+    USER_ID: Int32("11"),
+    SELLER_ID: Int32("34"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2518.57,
+    ADDRESS: "Building 26, 758 Jianxiang Road, Pudong New Area, Shanghai, China",
+    NAME: "Tang Yuning",
+    PHONE: "214883549",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("1"),
+    EMS: "nofat1Xj6g",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "It collects process metrics such as CPU load, RAM usage, and a variety of other resources over SSH/SNMP. Always keep your eyes open.                  ",
+    CREATED_BY: Int32("11"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("23"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b3c"),
+    ORDER_ID: Int32("8"),
+    USER_ID: Int32("4"),
+    SELLER_ID: Int32("19"),
+    GOOD_ID: Int32("3"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1533.46,
+    ADDRESS: "Building 14, 567 Shennan Avenue, Futian District, Shenzhen, China",
+    NAME: "Jeff Perry",
+    PHONE: "19166621129",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "VkEoepTiZg",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "I destroy my enemies when I make them my friends. After logged in the Navicat Cloud feature, the Navigation pane will be divided into                 ",
+    CREATED_BY: Int32("4"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("9"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b3d"),
+    ORDER_ID: Int32("9"),
+    USER_ID: Int32("36"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("14"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2944.1,
+    ADDRESS: "Building 18, 907 Xueyuan 1st Lane, Longgang District, Shenzhen, China",
+    NAME: "Pauline Garza",
+    PHONE: "75567800390",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "vvfOCvq1mH",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "In a Telnet session, all communications, including username and password, are transmitted in plain-text, allowing anyone to listen-in                 ",
+    CREATED_BY: Int32("36"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("24"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b3e"),
+    ORDER_ID: Int32("10"),
+    USER_ID: Int32("47"),
+    SELLER_ID: Int32("47"),
+    GOOD_ID: Int32("20"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 796.23,
+    ADDRESS: "Building 10, 81 Yueliu Road, Fangshan District, Beijing, China",
+    NAME: "Lu Anqi",
+    PHONE: "14316604525",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "UtbDguavU7",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Genius is an infinite capacity for taking pains. If your Internet Service Provider (ISP) does not provide direct access to its server,                ",
+    CREATED_BY: Int32("47"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("1"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b3f"),
+    ORDER_ID: Int32("11"),
+    USER_ID: Int32("29"),
+    SELLER_ID: Int32("11"),
+    GOOD_ID: Int32("24"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1437.71,
+    ADDRESS: "Building 11, 101 Shanhu Road, Dongguan, China",
+    NAME: "Bruce Alexander",
+    PHONE: "7691667390",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "xFhPELIDar",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Sometimes you win, sometimes you learn. Instead of wondering when your next vacation is, maybe you should set up a life you don’t                   ",
+    CREATED_BY: Int32("29"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("30"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b40"),
+    ORDER_ID: Int32("12"),
+    USER_ID: Int32("24"),
+    SELLER_ID: Int32("8"),
+    GOOD_ID: Int32("12"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1169.57,
+    ADDRESS: "Building 10, No. 854, Dongzhimen Nei Dajie, Dongcheng District, Beijing, China",
+    NAME: "Terry Ramos",
+    PHONE: "1015708214",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "oVoYoIkzyO",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "With its well-designed Graphical User Interface(GUI), Navicat lets you quickly and easily create, organize, access and share information              ",
+    CREATED_BY: Int32("24"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("6"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b41"),
+    ORDER_ID: Int32("13"),
+    USER_ID: Int32("32"),
+    SELLER_ID: Int32("46"),
+    GOOD_ID: Int32("19"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1055.11,
+    ADDRESS: "Room 23, No. 581, Lane 2, South Street, Huan District, Dongguan, China",
+    NAME: "Tang Xiaoming",
+    PHONE: "76995757040",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("2"),
+    EMS: "Yby2HEVe4h",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Difficult circumstances serve as a textbook of life for people. The Main Window consists of several toolbars and panes for you to work                ",
+    CREATED_BY: Int32("32"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("22"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b42"),
+    ORDER_ID: Int32("14"),
+    USER_ID: Int32("14"),
+    SELLER_ID: Int32("26"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1605.17,
+    ADDRESS: "Building 39, No. 313, Lane 2, South Street, Huan District, Dongguan, China",
+    NAME: "Cheng Lan",
+    PHONE: "76970226401",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "fp8qI7mLEJ",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "All the Navicat Cloud objects are located under different projects. You can share the project to other Navicat Cloud accounts for collaboration.",
+    CREATED_BY: Int32("14"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("48"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b43"),
+    ORDER_ID: Int32("15"),
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("21"),
+    GOOD_ID: Int32("32"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "Building 19, No. 399, Huaihai Middle Road, Huangpu District, Shanghai, China",
+    NAME: "Philip Payne",
+    PHONE: "2154950190",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "mkZdG6zCFJ",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Secure Sockets Layer(SSL) is a protocol for transmitting private documents via the Internet. A query is used to extract data from the                 ",
+    CREATED_BY: Int32("40"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("10"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b44"),
+    ORDER_ID: Int32("16"),
+    USER_ID: Int32("36"),
+    SELLER_ID: Int32("40"),
+    GOOD_ID: Int32("22"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "Building 27, No. 5, Erxianqiao East Third Road, Chenghua District, Chengdu, China",
+    NAME: "Tian Xiaoming",
+    PHONE: "286830134",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "cndV3rnqHr",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "SSH serves to prevent such vulnerabilities and allows you to access a remote server's shell without compromising security.",
+    CREATED_BY: Int32("36"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("23"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b45"),
+    ORDER_ID: Int32("17"),
+    USER_ID: Int32("19"),
+    SELLER_ID: Int32("48"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "Building 32, No. 249, Tianbei 1st Road, Luohu District, Shenzhen, China",
+    NAME: "Elizabeth Grant",
+    PHONE: "75502103051",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("1"),
+    EMS: "PCfeHd2HBG",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "A man’s best friends are his ten fingers. It collects process metrics such as CPU load, RAM usage, and a variety of other resources over SSH/SNMP.",
+    CREATED_BY: Int32("19"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("19"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b46"),
+    ORDER_ID: Int32("18"),
+    USER_ID: Int32("48"),
+    SELLER_ID: Int32("34"),
+    GOOD_ID: Int32("20"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1534.59,
+    ADDRESS: "Room 8, No. 770, Yueliu Road, Fangshan District, Beijing, China",
+    NAME: "Paula Walker",
+    PHONE: "19790411016",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("2"),
+    EMS: "JuWSTSBpXS",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "It can also manage cloud databases such as Amazon Redshift, Amazon RDS, Alibaba Cloud. Features in Navicat are sophisticated enough                   ",
+    CREATED_BY: Int32("48"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("7"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b47"),
+    ORDER_ID: Int32("19"),
+    USER_ID: Int32("29"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2692.57,
+    ADDRESS: "Room 50, China Resources Building, No. 841, Lane 2, South Street, Huan District, Dongguan, China",
+    NAME: "Yin Shihan",
+    PHONE: "76978853239",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("2"),
+    EMS: "Km6MiVTgIK",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "To get a secure connection, the first thing you need to do is to install OpenSSL Library and download Database Source. Navicat is a                   ",
+    CREATED_BY: Int32("29"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("42"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b48"),
+    ORDER_ID: Int32("20"),
+    USER_ID: Int32("42"),
+    SELLER_ID: Int32("42"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2595.24,
+    ADDRESS: "14th Floor, No. 827, Lane 2, South Street, Huan District, Dongguan, China",
+    NAME: "Zhong Anqi",
+    PHONE: "76989584517",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "b4u349eXu5",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Sometimes you win, sometimes you learn. Success consists of going from failure to failure without loss of enthusiasm.",
+    CREATED_BY: Int32("42"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("19"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b49"),
+    ORDER_ID: Int32("21"),
+    USER_ID: Int32("28"),
+    SELLER_ID: Int32("29"),
+    GOOD_ID: Int32("20"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1607.4,
+    ADDRESS: "Room 34, China Resources Building, No. 642, Shanhu Road, Dongguan, China",
+    NAME: "Du Zhiyuan",
+    PHONE: "76935230076",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "h95xfRy1r4",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "Export Wizard allows you to export data from tables, collections, views, or query results to any available formats. Remember that failure             ",
+    CREATED_BY: Int32("28"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("19"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b4a"),
+    ORDER_ID: Int32("22"),
+    USER_ID: Int32("29"),
+    SELLER_ID: Int32("46"),
+    GOOD_ID: Int32("2"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "12th Floor, No. 84, Fuxingmen Nei Dajie, Xicheng District, Beijing, China",
+    NAME: "Raymond Porter",
+    PHONE: "101346179",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "l6VkpWCuwV",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "If you wait, all that happens is you get older. All journeys have secret destinations of which the traveler is unaware.",
+    CREATED_BY: Int32("29"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("12"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b4b"),
+    ORDER_ID: Int32("23"),
+    USER_ID: Int32("18"),
+    SELLER_ID: Int32("34"),
+    GOOD_ID: Int32("13"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1682.87,
+    ADDRESS: "30th Floor, No. 252, Jianxiang Road, Pudong New Area, Shanghai, China",
+    NAME: "Ellen Stephens",
+    PHONE: "19210196172",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("1"),
+    EMS: "KkfoCCZx8k",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "With its well-designed Graphical User Interface(GUI), Navicat lets you quickly and easily create, organize, access and share information              ",
+    CREATED_BY: Int32("18"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("48"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b4c"),
+    ORDER_ID: Int32("24"),
+    USER_ID: Int32("31"),
+    SELLER_ID: Int32("30"),
+    GOOD_ID: Int32("18"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1521.03,
+    ADDRESS: "Building 42, No. 25, Lane 15, Kengmei, Dongguan, China",
+    NAME: "Tang Zhiyuan",
+    PHONE: "76911524000",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "Gl4kjSntGN",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Sometimes you win, sometimes you learn. It provides strong authentication and secure encrypted communications between two hosts, known                ",
+    CREATED_BY: Int32("31"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("29"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b4d"),
+    ORDER_ID: Int32("25"),
+    USER_ID: Int32("50"),
+    SELLER_ID: Int32("7"),
+    GOOD_ID: Int32("4"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 939.98,
+    ADDRESS: "Building 39, No. 16, County Road 028, Yanqing District, Beijing, China",
+    NAME: "Yao Anqi",
+    PHONE: "104204472",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("1"),
+    EMS: "scXHTGkzjo",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "It wasn’t raining when Noah built the ark. To start working with your server in Navicat, you should first establish a connection                    ",
+    CREATED_BY: Int32("50"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("3"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b4e"),
+    ORDER_ID: Int32("26"),
+    USER_ID: Int32("28"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 932.79,
+    ADDRESS: "Building 2, No. 366, Dongzhimennei Street, Dongcheng District, Beijing, China",
+    NAME: "Denise Ford",
+    PHONE: "1076756925",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "3GxQasf4u0",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Instead of wondering when your next vacation is, maybe you should set up a life you don’t need to escape from. All the Navicat Cloud                ",
+    CREATED_BY: Int32("28"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("8"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b4f"),
+    ORDER_ID: Int32("27"),
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("17"),
+    GOOD_ID: Int32("31"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1855.37,
+    ADDRESS: "Building 37, No. 17, West Chang'an Avenue, Xicheng District, Beijing, China",
+    NAME: "Ashley Wells",
+    PHONE: "1061785217",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "87pmB7XyyM",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "It wasn’t raining when Noah built the ark. Flexible settings enable you to set up a custom key for comparison and synchronization.",
+    CREATED_BY: Int32("16"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("39"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b50"),
+    ORDER_ID: Int32("28"),
+    USER_ID: Int32("22"),
+    SELLER_ID: Int32("28"),
+    GOOD_ID: Int32("25"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2234.57,
+    ADDRESS: "Room 34, No. 640, Shuangqing Road, Chenghua District, Chengdu, China",
+    NAME: "Rhonda Anderson",
+    PHONE: "285455823",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "KXBuflWyoW",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "In the Objects tab, you can use the List List, Detail Detail and ER Diagram ER Diagram buttons to change the object view.                             ",
+    CREATED_BY: Int32("22"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("2"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b51"),
+    ORDER_ID: Int32("29"),
+    USER_ID: Int32("13"),
+    SELLER_ID: Int32("29"),
+    GOOD_ID: Int32("28"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2906.22,
+    ADDRESS: "Building 2, No. 138, County Road 028, Yanqing District, Beijing, China",
+    NAME: "Cheng Jialun",
+    PHONE: "13483917618",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("2"),
+    EMS: "9mfWRwpnRL",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Export Wizard allows you to export data from tables, collections, views, or query results to any available formats. Flexible settings                 ",
+    CREATED_BY: Int32("13"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("16"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b52"),
+    ORDER_ID: Int32("30"),
+    USER_ID: Int32("4"),
+    SELLER_ID: Int32("3"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2513.6,
+    ADDRESS: "48th Floor, No. 719, Jingtian East 1st Street, Futian District, Shenzhen, China",
+    NAME: "Sylvia Gibson",
+    PHONE: "75551859333",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("2"),
+    EMS: "doRDjtKUh9",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "Navicat Monitor can be installed on any local computer or virtual machine and does not require any software installation on the servers               ",
+    CREATED_BY: Int32("4"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("37"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b53"),
+    ORDER_ID: Int32("31"),
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("26"),
+    GOOD_ID: Int32("15"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1674.49,
+    ADDRESS: "Room 30, China Resources Building, No. 982, Zhongshan 5th Road, Zimaling Business District, Zhongshan, China",
+    NAME: "Zou Zhennan",
+    PHONE: "14626858750",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "kgcknarXDH",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "HTTP Tunneling is a method for connecting to a server that uses the same protocol (http://) and the same port (port 80) as a web server does.         ",
+    CREATED_BY: Int32("16"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("31"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b54"),
+    ORDER_ID: Int32("32"),
+    USER_ID: Int32("24"),
+    SELLER_ID: Int32("29"),
+    GOOD_ID: Int32("16"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1692.63,
+    ADDRESS: "Room 10, China Resources Building, No. 331, Shennan East Road, Caiwuwei, Luohu District, Shenzhen, China",
+    NAME: "Donna Morris",
+    PHONE: "75520189938",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "BYlMRjpkry",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "Creativity is intelligence having fun. If the Show objects under schema in navigation pane option is checked at the Preferences window,               ",
+    CREATED_BY: Int32("24"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("45"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b55"),
+    ORDER_ID: Int32("33"),
+    USER_ID: Int32("13"),
+    SELLER_ID: Int32("5"),
+    GOOD_ID: Int32("1"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1185.73,
+    ADDRESS: "22nd Floor, No. 45, Hongqiao Road, Xuhui District, Shanghai, China Room 11, No. 162, Yushuang Road, Chenghua District, Chengdu, China",
+    NAME: "Jesus Reynolds",
+    PHONE: "2107385716",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "JDMvJAyTAY",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "SQL Editor allows you to create and edit SQL text, prepare and execute selected queries. A man’s best friends are his ten fingers.",
+    CREATED_BY: Int32("13"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("22"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b56"),
+    ORDER_ID: Int32("34"),
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("11"),
+    GOOD_ID: Int32("12"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1513.9,
+    ADDRESS: "Room 22, No. 951, Wangfujing East Street, Dongdan, Dongcheng District, Beijing, China",
+    NAME: "Janice Wright",
+    PHONE: "2832677095",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "gsDt4WRUZ5",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "The On Startup feature allows you to control what tabs appear when you launch Navicat. If it scares you, it might be a good thing to try.             ",
+    CREATED_BY: Int32("12"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("49"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b57"),
+    ORDER_ID: Int32("35"),
+    USER_ID: Int32("34"),
+    SELLER_ID: Int32("5"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2156.98,
+    ADDRESS: "18th Floor, No. 979, Jingtian East 1st Street, Futian District, Shenzhen, China",
+    NAME: "Elaine Smith",
+    PHONE: "16793665788",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("3"),
+    EMS: "BFfdH1kKpV",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Success consists of going from failure to failure without loss of enthusiasm. If it scares you, it might be a good thing to try.",
+    CREATED_BY: Int32("34"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("6"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b58"),
+    ORDER_ID: Int32("36"),
+    USER_ID: Int32("29"),
+    SELLER_ID: Int32("47"),
+    GOOD_ID: Int32("9"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1194.98,
+    ADDRESS: "Room 17, China Resources Building, No. 702, Lefeng 6th Road, Zhongshan, China",
+    NAME: "April Wells",
+    PHONE: "17228795344",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "yd1SCdIV61",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "Navicat Data Modeler is a powerful and cost-effective database design tool which helps you build high-quality conceptual, logical and                 ",
+    CREATED_BY: Int32("29"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("45"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b59"),
+    ORDER_ID: Int32("37"),
+    USER_ID: Int32("3"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2829.28,
+    ADDRESS: "Building 6, No. 380, Kengmei 15th Lane, Dongguan, China",
+    NAME: "Ding Rui",
+    PHONE: "76024102949",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "F6L2gptyIj",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Export Wizard allows you to export data from tables, collections, views, or query results to any available formats. After logged in                   ",
+    CREATED_BY: Int32("3"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("17"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b5a"),
+    ORDER_ID: Int32("38"),
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("17"),
+    GOOD_ID: Int32("4"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1531.51,
+    ADDRESS: "Building 11, No. 988, Lane 2, South Street, Huanqu District, Dongguan, China",
+    NAME: "Xu Lan",
+    PHONE: "15770785481",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("0"),
+    EMS: "3VO04tMAh3",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Navicat Data Modeler is a powerful and cost-effective database design tool which helps you build high-quality conceptual, logical and                 ",
+    CREATED_BY: Int32("37"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("24"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b5b"),
+    ORDER_ID: Int32("39"),
+    USER_ID: Int32("7"),
+    SELLER_ID: Int32("27"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2259.42,
+    ADDRESS: "22nd Floor, No. 998, Ganlan Road, Pudong New Area, Shanghai, China",
+    NAME: "Yin Zitao",
+    PHONE: "7691351204",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "EARA9JE39C",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "In the Objects tab, you can use the List List, Detail Detail and ER Diagram ER Diagram buttons to change the object view.                             ",
+    CREATED_BY: Int32("7"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("36"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b5c"),
+    ORDER_ID: Int32("40"),
+    USER_ID: Int32("44"),
+    SELLER_ID: Int32("28"),
+    GOOD_ID: Int32("14"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1021.83,
+    ADDRESS: "Building 22, No. 826, Section 4, Renmin South Road, Jinjiang District, Chengdu, China",
+    NAME: "Jamie Gutierrez",
+    PHONE: "219792419",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "XbyR2RB9M8",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "If the Show objects under schema in navigation pane option is checked at the Preferences window, all database objects are also displayed in the pane.",
+    CREATED_BY: Int32("44"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("7"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b5d"),
+    ORDER_ID: Int32("41"),
+    USER_ID: Int32("45"),
+    SELLER_ID: Int32("43"),
+    GOOD_ID: Int32("19"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1146.17,
+    ADDRESS: "Room 47, No. 154, Jingtian East 1st Street, Futian District, Shenzhen, China",
+    NAME: "Francisco Sanders",
+    PHONE: "18804518368",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "IjsOVrC5wb",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Navicat Cloud could not connect and access your databases. By which it means, it could only store your connection settings, queries,                  ",
+    CREATED_BY: Int32("45"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("30"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b5e"),
+    ORDER_ID: Int32("42"),
+    USER_ID: Int32("2"),
+    SELLER_ID: Int32("48"),
+    GOOD_ID: Int32("30"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1788.45,
+    ADDRESS: "Room 49, China Resources Building, No. 419, Section 4, Renmin South Road, Jinjiang District, Chengdu, China",
+    NAME: "Donald Henry",
+    PHONE: "7556685141",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "GWpBKK2jIW",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "Typically, it is employed as an encrypted version of Telnet. Navicat Monitor can be installed on any local computer or virtual machine                ",
+    CREATED_BY: Int32("2"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("7"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b5f"),
+    ORDER_ID: Int32("43"),
+    USER_ID: Int32("43"),
+    SELLER_ID: Int32("23"),
+    GOOD_ID: Int32("12"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2065.76,
+    ADDRESS: "Building 24, No. 111, Huaxia Street, Jinghua Business District, Zhongshan, China",
+    NAME: "Feng Rui",
+    PHONE: "281320024",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("0"),
+    EMS: "og4Eu3SWJo",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "If the plan doesn’t work, change the plan, but never the goal. Navicat Cloud could not connect and access your databases. By which                  ",
+    CREATED_BY: Int32("43"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("47"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b60"),
+    ORDER_ID: Int32("44"),
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("41"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2871.4,
+    ADDRESS: "Building 24, No. 111, Huaxia Street, Jinghua Business District, Zhongshan, China",
+    NAME: "Ding Lu",
+    PHONE: "15991788983",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("1"),
+    EMS: "TqDqS7JVCD",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "I destroy my enemies when I make them my friends. After comparing data, the window shows the number of records that will be inserted,                 ",
+    CREATED_BY: Int32("26"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("47"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b61"),
+    ORDER_ID: Int32("45"),
+    USER_ID: Int32("14"),
+    SELLER_ID: Int32("30"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1991.83,
+    ADDRESS: "Building 30, No. 794, Section 4, Renmin South Road, Jinjiang District, Chengdu, China",
+    NAME: "Shannon Martinez",
+    PHONE: "282987240",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "7SU47mWCcO",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "To get a secure connection, the first thing you need to do is to install OpenSSL Library and download Database Source. Navicat provides               ",
+    CREATED_BY: Int32("14"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("43"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b62"),
+    ORDER_ID: Int32("46"),
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("21"),
+    GOOD_ID: Int32("19"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2268.46,
+    ADDRESS: "12th Floor, No. 409, Tianbei 1st Road, Luohu District, Shenzhen, China",
+    NAME: "Lei Anqi",
+    PHONE: "18190593661",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "wEazuiopWi",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "In other words, Navicat provides the ability for data in different databases and/or schemas to be kept up-to-date so that each repository             ",
+    CREATED_BY: Int32("37"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("36"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b63"),
+    ORDER_ID: Int32("47"),
+    USER_ID: Int32("24"),
+    SELLER_ID: Int32("17"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 1774.76,
+    ADDRESS: "Building 27, No. 994, Tianhe Road, Tianhe District, Guangzhou, China",
+    NAME: "Su Rui",
+    PHONE: "2014587644",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("1"),
+    EMS: "sAIwagDOTW",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "Import Wizard allows you to import data to tables/collections from CSV, TXT, XML, DBF and more. To clear or reload various internal                   ",
+    CREATED_BY: Int32("24"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("12"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b64"),
+    ORDER_ID: Int32("48"),
+    USER_ID: Int32("14"),
+    SELLER_ID: Int32("2"),
+    GOOD_ID: Int32("27"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 897.31,
+    ADDRESS: "Building 31, No. 164, Shennan Avenue, Futian District, Shenzhen, China",
+    NAME: "Francisco Fox",
+    PHONE: "7552109991",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("1"),
+    EMS: "slq4nTKV3V",
+    PAY_METHOD: Int32("1"),
+    LEAVE_COMMENT: "To clear or reload various internal caches, flush tables, or acquire locks, control-click your connection in the Navigation pane and                  ",
+    CREATED_BY: Int32("14"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("42"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b65"),
+    ORDER_ID: Int32("49"),
+    USER_ID: Int32("5"),
+    SELLER_ID: Int32("31"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2655.28,
+    ADDRESS: "Building 10, No. 659, Huaxia Street, Jinghua Business District, Zhongshan, China",
+    NAME: "Liu Zhiyuan",
+    PHONE: "13395145949",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("2"),
+    EMS: "8dua0CgvNi",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "Secure SHell (SSH) is a program to log in into another computer over a network, execute commands on a remote server, and move files                   ",
+    CREATED_BY: Int32("5"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("6"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b66"),
+    ORDER_ID: Int32("50"),
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("9"),
+    GOOD_ID: Int32("4"),
+    COUNT: Int32("1"),
+    TOTAL_PRICE: 2254.49,
+    ADDRESS: "Building 27, No. 721, Shennan East Road, Caiwuwei, Luohu District, Shenzhen, China",
+    NAME: "Jin Zhennan",
+    PHONE: "75519294804",
+    ORDER_STATUS: Int32("1"),
+    PD: Int32("2"),
+    EMS: "dPujeJfANe",
+    PAY_METHOD: Int32("0"),
+    LEAVE_COMMENT: "There is no way to happiness. Happiness is the way. It collects process metrics such as CPU load, RAM usage, and a variety of other                   ",
+    CREATED_BY: Int32("40"),
+    CREATED_TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    UPDATED_BY: Int32("45"),
+    UPDATED_TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb986a617fe33a3c147a7d"),
+    ORDER_ID: 1757124714350,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:11:54.35Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb986a617fe33a3c147a7e"),
+    ORDER_ID: 1757124714359,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:11:54.359Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb986a617fe33a3c147a7f"),
+    ORDER_ID: 1757124714363,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:11:54.363Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb986a617fe33a3c147a80"),
+    ORDER_ID: 1757124714367,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:11:54.367Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb986a617fe33a3c147a81"),
+    ORDER_ID: 1757124714370,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:11:54.37Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb986a617fe33a3c147a82"),
+    ORDER_ID: 1757124714372,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:11:54.372Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98cae6d84d3701a6df0c"),
+    ORDER_ID: 1757124810452,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:30.452Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98cae6d84d3701a6df0b"),
+    ORDER_ID: 1757124810462,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:30.462Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98cae6d84d3701a6df0d"),
+    ORDER_ID: 1757124810460,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:30.46Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98cae6d84d3701a6df0e"),
+    ORDER_ID: 1757124810464,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:30.464Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98cae6d84d3701a6df0f"),
+    ORDER_ID: 1757124810466,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:30.466Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98cae6d84d3701a6df10"),
+    ORDER_ID: 1757124810457,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:30.457Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98dcccc02ac5b46c5dc4"),
+    ORDER_ID: 1757124828821,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:48.821Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98dcccc02ac5b46c5dc5"),
+    ORDER_ID: 1757124828828,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:48.828Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98dcccc02ac5b46c5dc6"),
+    ORDER_ID: 1757124828833,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:48.833Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98dcccc02ac5b46c5dc7"),
+    ORDER_ID: 1757124828837,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:48.837Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98dcccc02ac5b46c5dc8"),
+    ORDER_ID: 1757124828839,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:48.839Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb98dcccc02ac5b46c5dc9"),
+    ORDER_ID: 1757124828842,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:13:48.842Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb991e0dcc7d5d6fd2974a"),
+    ORDER_ID: 1757124894275,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:14:54.275Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb991e0dcc7d5d6fd2974b"),
+    ORDER_ID: 1757124894269,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:14:54.269Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb991e0dcc7d5d6fd2974c"),
+    ORDER_ID: 1757124894279,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:14:54.279Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb991e0dcc7d5d6fd2974d"),
+    ORDER_ID: 1757124894283,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:14:54.283Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb991e0dcc7d5d6fd2974e"),
+    ORDER_ID: 1757124894286,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:14:54.286Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb991e0dcc7d5d6fd2974f"),
+    ORDER_ID: 1757124894288,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:14:54.288Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9926d4bb147b209c6c9f"),
+    ORDER_ID: 1757124902364,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:02.364Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9926d4bb147b209c6ca0"),
+    ORDER_ID: 1757124902372,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:02.372Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9926d4bb147b209c6ca2"),
+    ORDER_ID: 1757124902381,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:02.381Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9926d4bb147b209c6ca1"),
+    ORDER_ID: 1757124902377,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:02.377Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9926d4bb147b209c6ca3"),
+    ORDER_ID: 1757124902385,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:02.385Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9926d4bb147b209c6ca4"),
+    ORDER_ID: 1757124902387,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:02.387Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb99382176c6893ed7df01"),
+    ORDER_ID: 1757124920882,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:20.882Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb99382176c6893ed7df00"),
+    ORDER_ID: 1757124920887,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:20.887Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb99382176c6893ed7df02"),
+    ORDER_ID: 1757124920900,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:20.9Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb99382176c6893ed7df03"),
+    ORDER_ID: 1757124920896,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:20.896Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb99382176c6893ed7df04"),
+    ORDER_ID: 1757124920904,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:20.904Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb99382176c6893ed7df05"),
+    ORDER_ID: 1757124920910,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:15:20.91Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9991b95bfcabf826b00d"),
+    ORDER_ID: 1757125009236,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:16:49.236Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9991b95bfcabf826b00e"),
+    ORDER_ID: 1757125009242,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:16:49.242Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9991b95bfcabf826b00f"),
+    ORDER_ID: 1757125009246,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:16:49.246Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9991b95bfcabf826b010"),
+    ORDER_ID: 1757125009250,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:16:49.25Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9991b95bfcabf826b011"),
+    ORDER_ID: 1757125009252,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:16:49.252Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9991b95bfcabf826b012"),
+    ORDER_ID: 1757125009255,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:16:49.255Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb999eb95bfcabf826b013"),
+    ORDER_ID: 1757125022079,
+    USER_ID: Int32("1"),
+    SELLER_ID: Int32("21"),
+    GOOD_ID: Int32("37"),
+    COUNT: Int32("53"),
+    TOTAL_PRICE: 2869.28,
+    ADDRESS: "74 Ambleside Drive",
+    NAME: "Hong Li",
+    PHONE: "13845667434",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("3"),
+    EMS: "SF1357924769",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("1"),
+    CREATED_TIME: ISODate("2025-09-06T02:19:53.259Z"),
+    LEAVE_COMMENT: "I will appreciate your care!",
+    UPDATED_BY: Int32("21"),
+    UPDATED_TIME: ISODate("2025-09-06T02:22:29.767Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9b8e1cd22ddd3b09a303"),
+    ORDER_ID: 1757125518754,
+    USER_ID: Int32("12"),
+    SELLER_ID: Int32("32"),
+    GOOD_ID: Int32("7"),
+    COUNT: Int32("966"),
+    TOTAL_PRICE: 1912.43,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:25:18.754Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9b8e1cd22ddd3b09a304"),
+    ORDER_ID: 1757125518749,
+    USER_ID: Int32("40"),
+    SELLER_ID: Int32("12"),
+    GOOD_ID: Int32("6"),
+    COUNT: Int32("156"),
+    TOTAL_PRICE: 2005.87,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:25:18.749Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9b8e1cd22ddd3b09a305"),
+    ORDER_ID: 1757125518757,
+    USER_ID: Int32("26"),
+    SELLER_ID: Int32("37"),
+    GOOD_ID: Int32("8"),
+    COUNT: Int32("341"),
+    TOTAL_PRICE: 1060.41,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:25:18.757Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9b8e1cd22ddd3b09a306"),
+    ORDER_ID: 1757125518740,
+    USER_ID: Int32("37"),
+    SELLER_ID: Int32("49"),
+    GOOD_ID: Int32("5"),
+    COUNT: Int32("268"),
+    TOTAL_PRICE: 2184.93,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:25:18.74Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9b8e1cd22ddd3b09a308"),
+    ORDER_ID: 1757125518762,
+    USER_ID: Int32("16"),
+    SELLER_ID: Int32("10"),
+    GOOD_ID: Int32("11"),
+    COUNT: Int32("531"),
+    TOTAL_PRICE: 2436.8,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:25:18.762Z")
+} ]);
+db.getCollection("buyr_order").insert([ {
+    _id: ObjectId("68bb9b8e1cd22ddd3b09a307"),
+    ORDER_ID: 1757125518760,
+    USER_ID: Int32("25"),
+    SELLER_ID: Int32("13"),
+    GOOD_ID: Int32("10"),
+    COUNT: Int32("290"),
+    TOTAL_PRICE: 2167.66,
+    ADDRESS: "",
+    NAME: "",
+    PHONE: "",
+    ORDER_STATUS: Int32("0"),
+    PD: Int32("0"),
+    EMS: "",
+    PAY_METHOD: Int32("1"),
+    CREATED_BY: Int32("-1"),
+    CREATED_TIME: ISODate("2025-09-06T02:25:18.76Z")
+} ]);
+
+// ----------------------------
+// Collection structure for buyr_user
+// ----------------------------
+db.getCollection("buyr_user").drop();
+db.createCollection("buyr_user");
+
+// ----------------------------
+// Documents of buyr_user
+// ----------------------------
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b67"),
+    USER_ID: Int32("1"),
+    USER_NAME: "Yang Rui",
+    EMAIL: "yangrui9@mail.com",
+    USER_PASS: "MciVrXQf9f",
+    POSITION: "38th Floor, No. 744, Section 3, Hongxing Road, Jinjiang District, Chengdu, China",
+    USER_INTRO: "Navicat provides powerful tools for working with queries: Query Editor for editing the query text directly, and                   ",
+    PHONE: "16699379625",
+    PASS_SALT: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFTUFJTCI6InlhbmdydWk5QG1haWwuY29tIiwiUGVybWlzc2lvbiI6MCwicGlkcyI6IlstMSwgMCwgMSwgMTEsIDIsIDMsIDMxLCA0LCA1XSIsImlhdCI6MTc1NzEyMzEwNywiZXhwIjoxNzU4NDE5MTA3fQ.UgwacW4_GTY3OIe9WN0qbhAUouULp9yFsVUpwG1w_fI",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("6"),
+    TOTAL_COST_AMT: Int32("55")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b68"),
+    USER_ID: Int32("2"),
+    USER_NAME: "Chen Shihan",
+    EMAIL: "shihanch1978@yahoo.com",
+    USER_PASS: "0x2G9Po1qH",
+    POSITION: "Building 13, No. 171, Section 3, Hongxing Road, Jinjiang District, Chengdu, China",
+    USER_INTRO: "Export Wizard allows you to export data from tables, collections, views, or query results to any available formats.",
+    PHONE: "15943379599",
+    PASS_SALT: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFTUFJTCI6InNoaWhhbmNoMTk3OEB5YWhvby5jb20iLCJQZXJtaXNzaW9uIjowLCJwaWRzIjoiWy0xLCAwLCAxLCAxMSwgMiwgMywgMzEsIDQsIDVdIiwiaWF0IjoxNzU3MTI0MTgxLCJleHAiOjE3NTg0MjAxODF9.wuZrGPvYiJsMkx3zEtd35NfemWdHFG72tVTM5JDIgU8",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("10"),
+    TOTAL_COST_AMT: Int32("376")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b69"),
+    USER_ID: Int32("3"),
+    USER_NAME: "Ray Medina",
+    EMAIL: "rmedi@gmail.com",
+    USER_PASS: "bjsLELXdiy",
+    POSITION: "34th Floor, No. 342, Section 4, Renmin South Road, Jinjiang District, Chengdu, China",
+    USER_INTRO: "After comparing data, the window shows the number of records that will be inserted, updated or deleted in the target.             ",
+    PHONE: "18034686426",
+    PASS_SALT: "AHZETDcmoA",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("0"),
+    TOTAL_COST_AMT: Int32("2")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b6a"),
+    USER_ID: Int32("4"),
+    USER_NAME: "Cai Rui",
+    EMAIL: "cr9@gmail.com",
+    USER_PASS: "DO0GtBlMdP",
+    POSITION: "Room 50, China Resources Building, 577 Binchuan Road, Minhang District, Shanghai, China",
+    USER_INTRO: "Typically, it is employed as an encrypted version of Telnet. To open a query using an external editor, control-click              ",
+    PHONE: "15557234413",
+    PASS_SALT: "ix6OMrFijD",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("474")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b6b"),
+    USER_ID: Int32("5"),
+    USER_NAME: "Lois Sanchez",
+    EMAIL: "sancl@gmail.com",
+    USER_PASS: "g0WIDrDXpU",
+    POSITION: "18th Floor, No. 569, Huaihai Middle Road, Huangpu District, Shanghai, China",
+    USER_INTRO: "SQL Editor allows you to create and edit SQL text, prepare and execute selected queries. Navicat Data Modeler is                  ",
+    PHONE: "212092926",
+    PASS_SALT: "dxTQ9DSIOm",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("1"),
+    TOTAL_COST_AMT: Int32("3")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b6c"),
+    USER_ID: Int32("6"),
+    USER_NAME: "Patrick Adams",
+    EMAIL: "patadam@mail.com",
+    USER_PASS: "3XDCcM4vOs",
+    POSITION: "Building 40, No. 303, Hongqiao Road, Xuhui District, Shanghai, China",
+    USER_INTRO: "Optimism is the one quality more associated with success and happiness than any other. If opportunity doesn’t                   ",
+    PHONE: "212584046",
+    PASS_SALT: "3tjgEgvhVS",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("6"),
+    TOTAL_COST_AMT: Int32("103")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b6d"),
+    USER_ID: Int32("7"),
+    USER_NAME: "Yan Lan",
+    EMAIL: "lanyan@icloud.com",
+    USER_PASS: "CVPRwrVy7z",
+    POSITION: "Building 32, No. 7, Jianxiang Road, Pudong New Area, Shanghai, China",
+    USER_INTRO: "Actually it is just in an idea when feel oneself can achieve and cannot achieve. To connect to a database or schema,              ",
+    PHONE: "219844637",
+    PASS_SALT: "qf2MD4VMDL",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("7"),
+    TOTAL_COST_AMT: Int32("853")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b6e"),
+    USER_ID: Int32("8"),
+    USER_NAME: "Edna Cook",
+    EMAIL: "edna2@outlook.com",
+    USER_PASS: "gTU4RKNMKy",
+    POSITION: "Building 23, No. 213, Zhongshan 5th Road, Zimaling Business District, Zhongshan, China",
+    USER_INTRO: "The repository database can be an existing MySQL, MariaDB, PostgreSQL, SQL Server, or Amazon RDS instance.                        ",
+    PHONE: "7606287882",
+    PASS_SALT: "hlr9e999QG",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("2"),
+    TOTAL_COST_AMT: Int32("193")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b6f"),
+    USER_ID: Int32("9"),
+    USER_NAME: "Alice Coleman",
+    EMAIL: "acol@gmail.com",
+    USER_PASS: "zN8zU0bU5C",
+    POSITION: "Building 42, No. 890, Xiaoping East Road, Baiyun District, Guangzhou, China",
+    USER_INTRO: "It collects process metrics such as CPU load, RAM usage, and a variety of other resources over SSH/SNMP.                          ",
+    PHONE: "17907798096",
+    PASS_SALT: "m0jTCDTqIz",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("460")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b70"),
+    USER_ID: Int32("10"),
+    USER_NAME: "Tian Shihan",
+    EMAIL: "sti@mail.com",
+    USER_PASS: "HsArtNvQox",
+    POSITION: "42nd Floor, No. 382, ​​Tianbei 1st Road, Luohu District, Shenzhen, China",
+    USER_INTRO: "The On Startup feature allows you to control what tabs appear when you launch Navicat. SSH serves to prevent such                 ",
+    PHONE: "75550132965",
+    PASS_SALT: "x5sGlmiYTC",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("5"),
+    TOTAL_COST_AMT: Int32("184")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b71"),
+    USER_ID: Int32("11"),
+    USER_NAME: "Peng Shihan",
+    EMAIL: "shihanpeng@outlook.com",
+    USER_PASS: "0dhblaUQwU",
+    POSITION: "807, Huaxia Street, Jinghua Business District, Zhongshan, China Building 9",
+    USER_INTRO: "Navicat allows you to transfer data from one database and/or schema to another with detailed analytical process.",
+    PHONE: "16291382957",
+    PASS_SALT: "s9khxDtkVf",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("6"),
+    TOTAL_COST_AMT: Int32("823")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b72"),
+    USER_ID: Int32("12"),
+    USER_NAME: "Kimberly Silva",
+    EMAIL: "kimbes902@mail.com",
+    USER_PASS: "Vf2akWXGq6",
+    POSITION: "Room 30, 795 Daxin South Road, Daxin Business District, Tianhe District, Zhongshan, China",
+    USER_INTRO: "Always keep your eyes open. Keep watching. Because whatever you see can inspire you. Secure SHell (SSH) is a program              ",
+    PHONE: "14006365698",
+    PASS_SALT: "DDnCaaEuWs",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("4"),
+    TOTAL_COST_AMT: Int32("852")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b73"),
+    USER_ID: Int32("13"),
+    USER_NAME: "Sharon Burns",
+    EMAIL: "sharon1112@hotmail.com",
+    USER_PASS: "wJpgQAgByU",
+    POSITION: "Building 7, 373 Hongqiao Road, Xuhui District, Shanghai, China",
+    USER_INTRO: "In a Telnet session, all communications, including username and password, are transmitted in plain-text, allowing                 ",
+    PHONE: "210286781",
+    PASS_SALT: "MIBTVjLtF9",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("9"),
+    TOTAL_COST_AMT: Int32("979")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b74"),
+    USER_ID: Int32("14"),
+    USER_NAME: "Kenneth Clark",
+    EMAIL: "ckenn@outlook.com",
+    USER_PASS: "wNqJIDLPTx",
+    POSITION: "Room 31, 869, Lane 5, Tangyuan Street, Airport Road, Baiyun District, Guangzhou, China",
+    USER_INTRO: "Import Wizard allows you to import data to tables/collections from CSV, TXT, XML, DBF and more. You will succeed                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "204104957",
+    PASS_SALT: "aTNPuCI5KF",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("130")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b75"),
+    USER_ID: Int32("15"),
+    USER_NAME: "Berard Hall",
+    EMAIL: "bernah@outlook.com",
+    USER_PASS: "M3W0HdjcLV",
+    POSITION: "Building 13, 942 Sanlitun Road, Chaoyang District, Beijing, China",
+    USER_INTRO: "Difficult circumstances serve as a textbook of life for people. In other words, Navicat provides the ability for                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "14814202042",
+    PASS_SALT: "x16YcbRtqO",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("2"),
+    TOTAL_COST_AMT: Int32("186")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b76"),
+    USER_ID: Int32("16"),
+    USER_NAME: "Mao Shihan",
+    EMAIL: "mao2@mail.com",
+    USER_PASS: "BnMmrIhkPh",
+    POSITION: "Room 42, 489, Erxianqiao East Third Road, Chenghua District, Chengdu, China",
+    USER_INTRO: "I destroy my enemies when I make them my friends. After logged in the Navicat Cloud feature, the Navigation pane                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "289978719",
+    PASS_SALT: "JcpQFhggO7",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("1"),
+    TOTAL_COST_AMT: Int32("768")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b77"),
+    USER_ID: Int32("17"),
+    USER_NAME: "Shawn Wood",
+    EMAIL: "swoo@outlook.com",
+    USER_PASS: "Wtx0YgTFhj",
+    POSITION: "Building 12, 320 Xiaoping East Road, Baiyun District, Guangzhou, China",
+    USER_INTRO: "In other words, Navicat provides the ability for data in different databases and/or schemas to be kept up-to-date                 ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "19332182488",
+    PASS_SALT: "s3SujJpn4H",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("454")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b78"),
+    USER_ID: Int32("18"),
+    USER_NAME: "Marie Rodriguez",
+    EMAIL: "mr713@yahoo.com",
+    USER_PASS: "B5QMo5lVZ2",
+    POSITION: "Room 19, China Resources Building, 819, Lane 5, Tangyuan Street, Airport Road, Baiyun District, Guangzhou, China",
+    USER_INTRO: "Navicat Data Modeler is a powerful and cost-effective database design tool which helps you build high-quality conceptual,         ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "15248539863",
+    PASS_SALT: "Emneb97e7o",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("10"),
+    TOTAL_COST_AMT: Int32("456")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b79"),
+    USER_ID: Int32("19"),
+    USER_NAME: "Xu Xiuying",
+    EMAIL: "xuxiu415@gmail.com",
+    USER_PASS: "1jX907VWHp",
+    POSITION: "Room 15, China Resources Building, 433 Shuangqing Road, Chenghua District, Chengdu, China",
+    USER_INTRO: "SSH serves to prevent such vulnerabilities and allows you to access a remote server's shell without compromising security.",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "283310034",
+    PASS_SALT: "YrWOw2liI9",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("87")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b7a"),
+    USER_ID: Int32("20"),
+    USER_NAME: "Du Yunxi",
+    EMAIL: "yunxid1122@gmail.com",
+    USER_PASS: "YbuDReiPQC",
+    POSITION: "Building 40, 943 Shanhu Road, Dongguan, China",
+    USER_INTRO: "To clear or reload various internal caches, flush tables, or acquire locks, control-click your connection in the                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7695087244",
+    PASS_SALT: "lB8CYi6GWM",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("4"),
+    TOTAL_COST_AMT: Int32("462")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b7b"),
+    USER_ID: Int32("21"),
+    USER_NAME: "Fred Grant",
+    EMAIL: "fgrant@icloud.com",
+    USER_PASS: "8FHtnz5tZL",
+    POSITION: "Room 23, 313 Shanhu Road, Dongguan, China",
+    USER_INTRO: "To successfully establish a new connection to local/remote server - no matter via SSL, SSH or HTTP, set the database              ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76953874655",
+    PASS_SALT: "zgagECQvpa",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("2"),
+    TOTAL_COST_AMT: Int32("838")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b7c"),
+    USER_ID: Int32("22"),
+    USER_NAME: "Diane Myers",
+    EMAIL: "diane4@mail.com",
+    USER_PASS: "AU6GdjUaSq",
+    POSITION: "New Taipei City, Pudong, Shanghai, China Building 38, No. 972, Jianxiang Road, Longgang District, Shenzhen, China; Building 37, No. 270, Xihuan Road, Buji Town, Longgang District, Shenzhen, China; Building 34, No. 416, Binchuan Road, Minhang District, Shanghai, China; 9th Floor, No. 576, Xiaoping East Road, Baiyun District, Guangzhou, China; Room 26, No. 104, Huaxia Street, Jinghua Business District, Zhongshan, China; Building 37, No. 47, Qingshuihe First Road, Luohu District, Shenzhen, China; 4th Floor, No. 694, Section 4, Renmin South Road, Jinjiang District, Chengdu, China; Building 20, No. 361, Ganlan Road, Pudong New Area, Shanghai, China; Room 36, China Resources Building, No. 466, Xiaoping East Road, Baiyun District, Guangzhou, China; Building 26, No. 687, Dongtai Fifth Street, Dongguan, China; Room 13, China Resources Building, No. 131, Section 3, Hongxing Road, Jinjiang District, Chengdu, China; Xuzhou, Shanghai, China Room 29, 523 Hongqiao Road, Hui District",
+    USER_INTRO: "How we spend our days is, of course, how we spend our lives. To connect to a database or schema, simply double-click              ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "18297603323",
+    PASS_SALT: "w8ytFljfCv",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("740")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b7d"),
+    USER_ID: Int32("23"),
+    USER_NAME: "Shen Rui",
+    EMAIL: "shenrui@outlook.com",
+    USER_PASS: "Nf42NhurlL",
+    POSITION: "40th Floor, 831 Shennan Avenue, Futian District, Shenzhen, China",
+    USER_INTRO: "What you get by achieving your goals is not as important as what you become by achieving your goals.                              ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "19229068790",
+    PASS_SALT: "aTHEyywi6h",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("29")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b7e"),
+    USER_ID: Int32("24"),
+    USER_NAME: "Anne James",
+    EMAIL: "jamesanne7@mail.com",
+    USER_PASS: "0OfnMdF9rC",
+    POSITION: "Room 19, 703 Xihuan Road, Buji Town, Longgang District, Shenzhen, China",
+    USER_INTRO: "Instead of wondering when your next vacation is, maybe you should set up a life you don’t need to escape from.                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "19519899653",
+    PASS_SALT: "JzeYWm5P4O",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("4"),
+    TOTAL_COST_AMT: Int32("809")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b7f"),
+    USER_ID: Int32("25"),
+    USER_NAME: "Zhou Rui",
+    EMAIL: "zhourui@mail.com",
+    USER_PASS: "Gpl2CIjyMK",
+    POSITION: "Room 46, 239 Jingtian East 1st Street, Futian District, Shenzhen, China",
+    USER_INTRO: "I may not have gone where I intended to go, but I think I have ended up where I needed to be. Actually it is just                 ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "18726147292",
+    PASS_SALT: "4A2FdlXnV4",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("10"),
+    TOTAL_COST_AMT: Int32("875")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b80"),
+    USER_ID: Int32("26"),
+    USER_NAME: "Miguel Munoz",
+    EMAIL: "miguemunoz2009@gmail.com",
+    USER_PASS: "bqF2IjYI2G",
+    POSITION: "Room 29, 493 Jingtian East 1st Street, Futian District, Shenzhen, China",
+    USER_INTRO: "Optimism is the one quality more associated with success and happiness than any other. Instead of wondering when                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "14400895944",
+    PASS_SALT: "UHE44mrMjM",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("0"),
+    TOTAL_COST_AMT: Int32("123")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b81"),
+    USER_ID: Int32("27"),
+    USER_NAME: "Allen Fernandez",
+    EMAIL: "fernandez08@gmail.com",
+    USER_PASS: "dgT5CCQ9DD",
+    POSITION: "Room 12, China Resources Building, 1 Jianxiang Road, Pudong New Area, Shanghai, China",
+    USER_INTRO: "Navicat Monitor is a safe, simple and agentless remote server monitoring tool that is packed with powerful features               ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7551338570",
+    PASS_SALT: "SzpQyLsNqQ",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("0"),
+    TOTAL_COST_AMT: Int32("456")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b82"),
+    USER_ID: Int32("28"),
+    USER_NAME: "Dawn Young",
+    EMAIL: "dawn1117@outlook.com",
+    USER_PASS: "ZRNIxAtTPl",
+    POSITION: "Room 45, China Resources Building, 563 West Chang'an Avenue, Xicheng District, Beijing, China",
+    USER_INTRO: "Navicat provides powerful tools for working with queries: Query Editor for editing the query text directly, and                   ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "14218246059",
+    PASS_SALT: "TofXOaGMoG",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("7"),
+    TOTAL_COST_AMT: Int32("858")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b83"),
+    USER_ID: Int32("29"),
+    USER_NAME: "Kyle Garza",
+    EMAIL: "kygar1@outlook.com",
+    USER_PASS: "X24krHVixR",
+    POSITION: "Building 42, No. 556, 68 Qinghe Middle Street, Haidian District, Beijing, China",
+    USER_INTRO: "Navicat Data Modeler is a powerful and cost-effective database design tool which helps you build high-quality conceptual,         ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "219916672",
+    PASS_SALT: "Rz3QSEzBTN",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("4"),
+    TOTAL_COST_AMT: Int32("843")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b84"),
+    USER_ID: Int32("30"),
+    USER_NAME: "Richard Price",
+    EMAIL: "richardpr7@outlook.com",
+    USER_PASS: "wUu7o34Tfh",
+    POSITION: "Building 26, 248 Jianxiang Road, Pudong New Area, Shanghai, China",
+    USER_INTRO: "Navicat Monitor is a safe, simple and agentless remote server monitoring tool that is packed with powerful features               ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "204743834",
+    PASS_SALT: "7pgtQ9JtHA",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("781")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b85"),
+    USER_ID: Int32("31"),
+    USER_NAME: "Lu Shihan",
+    EMAIL: "lushihan2003@gmail.com",
+    USER_PASS: "JUtVDsNhxo",
+    POSITION: "Building 13, 474 Huaxia Street, Jinghua Business District, Zhongshan, China",
+    USER_INTRO: "There is no way to happiness. Happiness is the way. To get a secure connection, the first thing you need to do                    ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7691668490",
+    PASS_SALT: "wOFs8SeBWy",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("3"),
+    TOTAL_COST_AMT: Int32("870")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b86"),
+    USER_ID: Int32("32"),
+    USER_NAME: "Lei Jiehong",
+    EMAIL: "leijieho@outlook.com",
+    USER_PASS: "WOUZWCiI5B",
+    POSITION: "Building 28, 794 Yueliu Road, Fangshan District, Beijing, China",
+    USER_INTRO: "I will greet this day with love in my heart. Creativity is intelligence having fun. If the Show objects under schema              ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "2849378905",
+    PASS_SALT: "fK1muld1kE",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("1"),
+    TOTAL_COST_AMT: Int32("126")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b87"),
+    USER_ID: Int32("33"),
+    USER_NAME: "Xu Zhennan",
+    EMAIL: "xuzh06@gmail.com",
+    USER_PASS: "ZEi1FAYwCy",
+    POSITION: "Room 29, 523 Hongqiao Road, Xuhui District, Shanghai, China",
+    USER_INTRO: "SSH serves to prevent such vulnerabilities and allows you to access a remote server's shell without compromising security.",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "2156187389",
+    PASS_SALT: "3YdUYGyEcs",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("9"),
+    TOTAL_COST_AMT: Int32("46")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b88"),
+    USER_ID: Int32("34"),
+    USER_NAME: "Liang Rui",
+    EMAIL: "rliang@icloud.com",
+    USER_PASS: "EerhSM6ujQ",
+    POSITION: "40th Floor, 831 Shennan Avenue, Futian District, Shenzhen, China",
+    USER_INTRO: "The On Startup feature allows you to control what tabs appear when you launch Navicat. Success consists of going                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "13980569340",
+    PASS_SALT: "F2lAfWFRQz",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("7"),
+    TOTAL_COST_AMT: Int32("571")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b89"),
+    USER_ID: Int32("35"),
+    USER_NAME: "Lin Jiehong",
+    EMAIL: "lin73@gmail.com",
+    USER_PASS: "hShqSFHQvr",
+    POSITION: "Room 19, 703 Xihuan Road, Buji Town, Longgang District, Shenzhen, China",
+    USER_INTRO: "If the Show objects under schema in navigation pane option is checked at the Preferences window, all database objects             ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7551056394",
+    PASS_SALT: "qmLs9kRScd",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("8"),
+    TOTAL_COST_AMT: Int32("741")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b8a"),
+    USER_ID: Int32("36"),
+    USER_NAME: "Gloria Medina",
+    EMAIL: "medinagloria@yahoo.com",
+    USER_PASS: "rhsZZA4Ga5",
+    POSITION: "Room 46, 239 Jingtian East 1st Street, Futian District, Shenzhen, China",
+    USER_INTRO: "Navicat provides powerful tools for working with queries: Query Editor for editing the query text directly, and                   ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "15952905167",
+    PASS_SALT: "temnKGe3Gc",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("6"),
+    TOTAL_COST_AMT: Int32("148")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b8b"),
+    USER_ID: Int32("37"),
+    USER_NAME: "Sandra Baker",
+    EMAIL: "sbaker57@gmail.com",
+    USER_PASS: "kICS3sfNBS",
+    POSITION: "Room 29, 493 Jingtian East 1st Street, Futian District, Shenzhen, China",
+    USER_INTRO: "The first step is as good as half over. In the Objects tab, you can use the List List, Detail Detail and ER Diagram               ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "75580372648",
+    PASS_SALT: "5VC7vYHSiL",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("0"),
+    TOTAL_COST_AMT: Int32("478")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b8c"),
+    USER_ID: Int32("38"),
+    USER_NAME: "Theresa Johnson",
+    EMAIL: "johntheresa@mail.com",
+    USER_PASS: "V59NxgfkuS",
+    POSITION: "Room 12, China Resources Building, 1 Jianxiang Road, Pudong New Area, Shanghai, China",
+    USER_INTRO: "It provides strong authentication and secure encrypted communications between two hosts, known as SSH Port Forwarding             ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "15204748394",
+    PASS_SALT: "k67CpdbNr5",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("7"),
+    TOTAL_COST_AMT: Int32("37")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b8d"),
+    USER_ID: Int32("39"),
+    USER_NAME: "Yan Shihan",
+    EMAIL: "yashihan916@icloud.com",
+    USER_PASS: "mr3kFGl7IK",
+    POSITION: "Room 45, China Resources Building, 563 West Chang'an Avenue, Xicheng District, Beijing, China",
+    USER_INTRO: "In the Objects tab, you can use the List List, Detail Detail and ER Diagram ER Diagram buttons to change the object view.",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "14574943307",
+    PASS_SALT: "R0EEtUAjek",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("9"),
+    TOTAL_COST_AMT: Int32("508")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b8e"),
+    USER_ID: Int32("40"),
+    USER_NAME: "Yao Zhiyuan",
+    EMAIL: "yaozhi@gmail.com",
+    USER_PASS: "X08RkW2guB",
+    POSITION: "Building 42, No. 556, 68 Qinghe Middle Street, Haidian District, Beijing, China",
+    USER_INTRO: "Actually it is just in an idea when feel oneself can achieve and cannot achieve. Navicat provides a wide range                    ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "103500533",
+    PASS_SALT: "7rTbm9yKLp",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("1"),
+    TOTAL_COST_AMT: Int32("83")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b8f"),
+    USER_ID: Int32("41"),
+    USER_NAME: "Kathryn Hunt",
+    EMAIL: "kathrynhunt@gmail.com",
+    USER_PASS: "IL98Bd1Uyt",
+    POSITION: "Room 24, Jianxiang Road, Pudong New Area, Shanghai, China Building 26, No. 8",
+    USER_INTRO: "You cannot save people, you can just love them. To connect to a database or schema, simply double-click it in the pane.           ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "15365169122",
+    PASS_SALT: "rLBKsFuIBe",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("9"),
+    TOTAL_COST_AMT: Int32("715")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b90"),
+    USER_ID: Int32("42"),
+    USER_NAME: "Yang Lu",
+    EMAIL: "luyang@yahoo.com",
+    USER_PASS: "uuCs9yq2V0",
+    POSITION: "Building 13, No. 474, Huaxia Street, Jinghua Business District, Zhongshan, China",
+    USER_INTRO: "A comfort zone is a beautiful place, but nothing ever grows there. Navicat provides a wide range advanced features,               ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76065036821",
+    PASS_SALT: "WWh6vepX9c",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("4"),
+    TOTAL_COST_AMT: Int32("393")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b91"),
+    USER_ID: Int32("43"),
+    USER_NAME: "Howard Lopez",
+    EMAIL: "howard726@outlook.com",
+    USER_PASS: "UG0ZSfqILO",
+    POSITION: "Building 28, No. 794, Yueliu Road, Fangshan District, Beijing, China",
+    USER_INTRO: "To start working with your server in Navicat, you should first establish a connection or several connections using                ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "108461039",
+    PASS_SALT: "FxBPk6an9Q",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("5"),
+    TOTAL_COST_AMT: Int32("410")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b92"),
+    USER_ID: Int32("44"),
+    USER_NAME: "Larry Ryan",
+    EMAIL: "larr10@icloud.com",
+    USER_PASS: "DqpG5KWf6Y",
+    POSITION: "Room 1, No. 189, Yueliu Road, Fangshan District, Beijing, China",
+    USER_INTRO: "The Navigation pane employs tree structure which allows you to take action upon the database and their objects                    ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "19738454521",
+    PASS_SALT: "HHM4DrK2XT",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("9"),
+    TOTAL_COST_AMT: Int32("771")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b93"),
+    USER_ID: Int32("45"),
+    USER_NAME: "Lawrence Meyer",
+    EMAIL: "meyerl1222@gmail.com",
+    USER_PASS: "zWfpdnWOM1",
+    POSITION: "Building 16, No. 713, Xueyuan 1st Lane, Longgang District, Shenzhen, China",
+    USER_INTRO: "Flexible settings enable you to set up a custom key for comparison and synchronization. Import Wizard allows you                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "17257582330",
+    PASS_SALT: "nWCudqKmQ5",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("8"),
+    TOTAL_COST_AMT: Int32("793")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b94"),
+    USER_ID: Int32("46"),
+    USER_NAME: "Rhonda Ryan",
+    EMAIL: "rhondaryan@yahoo.com",
+    USER_PASS: "FkzgAWypgn",
+    POSITION: "26th Floor, No. 990, West Chang'an Avenue, Xicheng District, Beijing, China",
+    USER_INTRO: "It provides strong authentication and secure encrypted communications between two hosts, known as SSH Port Forwarding             ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "109770217",
+    PASS_SALT: "gdWnv5Vfj9",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("1"),
+    TOTAL_COST_AMT: Int32("708")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b95"),
+    USER_ID: Int32("47"),
+    USER_NAME: "Shao Lan",
+    EMAIL: "lan7@gmail.com",
+    USER_PASS: "mrFxa4Hyqm",
+    POSITION: "Building 45, No. 637, Zhongshan 5th Road, Zimaling Business District, Zhongshan, China",
+    USER_INTRO: "In the middle of winter I at last discovered that there was in me an invincible summer. Anyone who has ever made                  ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16049519947",
+    PASS_SALT: "j8IhUUs3G0",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("9"),
+    TOTAL_COST_AMT: Int32("895")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b96"),
+    USER_ID: Int32("48"),
+    USER_NAME: "Lü Jiehong",
+    EMAIL: "jiehongl1999@mail.com",
+    USER_PASS: "C3K5N007Wm",
+    POSITION: "Room 23, No. 888, West Chang'an Avenue, Xicheng District, Beijing, China",
+    USER_INTRO: "It is used while your ISPs do not allow direct connections, but allows establishing HTTP connections.                             ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "14172832625",
+    PASS_SALT: "Mw7tW7F7W1",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("2"),
+    TOTAL_COST_AMT: Int32("804")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b97"),
+    USER_ID: Int32("49"),
+    USER_NAME: "Emily Lewis",
+    EMAIL: "emlew@outlook.com",
+    USER_PASS: "7ZwG2hPm7O",
+    POSITION: "Building 14, No. 716, Daxin South Road, Daxin Business District, Tianhe District, Zhongshan, China",
+    USER_INTRO: "Navicat Data Modeler enables you to build high-quality conceptual, logical and physical data models for a wide                    ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7601435244",
+    PASS_SALT: "cHcBLSqFet",
+    USER_STATUS: Int32("1"),
+    USER_SCORE: Int32("5"),
+    TOTAL_COST_AMT: Int32("151")
+} ]);
+db.getCollection("buyr_user").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b98"),
+    USER_ID: Int32("50"),
+    USER_NAME: "Jin Zhennan",
+    EMAIL: "jin7@hotmail.com",
+    USER_PASS: "07Vc3aY7XT",
+    POSITION: "Building 31, No. 981, Nanjie 2nd Lane, Huanqu District, Dongguan, China",
+    USER_INTRO: "The Navigation pane employs tree structure which allows you to take action upon the database and their objects                    ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "19263303666",
+    PASS_SALT: "7S7vN4esJg",
+    USER_STATUS: Int32("0"),
+    USER_SCORE: Int32("2"),
+    TOTAL_COST_AMT: Int32("56")
+} ]);
+
+// ----------------------------
+// Collection structure for dictionary
+// ----------------------------
+db.getCollection("dictionary").drop();
+db.createCollection("dictionary");
+
+// ----------------------------
+// Documents of dictionary
+// ----------------------------
+db.getCollection("dictionary").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b99"),
+    ID: Int32("1"),
+    NAME: "routes",
+    VALUE: "[{\"icon\": 1, \"path\": \"/home/auction\", \"title\": \"Product Interface\"}, {\"icon\": 5, \"path\": \"/home/search\", \"title\": \"Product Search\"}, {\"icon\": 2, \"path\": \"/home/mine\", \"title\": \"Personal Information\"}, {\"icon\": 3, \"path\": \"/home/order\", \"title\": \"Order Management\"}, {\"icon\": 4, \"path\": \"/home/announce\", \"title\": \"Notification List\"}, {\"icon\": 6, \"path\": \"/home/admins\", \"title\": \"Administrator Management\"}, {\"icon\": 7, \"path\": \"/home/users\", \"title\": \"Buyer Management\"}, {\"icon\": 8, \"path\": \"/home/sellers\", \"title\": \"Seller Management\"}, {\"icon\": 9, \"path\": \"/statistics\", \"title\": \"Statistics\"}]"
+} ]);
+db.getCollection("dictionary").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b9a"),
+    ID: Int32("2"),
+    NAME: "TYPEList",
+    VALUE: "{\"0\": \"Sculpture\", \"1\": \"Metal Crafts\", \"2\": \"Strange Stones\", \"3\": \"Calligraphy and Painting\", \"4\": \"Ceramics\", \"length\": 5}"
+} ]);
+
+// ----------------------------
+// Collection structure for goods
+// ----------------------------
+db.getCollection("goods").drop();
+db.createCollection("goods");
+
+// ----------------------------
+// Documents of goods
+// ----------------------------
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b9b"),
+    GOOD_ID: Int32("1"),
+    NAME: "Tangshan Shadow Play",
+    UPSET_PRICE: 1413.49,
+    PRICE: 20000,
+    STEP: Int32("0"),
+    ARTIST: "Qi Yongheng",
+    CLASS: Int32("1"),
+    COUNT: Int32("126"),
+    CERTIFICATE: "WPGOC5659269",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A shadow puppet show imbued with the ancient charm of the Tang Dynasty, featuring elements of Tang Dynasty architecture, dance, and opera, showcases the unique charm of traditional Chinese culture. Each puppet is meticulously handcrafted, blending folklore with artistic innovation, making it an excellent choice for your collection and appreciation.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b9c"),
+    GOOD_ID: Int32("2"),
+    NAME: "Jinan Shadow Play",
+    UPSET_PRICE: 2982.19,
+    PRICE: 3582.19,
+    STEP: Int32("0"),
+    ARTIST: "Shen Guorui",
+    CLASS: Int32("1"),
+    COUNT: Int32("315"),
+    CERTIFICATE: "WPGOC9888416",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "This unique shadow puppet artwork, inspired by the unique customs and practices of southern Hebei, captures the essence of the culture. Each puppet embodies ingenious craftsmanship and profound cultural connotations, ensuring a unique addition to your art collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b9d"),
+    GOOD_ID: Int32("3"),
+    NAME: "Xiaoyi Shadow Play",
+    UPSET_PRICE: 897.44,
+    PRICE: 897.44,
+    STEP: Int32("10"),
+    ARTIST: "Hou Jianchuan",
+    CLASS: Int32("1"),
+    COUNT: Int32("968"),
+    CERTIFICATE: "WPGOC5905990",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "This collection of vivid shadow puppetry, inspired by the historical landscape and folk customs of Xiaoyi, embodies the essence of Chinese folk art. Each puppet is meticulously carved by the artist, showcasing delicate lines and rich colors, sure to be a treasure in your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("20"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b9e"),
+    GOOD_ID: Int32("4"),
+    NAME: "Fuzhou Shadow Play",
+    UPSET_PRICE: 2737.64,
+    PRICE: 2737.64,
+    STEP: Int32("10"),
+    ARTIST: "Sun Deshen",
+    CLASS: Int32("1"),
+    COUNT: Int32("974"),
+    CERTIFICATE: "WPGOC4675718",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A collection of uniquely local shadow puppetry, inspired by the traditional customs and natural landscapes of Fuzhou, showcases the profound heritage of traditional Chinese culture. Each piece embodies the artist's profound understanding of Fuzhou culture and his creative skills, making it a must-have addition to your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("47"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052b9f"),
+    GOOD_ID: Int32("5"),
+    NAME: "Suzhou Embroidery - Zhouzhuang Ancient Bridge",
+    UPSET_PRICE: 2509.11,
+    PRICE: 2184.93,
+    STEP: Int32("10"),
+    ARTIST: "Yao Jianping",
+    CLASS: Int32("1"),
+    COUNT: Int32("268"),
+    CERTIFICATE: "WPGOC9086687",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "This exquisite Suzhou embroidery piece, featuring the ancient bridges of Zhouzhuang, seamlessly blends the charm of the waterside village with traditional craftsmanship. Every stitch and thread embodies the painstaking effort and wisdom of the Suzhou embroidery artists, resulting in vibrant works of art that are exquisitely beautiful and uniquely captivating.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("49"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba0"),
+    GOOD_ID: Int32("6"),
+    NAME: "Haining Shadow Play",
+    UPSET_PRICE: 1568.57,
+    PRICE: 2005.87,
+    STEP: Int32("10"),
+    ARTIST: "Xu Ernan",
+    CLASS: Int32("1"),
+    COUNT: Int32("156"),
+    CERTIFICATE: "WPGOC2130818",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A series of unique Haining shadow puppetry works, inspired by the region's folklore and everyday scenes, showcase the unique charm of Haining culture. Each puppet is handcrafted by meticulously crafted artists, showcasing the exquisite craftsmanship and inheriting the essence of traditional Chinese art.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("12"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba1"),
+    GOOD_ID: Int32("7"),
+    NAME: "Jianghan Plain Shadow Play",
+    UPSET_PRICE: 2518.57,
+    PRICE: 1912.43,
+    STEP: Int32("10"),
+    ARTIST: "Gong Jinting",
+    CLASS: Int32("1"),
+    COUNT: Int32("966"),
+    CERTIFICATE: "WPGOC5854811",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "This collection of lively and engaging shadow puppetry draws inspiration from the local customs and practices of the Jianghan Plain, blending traditional and modern artistic expression. Each puppet possesses unique aesthetic value and cultural connotations, making it a truly valuable addition to your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("32"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba2"),
+    GOOD_ID: Int32("8"),
+    NAME: "Huishan Clay Figurine - Ah Fu",
+    UPSET_PRICE: 1533.46,
+    PRICE: 1060.41,
+    STEP: Int32("10"),
+    ARTIST: "Zhou Hanqing",
+    CLASS: Int32("0"),
+    COUNT: Int32("341"),
+    CERTIFICATE: "WPGOC5051178",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "This exquisite clay figurine, crafted from the traditional Huishan clay figurine craftsmanship, depicts the beloved character of Ah Fu and embodies a positive and optimistic outlook on life. Each figurine is meticulously crafted to be lifelike and imbued with profound meaning, making it a truly exceptional addition to your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("37"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba3"),
+    GOOD_ID: Int32("9"),
+    NAME: "Huishan Clay Figurine - Silkworm Cat",
+    UPSET_PRICE: 2944.1,
+    PRICE: 0,
+    STEP: Int32("10"),
+    ARTIST: "Jiang Jinkui",
+    CLASS: Int32("0"),
+    COUNT: Int32("566"),
+    CERTIFICATE: "WPGOC9544536",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "This collection of heartwarming and endearing clay figurines, inspired by silkworms and cats, expresses a yearning for and cherishment of a peaceful life. Each figurine is meticulously carved by the artist, each vivid and full of emotion, making it a perfect decorative addition to your collection.",
+    GOOD_STATE: Int32("1"),
+    UPLOADER_ID: Int32("2"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba4"),
+    GOOD_ID: Int32("10"),
+    NAME: "Huishan Clay Figurine - Spring Ox",
+    UPSET_PRICE: 796.23,
+    PRICE: 2167.66,
+    STEP: Int32("10"),
+    ARTIST: "Yu Xianglian",
+    CLASS: Int32("0"),
+    COUNT: Int32("290"),
+    CERTIFICATE: "WPGOC7254586",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A peaceful clay figurine artwork, inspired by the Spring Ox, symbolizes Chinese New Year's blessings and hopes for the future. Each figurine is meticulously crafted, featuring flowing lines and beautiful shapes, making it a lucky and auspicious addition to your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("13"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba5"),
+    GOOD_ID: Int32("11"),
+    NAME: "Clay Figurine Zhang - Hua Xiren",
+    UPSET_PRICE: 1437.71,
+    PRICE: 2436.8,
+    STEP: Int32("10"),
+    ARTIST: "Zhang Mingshan",
+    CLASS: Int32("0"),
+    COUNT: Int32("531"),
+    CERTIFICATE: "WPGOC9241564",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A unique clay figurine artwork, depicting Hua Xiren, symbolizes prosperity and beauty. Each figurine is meticulously carved by the artist, boasting vibrant colors and lifelike forms, making it a unique addition to your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("10"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba6"),
+    GOOD_ID: Int32("12"),
+    NAME: "Clay Figurine Zhang - Bethune",
+    UPSET_PRICE: 1169.57,
+    PRICE: 1169.57,
+    STEP: Int32("10"),
+    ARTIST: "Zhang Mingshan",
+    CLASS: Int32("0"),
+    COUNT: Int32("419"),
+    CERTIFICATE: "WPGOC3866751",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A humanistic clay figurine artwork, inspired by the image of Norman Bethune, expresses respect and admiration for the compassionate heart of a doctor. Each figurine embodies the artist's meticulous effort and wisdom, resulting in a lifelike and deeply moving image.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba7"),
+    GOOD_ID: Int32("13"),
+    NAME: "Clay Figurine Zhang - Xizhi's Love Goose",
+    UPSET_PRICE: 1055.11,
+    PRICE: 1055.11,
+    STEP: Int32("10"),
+    ARTIST: "Zhang Yu",
+    CLASS: Int32("0"),
+    COUNT: Int32("412"),
+    CERTIFICATE: "WPGOC6420327",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A unique group of clay figurines, inspired by Xizhi's love for geese, showcases the sentiments and demeanor of ancient Chinese literati. Each goose figurine is meticulously sculpted, lifelike, and carries profound meaning, making it a unique decorative piece for your collection. A stunning Suzhou embroidery piece, featuring a peacock, showcases the exquisite craftsmanship and magnificent elegance of traditional Chinese embroidery. Each stitch and thread embodies the painstaking effort and wisdom of the embroiderers, with vibrant colors and flowing lines, making it a dazzling addition to your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("49"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba8"),
+    GOOD_ID: Int32("14"),
+    NAME: "Suzhou Embroidery - Peacock",
+    UPSET_PRICE: 1605.17,
+    PRICE: 0,
+    STEP: Int32("10"),
+    ARTIST: "Yao Lan",
+    CLASS: Int32("1"),
+    COUNT: Int32("214"),
+    CERTIFICATE: "WPGOC2909684",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A festive Suzhou embroidery piece, featuring a golden monkey, symbolizes happiness and auspiciousness. Each piece is meticulously crafted by the embroiderers, showcasing exquisite craftsmanship and vivid imagery, making it a treasured addition to your collection.",
+    GOOD_STATE: Int32("1"),
+    UPLOADER_ID: Int32("29"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ba9"),
+    GOOD_ID: Int32("15"),
+    NAME: "Suzhou Embroidery - Golden Monkey",
+    UPSET_PRICE: 2184.93,
+    PRICE: 2184.93,
+    STEP: Int32("10"),
+    ARTIST: "Yao Lan",
+    CLASS: Int32("1"),
+    COUNT: Int32("512"),
+    CERTIFICATE: "WPGOC2678857",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "A vibrant group of Suzhou embroidery pieces, featuring six cranes, embody the traditional Chinese culture's appreciation and pursuit of natural beauty. Each piece exudes a rich cultural heritage and artistic sentiment, with flowing lines and vibrant colors, making it a masterpiece for your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052baa"),
+    GOOD_ID: Int32("16"),
+    NAME: "Suzhou Embroidery - Six Cranes",
+    UPSET_PRICE: 2005.87,
+    PRICE: 2005.87,
+    STEP: Int32("10"),
+    ARTIST: "Yao Jianping",
+    CLASS: Int32("1"),
+    COUNT: Int32("889"),
+    CERTIFICATE: "WPGOC3597107",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Collector of the Wind\" is a work of art that embodies the timeless beauty of wind. This piece captures the fluidity and lightness of wind, showcasing its invisible beauty. The artist uses abstract forms to depict the mystery and power of wind, evoking awe and admiration for the power of nature. This artwork will become a source of inspiration in your home, forever guiding you to explore the beauty of nature.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("47"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bab"),
+    GOOD_ID: Int32("17"),
+    NAME: "IL COLLEZIONISTA DI VENTI",
+    UPSET_PRICE: 1912.43,
+    PRICE: 1912.43,
+    STEP: Int32("10"),
+    ARTIST: "Edoardo Tresoldi",
+    CLASS: Int32("1"),
+    COUNT: Int32("313"),
+    CERTIFICATE: "WPGOC6352549",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Thoughts\" is a work of art that showcases the fluid beauty of thought and imagination. This work blends the collision of ideas with artistic expression, presenting a rich and colorful image. The artist uses abstract forms to express the freedom of thought and the boundaries of imagination, evoking exploration and reflection on the inner world. This artwork will become a spiritual journey in your home, forever inspiring you to pursue freedom of thought and innovation.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("2"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bac"),
+    GOOD_ID: Int32("18"),
+    NAME: "PENSIERI",
+    UPSET_PRICE: 1534.59,
+    PRICE: 1534.59,
+    STEP: Int32("10"),
+    ARTIST: "Edoardo Tresoldi",
+    CLASS: Int32("1"),
+    COUNT: Int32("536"),
+    CERTIFICATE: "WPGOC7993146",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Rising\" is a work of art that embodies strength and hope. This work blends the power of rising energy with spiritual enlightenment, presenting an inspiring image. With majestic images and inspiring gestures, the artist expresses the yearning and pursuit of hope and dreams. This artwork will become a dream journey in your home, forever inspiring you to forge ahead and strive for excellence.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("13"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bad"),
+    GOOD_ID: Int32("19"),
+    NAME: "LIFT",
+    UPSET_PRICE: 2692.57,
+    PRICE: 2692.57,
+    STEP: Int32("10"),
+    ARTIST: "Edoardo Tresoldi",
+    CLASS: Int32("1"),
+    COUNT: Int32("614"),
+    CERTIFICATE: "WPGOC2038090",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Beginning\" is a work of art that embodies new beginnings and infinite possibilities. This work uses simple forms to express a new starting point and a vision for the future, presenting endless imagination and possibilities. The artist used abstract techniques to create this vibrant and hopeful image, evoking anticipation and longing for a new life. This artwork will become a beacon of hope in your home, forever inspiring you to pursue your dreams and forge ahead.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("48"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bae"),
+    GOOD_ID: Int32("20"),
+    NAME: "INCIPIT",
+    UPSET_PRICE: 2595.24,
+    PRICE: 2595.24,
+    STEP: Int32("10"),
+    ARTIST: "Edoardo Tresoldi",
+    CLASS: Int32("1"),
+    COUNT: Int32("125"),
+    CERTIFICATE: "WPGOC8940551",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Beginning\" is an artwork that embodies new beginnings and infinite possibilities. This work, with its simple form, expresses a fresh start and a vision for the future, presenting boundless imagination and possibilities. The artist uses abstraction to create this vibrant and hopeful image, evoking anticipation and longing for a new life. This artwork will become a beacon of hope in your home, forever inspiring you to pursue your dreams and forge ahead.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052baf"),
+    GOOD_ID: Int32("21"),
+    NAME: "Etherea",
+    UPSET_PRICE: 1607.4,
+    PRICE: 0,
+    STEP: Int32("10"),
+    ARTIST: "Edoardo Tresoldi",
+    CLASS: Int32("1"),
+    COUNT: Int32("422"),
+    CERTIFICATE: "WPGOC9308792",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Etherea\" is an artwork that embodies the beauty of a phantasmagorical world beyond reality. This work blends fantasy and reality to create a scene filled with mystery and imagination. Using vibrant colors and flowing lines, the artist depicts a wondrous realm beyond the real world, leading the viewer on a journey of discovery deep within. This artwork will become a fantasy destination in your home, forever inspiring you to explore the unknown and pursue beauty.",
+    GOOD_STATE: Int32("1"),
+    UPLOADER_ID: Int32("10"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb0"),
+    GOOD_ID: Int32("22"),
+    NAME: "Archetipo",
+    UPSET_PRICE: 1060.41,
+    PRICE: 1060.41,
+    STEP: Int32("10"),
+    ARTIST: "Edoardo Tresoldi",
+    CLASS: Int32("1"),
+    COUNT: Int32("895"),
+    CERTIFICATE: "WPGOC7414701",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Archetipo\" is an artwork that embodies the timeless beauty of archetypes. Through its simple form and profound meaning, this work demonstrates the important role and enduring power of archetypes in human culture. The artist uses abstraction to express the universality and rich connotations of archetypes, prompting viewers to reflect and rethink human culture and traditions. This artwork will become a cultural heritage in your home, forever inspiring your respect and reverence for human wisdom.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb1"),
+    GOOD_ID: Int32("23"),
+    NAME: "VERTICAL GREEN",
+    UPSET_PRICE: 1682.87,
+    PRICE: 1682.87,
+    STEP: Int32("10"),
+    ARTIST: "De Castelli",
+    CLASS: Int32("1"),
+    COUNT: Int32("682"),
+    CERTIFICATE: "WPGOC8152576",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"VERTICAL GREEN\" is a work of art that embodies the vitality and vibrancy of greenery. Through the image of vertically growing plants, this work showcases the tenacity and vitality of life. Using simple yet powerful lines and colors, the artist depicts a magnificent scene of life growing vertically, evoking awe and admiration for the miracle of life. This artwork will become a source of vitality in your home, forever inspiring you to explore the beauty and meaning of life.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb2"),
+    GOOD_ID: Int32("24"),
+    NAME: "Marea Tide Cabinet",
+    UPSET_PRICE: 1521.03,
+    PRICE: 1521.03,
+    STEP: Int32("10"),
+    ARTIST: "De Castelli",
+    CLASS: Int32("1"),
+    COUNT: Int32("578"),
+    CERTIFICATE: "WPGOC6709641",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Marea Tidal Cabinet\" is a work of art that captures the beauty and eternal movement of the tides. Through flowing lines and rich colors, this piece depicts the majestic scene of waves crashing against the shore. With unique design and exquisite craftsmanship, the artist perfectly combines the dynamic and beautiful nature of the tides, evoking awe and awe in the viewer's admiration for the power of nature. This artwork will become the soul of the ocean in your home, forever creating an atmosphere of movement and vitality. The \"DeErosion Wall Decor\" is a work that showcases the imprint of time and the timeless beauty of art. This piece simulates the effects of natural weathering, showcasing the traces and beauty left by time in nature. With exquisite craftsmanship and unique design, the artist transforms the wall into a scene imbued with stories and history, evoking reflection and appreciation for the passage of time. This piece will become an artistic landscape in your home, forever showcasing the beauty and mystery of time.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("18"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb3"),
+    GOOD_ID: Int32("25"),
+    NAME: "DeErosion Wall Decor",
+    UPSET_PRICE: 939.98,
+    PRICE: 939.98,
+    STEP: Int32("10"),
+    ARTIST: "De Castelli",
+    CLASS: Int32("1"),
+    COUNT: Int32("78"),
+    CERTIFICATE: "WPGOC5913872",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"ALCHEMY\" piece embodies the alchemy of art and the wonder of transformation. By blending diverse materials and elements, this artwork creates a mysterious and captivating effect. With ingenious imagination and ingenious technique, the artist seamlessly combines the mystery of alchemy with the beauty of art, creating a scene full of transformation and mystery. This piece will become a marvel in your home, forever showcasing the infinite possibilities of art.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("8"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb4"),
+    GOOD_ID: Int32("26"),
+    NAME: "ALCHEMY",
+    UPSET_PRICE: 932.79,
+    PRICE: 932.79,
+    STEP: Int32("10"),
+    ARTIST: "De Castelli",
+    CLASS: Int32("1"),
+    COUNT: Int32("502"),
+    CERTIFICATE: "WPGOC5112398",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"ALCHEMY\" piece embodies the alchemy of art and the wonder of transformation. By blending diverse materials and elements, this artwork creates a mysterious and captivating effect. With ingenious imagination and ingenious technique, the artist seamlessly combines the mystery of alchemy with the beauty of art, creating a scene full of transformation and mystery. This piece will become a marvel in your home, forever showcasing the infinite possibilities of art.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("12"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb5"),
+    GOOD_ID: Int32("27"),
+    NAME: "Laibin Stone",
+    UPSET_PRICE: 1855.37,
+    PRICE: 1855.37,
+    STEP: Int32("10"),
+    ARTIST: "None",
+    CLASS: Int32("2"),
+    COUNT: Int32("142"),
+    CERTIFICATE: "WPGOC9770667",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Guest Stone\" is a piece of stone that embodies the uncanny beauty of nature. Praised for its unique form and texture, this stone is hailed as a work of art from nature. Its naturally formed lines and colors present a natural beauty and unique charm that makes people marvel. This guest stone will become a natural treasure in your home, always exuding the unique charm of nature.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb6"),
+    GOOD_ID: Int32("28"),
+    NAME: "Guangxi Hongshui River Stone",
+    UPSET_PRICE: 2234.57,
+    PRICE: 2234.57,
+    STEP: Int32("10"),
+    ARTIST: "None",
+    CLASS: Int32("2"),
+    COUNT: Int32("179"),
+    CERTIFICATE: "WPGOC1971824",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The Guangxi Hongshui River Stone is a stone that embodies the natural beauty of Guangxi. This stone has attracted attention for its vibrant red color and unique veining, earning it the nickname \"The Treasure of Hongshui.\" Its naturally formed veins and colors exude a unique poetic and mysterious quality that captivates and captivates. This piece of Hongshui River Stone will become a natural spirit in your home, forever radiating the unique charm of natural beauty.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb7"),
+    GOOD_ID: Int32("29"),
+    NAME: "Guangxi Sanjiang Wax Stone",
+    UPSET_PRICE: 2906.22,
+    PRICE: 2906.22,
+    STEP: Int32("10"),
+    ARTIST: "None",
+    CLASS: Int32("2"),
+    COUNT: Int32("704"),
+    CERTIFICATE: "WPGOC4027960",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The Guangxi Sanjiang Stone is a treasure that showcases the gentle beauty of wax stone. This stone has attracted attention for its waxy texture and vibrant hues, earning it the nickname \"The Spirit of Nature.\" Its naturally formed lines and veins resemble a natural painting, evoking the magic and tenderness of nature. This piece of wax stone will become a natural treasure in your home, forever radiating the mystery and charm of nature.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("35"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb8"),
+    GOOD_ID: Int32("30"),
+    NAME: "Guangxi Sanjiang Stone",
+    UPSET_PRICE: 2513.6,
+    PRICE: 0,
+    STEP: Int32("10"),
+    ARTIST: "None",
+    CLASS: Int32("2"),
+    COUNT: Int32("613"),
+    CERTIFICATE: "WPGOC7318231",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The Guangxi Sanjiang Wax Stone is a treasure that showcases the gentle beauty of wax stone. This stone has attracted attention for its waxy texture and vibrant hues, earning it the nickname \"The Spirit of Nature.\" Its naturally formed lines and textures resemble a painting by nature, allowing one to experience the wonder and beauty of nature. This wax stone will become a natural treasure in your home, forever radiating the mystery and charm of nature.",
+    GOOD_STATE: Int32("1"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bb9"),
+    GOOD_ID: Int32("31"),
+    NAME: "Large Fossil",
+    UPSET_PRICE: 1674.49,
+    PRICE: 1674.49,
+    STEP: Int32("10"),
+    ARTIST: "None",
+    CLASS: Int32("2"),
+    COUNT: Int32("315"),
+    CERTIFICATE: "WPGOC6758879",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Big Fossil\" is a marvel that reveals the imprints of life spanning billions of years. This fossil, renowned for its enormous size and rich collection, is hailed as a trace of life. Its sedimentary textures and forms bear witness to the passage of time, allowing one to experience the wonder and transformation of life. This fossil will become a journey through time in your home, forever showcasing the grandeur and wonder of life.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bba"),
+    GOOD_ID: Int32("32"),
+    NAME: "Inner Mongolia Jigu Stone",
+    UPSET_PRICE: 1692.63,
+    PRICE: 1692.63,
+    STEP: Int32("10"),
+    ARTIST: "None",
+    CLASS: Int32("2"),
+    COUNT: Int32("192"),
+    CERTIFICATE: "WPGOC2440050",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Inner Mongolia Jigu Stone\" is a treasure that embodies ancient wisdom. This stone, renowned for its rich historical background and unique cultural value, is known as \"stone culture.\" Its traces of cultural heritage and millennia of wisdom are like a precious legacy left by ancient sages, inspiring contemplation and admiration. This Jigu Stone will become a source of wisdom in your home, forever showcasing the splendor and charm of ancient culture.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("3"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bbb"),
+    GOOD_ID: Int32("33"),
+    NAME: "Jingdezhen Landscape Ceramic Vase",
+    UPSET_PRICE: 1185.73,
+    PRICE: 1185.73,
+    STEP: Int32("10"),
+    ARTIST: "Xu Shengui",
+    CLASS: Int32("4"),
+    COUNT: Int32("305"),
+    CERTIFICATE: "WPGOC3574699",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Jingdezhen Landscape Ceramic Vase\" is a work of art that showcases the elegance of ceramics and the beauty of landscapes. This vase is highly acclaimed for its exquisite craftsmanship and unique design, and is considered a treasure of ceramics. Its meticulously carved patterns and lines evoke the spirit of mountains and rivers flowing through the ceramic, evoking the purity and charm of natural beauty. This vase will become a beautiful piece of art in your home, forever radiating the elegance of ceramics and the spirit of mountains and rivers.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("43"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bbc"),
+    GOOD_ID: Int32("34"),
+    NAME: "Qing Dynasty Qianlong Period Famille Rose Hollow-cut \"Auspicious and Abundant\" Rotating Heart Vase",
+    UPSET_PRICE: 1513.9,
+    PRICE: 0,
+    STEP: Int32("10"),
+    ARTIST: "Qianlong Period of the Qing Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("247"),
+    CERTIFICATE: "WPGOC8073767",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Qing Dynasty Qianlong Famille Rose Hollow-cut 'Auspicious and Abundant' Revolving Heart Vase\" is a stunning example of ancient Chinese ceramic art. This porcelain vase has garnered significant attention for its exquisite craftsmanship and unique design, and is considered a treasure of the imperial court. Its delicate famille rose decorations and hollow-cut carvings embody auspicious motifs from traditional Chinese culture, symbolizing happiness and good fortune. This porcelain vase will become a treasured piece in your home, forever radiating the splendor of imperial power and auspicious blessings.",
+    GOOD_STATE: Int32("1"),
+    UPLOADER_ID: Int32("12"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bbd"),
+    GOOD_ID: Int32("35"),
+    NAME: "Light Yellow Ground Foreign-Enamel Long-Neck Gourd Vase with \"Icing on the Cake and Longevity\" Design",
+    UPSET_PRICE: 2156.98,
+    PRICE: 2156.98,
+    STEP: Int32("10"),
+    ARTIST: "Qianlong Period of the Qing Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("705"),
+    CERTIFICATE: "WPGOC8555017",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Light Yellow Ground Yangcai Long-necked Gourd Vase with a Longevity Pattern\" is a treasure that embodies the auspicious meanings of traditional Chinese culture. This vase is highly praised for its intricate painting and ornate decoration, and is considered a symbol of good fortune and prosperity. Its exquisite patterns and profound themes express the Chinese yearning for longevity and happiness. This vase will become a lucky treasure in your home, forever conveying the beautiful wishes of longevity and prosperity.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bbe"),
+    GOOD_ID: Int32("36"),
+    NAME: "Blue and White Ruyi Plum Vase with Drop Shoulder and Broken Branches and Fruit Design",
+    UPSET_PRICE: 1194.98,
+    PRICE: 1194.98,
+    STEP: Int32("10"),
+    ARTIST: "Yongle Period of the Ming Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("720"),
+    CERTIFICATE: "WPGOC5113403",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Blue and White Ruyi Plum Vase with Overhanging Shoulders, Broken Branches, Flowers and Fruits\" is a rare piece that showcases the art of traditional Chinese blue and white porcelain. This vase has attracted attention for its exquisite blue and white painting and elegant design, and is considered a symbol of good fortune and prosperity. The patterns and decorations on the vase symbolize good fortune and prosperity, representing beautiful wishes and hopes. This vase will become a lucky treasure in your home, forever exuding auspicious and auspicious atmosphere.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("1"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bbf"),
+    GOOD_ID: Int32("37"),
+    NAME: "Chenghua Doucai Chicken Cup",
+    UPSET_PRICE: 2829.28,
+    PRICE: 2869.28,
+    STEP: Int32("10"),
+    ARTIST: "Ming Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("53"),
+    CERTIFICATE: "WPGOC9619336",
+    START_TIME: ISODate("2025-09-05T10:00:02.006Z"),
+    END_TIME: ISODate("2025-09-06T02:17:02.006Z"),
+    INTRODUCTION: "The \"Chenghua Doucai Chicken Cup\" is a rare piece that showcases the porcelain craftsmanship of the Ming Dynasty. This cup, with its exquisite Doucai painting and elegant shape, has attracted attention and is considered a historical heritage. Its unique pattern and doucai decoration embody the exquisite craftsmanship and superior quality of ancient Chinese ceramics. This cup will become a treasured collectible in your home, forever carrying the glory of history and the essence of culture.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("21"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc0"),
+    GOOD_ID: Int32("38"),
+    NAME: "Ru Kiln Celadon-Glazed Sunflower Washbasin",
+    UPSET_PRICE: 1531.51,
+    PRICE: 1567.92,
+    STEP: Int32("10"),
+    ARTIST: "Northern Song Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("255"),
+    CERTIFICATE: "WPGOC3995764",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Ru Kiln Celadon Glaze Sunflower Washbasin\" is a treasure that showcases the exquisite craftsmanship of ancient Chinese Ru kiln porcelain. With its celestial blue glaze and sunflower motifs, this washbasin embodies the spiritual energy and vitality of heaven and earth. Its exquisite craftsmanship and unique design have attracted the attention of countless art collectors. This washbasin is not only a work of art but also a witness to history, offering an immersive experience of the beauty of ancient kilns and immersing you in the mysterious atmosphere of ancient craftsmanship.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("9"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc1"),
+    GOOD_ID: Int32("39"),
+    NAME: "Ru Kiln Celadon-Glazed Washbasin",
+    UPSET_PRICE: 2259.42,
+    PRICE: Int32("0"),
+    STEP: Int32("10"),
+    ARTIST: "Northern Song Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("698"),
+    CERTIFICATE: "WPGOC7871300",
+    START_TIME: ISODate("2025-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2025-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Ru Kiln Celadon Glaze Washbasin\" is a treasure that showcases the craftsmanship of ancient Chinese Ru kiln porcelain. With its celestial blue glaze and auspicious dog motif, this washbasin depicts a vibrant spring scene. Its exquisite craftsmanship and elegant shape add to its infinite charm. This washbasin is not only a work of art but also a carrier of culture, bringing you the freshness and joy of spring and allowing you to experience the spirit of ancient wisdom and the beauty of life. The \"Flower-Painted Guiguzi Descending the Mountain Jar\" is a treasured masterpiece showcasing the art of ancient Chinese ceramic painting. With its exquisite depiction of a mountain gourd, this jar embodies the admiration and depiction of natural landscapes by ancient Chinese literati. Its unique style and enigmatic aesthetic have captivated countless collectors. This jar is more than just a work of art; it is a cultural legacy, offering an immersive artistic experience and allowing you to appreciate the mysteries of ancient wisdom and artistry.",
+    GOOD_STATE: Int32("1"),
+    UPLOADER_ID: Int32("12"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc2"),
+    GOOD_ID: Int32("40"),
+    NAME: "Flower Jar with Guiguzi Descending the Mountain",
+    UPSET_PRICE: 1021.83,
+    PRICE: 1021.83,
+    STEP: Int32("10"),
+    ARTIST: "Yuan Qing Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("466"),
+    CERTIFICATE: "WPGOC3167726",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Flower-Painted Guiguzi Descending the Mountain Jar\" is a treasured masterpiece showcasing the art of ancient Chinese ceramic painting. With its exquisite depiction of a mountain gourd, this jar embodies the admiration and depiction of natural landscapes by ancient Chinese literati. Its unique style and enigmatic aesthetic have captivated countless collectors. This jar is more than just a work of art; it is a cultural legacy, offering an immersive artistic experience and allowing you to appreciate the mysteries of ancient wisdom and artistry.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("12"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc3"),
+    GOOD_ID: Int32("41"),
+    NAME: "Imperial enameled hammered vase",
+    UPSET_PRICE: 1146.17,
+    PRICE: 1146.17,
+    STEP: Int32("10"),
+    ARTIST: "Qianlong Period of the Qing Dynasty",
+    CLASS: Int32("4"),
+    COUNT: Int32("830"),
+    CERTIFICATE: "WPGOC2696844",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Imperial Enamel-Painted Hammered Vase\" is a distinguished piece showcasing the craftsmanship of ancient Chinese imperial kiln porcelain. With its vibrant enamel painting and exquisite craftsmanship, this hammered vase embodies the nobility and glory of the imperial kilns. Its unique shape and ornate decoration are breathtaking. More than just a work of art, this hammered vase is a symbol of imperial honor, immersing you in the royal atmosphere and allowing you to experience the splendor of ancient royalty.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("11"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc4"),
+    GOOD_ID: Int32("42"),
+    NAME: "A two-handled vase with floral designs and gilded enamel in deep blue",
+    UPSET_PRICE: 1788.45,
+    PRICE: 1788.45,
+    STEP: Int32("10"),
+    ARTIST: "None",
+    CLASS: Int32("4"),
+    COUNT: Int32("644"),
+    CERTIFICATE: "WPGOC2291804",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "The \"Imperial Blue and Gold-Painted Famille Rose Floral Amphora Vase\" is a rare artistic treasure showcasing the craftsmanship of ancient Chinese famille rose porcelain. This amphora, with its vibrant blue-and-gold opening and pastel-colored floral motifs, showcases the unique charm of ancient Chinese porcelain art. Its exquisite craftsmanship and ornate decoration add to its infinite allure. More than just a work of art, this amphora is a cultural legacy, offering an immersive experience of artistic beauty and a glimpse into ancient wisdom and the beauty of life.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("16"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc5"),
+    GOOD_ID: Int32("43"),
+    NAME: "Crane paintings with lotus fragrance",
+    UPSET_PRICE: 1788.45,
+    PRICE: 1788.45,
+    STEP: Int32("10"),
+    ARTIST: "Zhao Wenji",
+    CLASS: Int32("3"),
+    COUNT: Int32("644"),
+    CERTIFICATE: "WPGOC1647487",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Crane's Lotus with Fragrance\" captures the harmony and vitality of nature. The artist's delicate brushstrokes capture the graceful beauty of the lotus and bring the cranes dancing on the lake to life. This work evokes a sense of tranquility and vitality amidst a lush lotus pond. It will be a truly exquisite addition to your personal collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("16"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc6"),
+    GOOD_ID: Int32("44"),
+    NAME: "Detailed lotus blossoms",
+    UPSET_PRICE: 1788.45,
+    PRICE: 1788.45,
+    STEP: Int32("10"),
+    ARTIST: "Zhao Wenji",
+    CLASS: Int32("3"),
+    COUNT: Int32("644"),
+    CERTIFICATE: "WPGOC4096245",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Gongbi Lotus\" is a masterpiece of traditional gongbi painting, showcasing the exquisite technique and unique charm of Chinese painting. The artist's delicate lines depict the texture of the lotus leaves and rich colors capture the beauty of the lotus blossoms. This work not only showcases the charm of traditional gongbi painting but also offers a vibrant interpretation of Chinese cultural traditions. It will become a treasured treasure in your collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("16"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc7"),
+    GOOD_ID: Int32("45"),
+    NAME: "Full moon in the sky",
+    UPSET_PRICE: 1788.45,
+    PRICE: 1788.45,
+    STEP: Int32("10"),
+    ARTIST: "He Jiaying",
+    CLASS: Int32("3"),
+    COUNT: Int32("644"),
+    CERTIFICATE: "WPGOC1390048",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Full Moon in the Heart of the Sky\" is a mesmerizing moonlit landscape. Using deep colors and flowing lines, the artist depicts the bright moon hanging high in the sky, serenely illuminating the earth. This work not only captures the beauty of nature but also expresses our yearning for inner peace and tranquility. It will be a shower of moonlight in your personal collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("16"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc8"),
+    GOOD_ID: Int32("46"),
+    NAME: "Flowers everywhere in the spring city",
+    UPSET_PRICE: 1788.45,
+    PRICE: 1788.45,
+    STEP: Int32("10"),
+    ARTIST: "He Jiaying",
+    CLASS: Int32("3"),
+    COUNT: Int32("644"),
+    CERTIFICATE: "WPGOC4025912",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Flowers Flying Everywhere in Spring City\" captures the vibrant energy of spring and the lush blossoms of flowers. With vivid brushstrokes and rich colors, the artist depicts the beautiful scene of petals falling in the spring breeze during the blooming season. This work evokes a sense of spring, full of vitality and energy. It will be a refreshing touch of spring in your personal collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("16"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bc9"),
+    GOOD_ID: Int32("47"),
+    NAME: "Drunkenly sleeping in the shade of flowers, clothes filled with fragrance",
+    UPSET_PRICE: 1788.45,
+    PRICE: 1788.45,
+    STEP: Int32("10"),
+    ARTIST: "He Jiaying",
+    CLASS: Int32("3"),
+    COUNT: Int32("644"),
+    CERTIFICATE: "WPGOC5254001",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Sleeping Drunkenly in the Shade of Flowers, Fragrance Fills Clothes\" is a poetic painting depicting a person immersed in the joy of reading in nature. Using soft colors and delicate brushstrokes, the artist depicts a reader soundly asleep on a bluestone beneath a vine. This work blends reading with nature, evoking the fragrance of knowledge and tranquility. It will become a tranquil haven for reading in your personal collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("16"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+db.getCollection("goods").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bca"),
+    GOOD_ID: Int32("48"),
+    NAME: "Reading under the vines",
+    UPSET_PRICE: 1788.45,
+    PRICE: 1788.45,
+    STEP: Int32("10"),
+    ARTIST: "He Jiaying",
+    CLASS: Int32("3"),
+    COUNT: Int32("644"),
+    CERTIFICATE: "WPGOC5100192",
+    START_TIME: ISODate("2022-11-16T10:00:02.006Z"),
+    END_TIME: ISODate("2022-12-12T10:00:02.006Z"),
+    INTRODUCTION: "\"Reading Under the Vine\" is a uniquely artistic work, capturing the beautiful harmony of reading and nature. The artist's delicate brushstrokes depict the entwined vines and the serene demeanor of a reader beneath the shade, blending natural scenery with a humanistic spirit. This work not only demonstrates the spiritual nourishment of the natural environment but also beautifully captures the quiet moments of reading. It will be a refined addition to your personal collection.",
+    GOOD_STATE: Int32("0"),
+    UPLOADER_ID: Int32("16"),
+    UPLOAD_TIME: ISODate("2019-12-12T10:00:02.006Z")
+} ]);
+
+// ----------------------------
+// Collection structure for message
+// ----------------------------
+db.getCollection("message").drop();
+db.createCollection("message");
+
+// ----------------------------
+// Documents of message
+// ----------------------------
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bcb"),
+    MESSAGE_ID: Int32("1"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("36"),
+    CONTENT: "Anyone who has ever made anything of importance was disciplined. The past has no power over the present moment. Secure SHell (SSH)                    ",
+    SELLER_ID: Int32("8"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bcc"),
+    MESSAGE_ID: Int32("2"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("23"),
+    CONTENT: "I destroy my enemies when I make them my friends. I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
+    SELLER_ID: Int32("37"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bcd"),
+    MESSAGE_ID: Int32("3"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("8"),
+    CONTENT: "In other words, Navicat provides the ability for data in different databases and/or schemas to be kept up-to-date so that each repository             ",
+    SELLER_ID: Int32("24"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bce"),
+    MESSAGE_ID: Int32("4"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("11"),
+    CONTENT: "Import Wizard allows you to import data to tables/collections from CSV, TXT, XML, DBF and more. Navicat 15 has added support for the                  ",
+    SELLER_ID: Int32("25"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bcf"),
+    MESSAGE_ID: Int32("5"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("1"),
+    CONTENT: "There is no way to happiness. Happiness is the way. Navicat Cloud provides a cloud service for synchronizing connections, queries,                    ",
+    SELLER_ID: Int32("39"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd0"),
+    MESSAGE_ID: Int32("6"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("10"),
+    CONTENT: "SQL Editor allows you to create and edit SQL text, prepare and execute selected queries. With its well-designed Graphical User Interface(GUI),        ",
+    SELLER_ID: Int32("6"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd1"),
+    MESSAGE_ID: Int32("7"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("4"),
+    CONTENT: "To open a query using an external editor, control-click it and select Open with External Editor. You can set the file path of an external             ",
+    SELLER_ID: Int32("36"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd2"),
+    MESSAGE_ID: Int32("8"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("5"),
+    CONTENT: "I will greet this day with love in my heart. There is no way to happiness. Happiness is the way. SSH serves to prevent such vulnerabilities           ",
+    SELLER_ID: Int32("39"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd3"),
+    MESSAGE_ID: Int32("9"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("3"),
+    CONTENT: "Navicat Data Modeler is a powerful and cost-effective database design tool which helps you build high-quality conceptual, logical and                 ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("5")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd4"),
+    MESSAGE_ID: Int32("10"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("8"),
+    CONTENT: "If it scares you, it might be a good thing to try. Typically, it is employed as an encrypted version of Telnet.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("9")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd5"),
+    MESSAGE_ID: Int32("11"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("2"),
+    CONTENT: "Genius is an infinite capacity for taking pains. Secure SHell (SSH) is a program to log in into another computer over a network, execute              ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("1")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd6"),
+    MESSAGE_ID: Int32("12"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("6"),
+    CONTENT: "Navicat provides powerful tools for working with queries: Query Editor for editing the query text directly, and Query Builder, Find                   ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("22")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd7"),
+    MESSAGE_ID: Int32("13"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("8"),
+    CONTENT: "Export Wizard allows you to export data from tables, collections, views, or query results to any available formats.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("5")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd8"),
+    MESSAGE_ID: Int32("14"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("5"),
+    CONTENT: "To connect to a database or schema, simply double-click it in the pane. Secure SHell (SSH) is a program to log in into another computer               ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("9")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bd9"),
+    MESSAGE_ID: Int32("15"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("5"),
+    CONTENT: "Monitored servers include MySQL, MariaDB and SQL Server, and compatible with cloud databases like Amazon RDS, Amazon Aurora, Oracle                   ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("24")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bda"),
+    MESSAGE_ID: Int32("16"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("21"),
+    CONTENT: "To start working with your server in Navicat, you should first establish a connection or several connections using the Connection window.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("16")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bdb"),
+    MESSAGE_ID: Int32("17"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("3"),
+    CONTENT: "Navicat Data Modeler is a powerful and cost-effective database design tool which helps you build high-quality conceptual, logical and                 ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("36")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bdc"),
+    MESSAGE_ID: Int32("18"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("31"),
+    CONTENT: "Navicat Monitor can be installed on any local computer or virtual machine and does not require any software installation on the servers               ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("6")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bdd"),
+    MESSAGE_ID: Int32("19"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("2"),
+    CONTENT: "Success consists of going from failure to failure without loss of enthusiasm. You must be the change you wish to see in the world.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("20")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bde"),
+    MESSAGE_ID: Int32("20"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("18"),
+    CONTENT: "Always keep your eyes open. Keep watching. Because whatever you see can inspire you. If your Internet Service Provider (ISP) does not                 ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("3")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bdf"),
+    MESSAGE_ID: Int32("21"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("7"),
+    CONTENT: "If opportunity doesn’t knock, build a door. The first step is as good as half over. I destroy my enemies when I make them my friends.               ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("35")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be0"),
+    MESSAGE_ID: Int32("22"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("9"),
+    CONTENT: "Anyone who has ever made anything of importance was disciplined. It wasn’t raining when Noah built the ark. To connect to a database                ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("2")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be1"),
+    MESSAGE_ID: Int32("23"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("27"),
+    CONTENT: "Actually it is just in an idea when feel oneself can achieve and cannot achieve. Navicat Monitor is a safe, simple and agentless remote               ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("5")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be2"),
+    MESSAGE_ID: Int32("24"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("14"),
+    CONTENT: "If it scares you, it might be a good thing to try. SSH serves to prevent such vulnerabilities and allows you to access a remote server's              ",
+    SELLER_ID: Int32("22"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be3"),
+    MESSAGE_ID: Int32("25"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("4"),
+    CONTENT: "All the Navicat Cloud objects are located under different projects. You can share the project to other Navicat Cloud accounts for collaboration.",
+    SELLER_ID: Int32("7"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be4"),
+    MESSAGE_ID: Int32("26"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("22"),
+    CONTENT: "I destroy my enemies when I make them my friends. Export Wizard allows you to export data from tables, collections, views, or query                   ",
+    SELLER_ID: Int32("1"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be5"),
+    MESSAGE_ID: Int32("27"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("3"),
+    CONTENT: "Secure Sockets Layer(SSL) is a protocol for transmitting private documents via the Internet. It is used while your ISPs do not allow                  ",
+    SELLER_ID: Int32("5"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be6"),
+    MESSAGE_ID: Int32("28"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("5"),
+    CONTENT: "To successfully establish a new connection to local/remote server - no matter via SSL or SSH, set the database login information in the General tab.",
+    SELLER_ID: Int32("4"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be7"),
+    MESSAGE_ID: Int32("29"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("3"),
+    CONTENT: "To get a secure connection, the first thing you need to do is to install OpenSSL Library and download Database Source.",
+    SELLER_ID: Int32("39"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be8"),
+    MESSAGE_ID: Int32("30"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("28"),
+    CONTENT: "Difficult circumstances serve as a textbook of life for people. In other words, Navicat provides the ability for data in different                    ",
+    SELLER_ID: Int32("31"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052be9"),
+    MESSAGE_ID: Int32("31"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("26"),
+    CONTENT: "Monitored servers include MySQL, MariaDB and SQL Server, and compatible with cloud databases like Amazon RDS, Amazon Aurora, Oracle                   ",
+    SELLER_ID: Int32("8"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bea"),
+    MESSAGE_ID: Int32("32"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("17"),
+    CONTENT: "To open a query using an external editor, control-click it and select Open with External Editor. You can set the file path of an external             ",
+    SELLER_ID: Int32("18"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052beb"),
+    MESSAGE_ID: Int32("33"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("8"),
+    CONTENT: "The Information Pane shows the detailed object information, project activities, the DDL of database objects, object dependencies, membership          ",
+    SELLER_ID: Int32("5"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bec"),
+    MESSAGE_ID: Int32("34"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("12"),
+    CONTENT: "Import Wizard allows you to import data to tables/collections from CSV, TXT, XML, DBF and more. The On Startup feature allows you to                  ",
+    SELLER_ID: Int32("17"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bed"),
+    MESSAGE_ID: Int32("35"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("8"),
+    CONTENT: "Actually it is just in an idea when feel oneself can achieve and cannot achieve. Navicat Monitor is a safe, simple and agentless remote               ",
+    SELLER_ID: Int32("16"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bee"),
+    MESSAGE_ID: Int32("36"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("9"),
+    CONTENT: "Anyone who has never made a mistake has never tried anything new. Navicat allows you to transfer data from one database and/or schema                 ",
+    SELLER_ID: Int32("11"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bef"),
+    MESSAGE_ID: Int32("37"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("38"),
+    CONTENT: "With its well-designed Graphical User Interface(GUI), Navicat lets you quickly and easily create, organize, access and share information              ",
+    SELLER_ID: Int32("11"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf0"),
+    MESSAGE_ID: Int32("38"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("5"),
+    CONTENT: "It wasn’t raining when Noah built the ark. If you wait, all that happens is you get older. What you get by achieving your goals is                  ",
+    SELLER_ID: Int32("3"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf1"),
+    MESSAGE_ID: Int32("39"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("19"),
+    CONTENT: "If the plan doesn’t work, change the plan, but never the goal. Such sessions are also susceptible to session hijacking, where a malicious           ",
+    SELLER_ID: Int32("1"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf2"),
+    MESSAGE_ID: Int32("40"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("2"),
+    CONTENT: "Navicat Monitor can be installed on any local computer or virtual machine and does not require any software installation on the servers               ",
+    SELLER_ID: Int32("25"),
+    BUYR_ID: null
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf3"),
+    MESSAGE_ID: Int32("41"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("27"),
+    CONTENT: "HTTP Tunneling is a method for connecting to a server that uses the same protocol (http://) and the same port (port 80) as a web server does.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("14")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf4"),
+    MESSAGE_ID: Int32("42"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("3"),
+    CONTENT: "If you wait, all that happens is you get older. If it scares you, it might be a good thing to try. You must be the change you wish                    ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("2")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf5"),
+    MESSAGE_ID: Int32("43"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("25"),
+    CONTENT: "Sometimes you win, sometimes you learn. The repository database can be an existing MySQL, MariaDB, PostgreSQL, SQL Server, or Amazon RDS instance.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("10")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf6"),
+    MESSAGE_ID: Int32("44"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("6"),
+    CONTENT: "To start working with your server in Navicat, you should first establish a connection or several connections using the Connection window.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("19")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf7"),
+    MESSAGE_ID: Int32("45"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("5"),
+    CONTENT: "If your Internet Service Provider (ISP) does not provide direct access to its server, Secure Tunneling Protocol (SSH) / HTTP is another solution.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("2")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf8"),
+    MESSAGE_ID: Int32("46"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("24"),
+    CONTENT: "Navicat Cloud could not connect and access your databases. By which it means, it could only store your connection settings, queries,                  ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("28")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bf9"),
+    MESSAGE_ID: Int32("47"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("9"),
+    CONTENT: "SQL Editor allows you to create and edit SQL text, prepare and execute selected queries. In other words, Navicat provides the ability                 ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("5")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bfa"),
+    MESSAGE_ID: Int32("48"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("16"),
+    CONTENT: "What you get by achieving your goals is not as important as what you become by achieving your goals. Navicat provides a wide range                    ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("6")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bfb"),
+    MESSAGE_ID: Int32("49"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("6"),
+    CONTENT: "In the Objects tab, you can use the List List, Detail Detail and ER Diagram ER Diagram buttons to change the object view.",
+    SELLER_ID: null,
+    BUYR_ID: Int32("6")
+} ]);
+db.getCollection("message").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bfc"),
+    MESSAGE_ID: Int32("50"),
+    TIME: ISODate("2006-04-13T12:57:03.000Z"),
+    GOOD_ID: Int32("24"),
+    CONTENT: "You can select any connections, objects or projects, and then select the corresponding buttons on the Information Pane.                               ",
+    SELLER_ID: null,
+    BUYR_ID: Int32("18")
+} ]);
+
+// ----------------------------
+// Collection structure for permission
+// ----------------------------
+db.getCollection("permission").drop();
+db.createCollection("permission");
+
+// ----------------------------
+// Documents of permission
+// ----------------------------
+db.getCollection("permission").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bfd"),
+    ID: Int32("0"),
+    ARRAY: "[-1, 0, 1, 11, 2, 3, 31, 4, 5]"
+} ]);
+db.getCollection("permission").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bfe"),
+    ID: Int32("1"),
+    ARRAY: "[-1, 0, 1, 12, 13, 2, 3, 32, 4, 5]"
+} ]);
+db.getCollection("permission").insert([ {
+    _id: ObjectId("68ba6368409e84318d052bff"),
+    ID: Int32("2"),
+    ARRAY: "[-1, 0, 1, 12, 13, 2, 3, 31, 32, 4, 41, 5, 6, 7, 8, 9]"
+} ]);
+
+// ----------------------------
+// Collection structure for price_info
+// ----------------------------
+db.getCollection("price_info").drop();
+db.createCollection("price_info");
+
+// ----------------------------
+// Documents of price_info
+// ----------------------------
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c00"),
+    INFO_ID: Int32("1"),
+    BUYR_ID: Int32("17"),
+    GOOD_ID: Int32("23"),
+    PRICE: 1413.49,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c01"),
+    INFO_ID: Int32("2"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("9"),
+    PRICE: 2982.19,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c02"),
+    INFO_ID: Int32("3"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("30"),
+    PRICE: 897.44,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c03"),
+    INFO_ID: Int32("4"),
+    BUYR_ID: Int32("6"),
+    GOOD_ID: Int32("32"),
+    PRICE: 2737.64,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c04"),
+    INFO_ID: Int32("5"),
+    BUYR_ID: Int32("21"),
+    GOOD_ID: Int32("25"),
+    PRICE: 2509.11,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c05"),
+    INFO_ID: Int32("6"),
+    BUYR_ID: Int32("19"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1568.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c06"),
+    INFO_ID: Int32("7"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2518.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c07"),
+    INFO_ID: Int32("8"),
+    BUYR_ID: Int32("37"),
+    GOOD_ID: Int32("30"),
+    PRICE: 1533.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c08"),
+    INFO_ID: Int32("9"),
+    BUYR_ID: Int32("11"),
+    GOOD_ID: Int32("24"),
+    PRICE: 2944.1,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c09"),
+    INFO_ID: Int32("10"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("3"),
+    PRICE: 796.23,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c0a"),
+    INFO_ID: Int32("11"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("26"),
+    PRICE: 1437.71,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c0b"),
+    INFO_ID: Int32("12"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("15"),
+    PRICE: 1169.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c0c"),
+    INFO_ID: Int32("13"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("14"),
+    PRICE: 1055.11,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c0d"),
+    INFO_ID: Int32("14"),
+    BUYR_ID: Int32("9"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1605.17,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c0e"),
+    INFO_ID: Int32("15"),
+    BUYR_ID: Int32("37"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2184.93,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c0f"),
+    INFO_ID: Int32("16"),
+    BUYR_ID: Int32("40"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2005.87,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c10"),
+    INFO_ID: Int32("17"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1912.43,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c11"),
+    INFO_ID: Int32("18"),
+    BUYR_ID: Int32("29"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1534.59,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c12"),
+    INFO_ID: Int32("19"),
+    BUYR_ID: Int32("32"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2692.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c13"),
+    INFO_ID: Int32("20"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("22"),
+    PRICE: 2595.24,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c14"),
+    INFO_ID: Int32("21"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1607.4,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c15"),
+    INFO_ID: Int32("22"),
+    BUYR_ID: Int32("26"),
+    GOOD_ID: Int32("8"),
+    PRICE: 1060.41,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c16"),
+    INFO_ID: Int32("23"),
+    BUYR_ID: Int32("46"),
+    GOOD_ID: Int32("8"),
+    PRICE: 1682.87,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c17"),
+    INFO_ID: Int32("24"),
+    BUYR_ID: Int32("34"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1521.03,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c18"),
+    INFO_ID: Int32("25"),
+    BUYR_ID: Int32("32"),
+    GOOD_ID: Int32("5"),
+    PRICE: 939.98,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c19"),
+    INFO_ID: Int32("26"),
+    BUYR_ID: Int32("26"),
+    GOOD_ID: Int32("1"),
+    PRICE: 932.79,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c1a"),
+    INFO_ID: Int32("27"),
+    BUYR_ID: Int32("34"),
+    GOOD_ID: Int32("31"),
+    PRICE: 1855.37,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c1b"),
+    INFO_ID: Int32("28"),
+    BUYR_ID: Int32("25"),
+    GOOD_ID: Int32("26"),
+    PRICE: 2234.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c1c"),
+    INFO_ID: Int32("29"),
+    BUYR_ID: Int32("35"),
+    GOOD_ID: Int32("9"),
+    PRICE: 2906.22,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c1d"),
+    INFO_ID: Int32("30"),
+    BUYR_ID: Int32("19"),
+    GOOD_ID: Int32("24"),
+    PRICE: 2513.6,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c1e"),
+    INFO_ID: Int32("31"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1674.49,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c1f"),
+    INFO_ID: Int32("32"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("13"),
+    PRICE: 1692.63,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c20"),
+    INFO_ID: Int32("33"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1185.73,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c21"),
+    INFO_ID: Int32("34"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("23"),
+    PRICE: 1513.9,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c22"),
+    INFO_ID: Int32("35"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2156.98,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c23"),
+    INFO_ID: Int32("36"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1194.98,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c24"),
+    INFO_ID: Int32("37"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2829.28,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c25"),
+    INFO_ID: Int32("38"),
+    BUYR_ID: Int32("42"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1531.51,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c26"),
+    INFO_ID: Int32("39"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("16"),
+    PRICE: 2259.42,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c27"),
+    INFO_ID: Int32("40"),
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("15"),
+    PRICE: 1021.83,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c28"),
+    INFO_ID: Int32("41"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("27"),
+    PRICE: 1146.17,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c29"),
+    INFO_ID: Int32("42"),
+    BUYR_ID: Int32("34"),
+    GOOD_ID: Int32("23"),
+    PRICE: 1788.45,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c2a"),
+    INFO_ID: Int32("43"),
+    BUYR_ID: Int32("50"),
+    GOOD_ID: Int32("27"),
+    PRICE: 2065.76,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c2b"),
+    INFO_ID: Int32("44"),
+    BUYR_ID: Int32("11"),
+    GOOD_ID: Int32("28"),
+    PRICE: 2871.4,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c2c"),
+    INFO_ID: Int32("45"),
+    BUYR_ID: Int32("45"),
+    GOOD_ID: Int32("17"),
+    PRICE: 1991.83,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c2d"),
+    INFO_ID: Int32("46"),
+    BUYR_ID: Int32("10"),
+    GOOD_ID: Int32("31"),
+    PRICE: 2268.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c2e"),
+    INFO_ID: Int32("47"),
+    BUYR_ID: Int32("33"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1774.76,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c2f"),
+    INFO_ID: Int32("48"),
+    BUYR_ID: Int32("45"),
+    GOOD_ID: Int32("7"),
+    PRICE: 897.31,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c30"),
+    INFO_ID: Int32("49"),
+    BUYR_ID: Int32("27"),
+    GOOD_ID: Int32("14"),
+    PRICE: 2655.28,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c31"),
+    INFO_ID: Int32("50"),
+    BUYR_ID: Int32("32"),
+    GOOD_ID: Int32("15"),
+    PRICE: 2254.49,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c32"),
+    INFO_ID: Int32("51"),
+    BUYR_ID: Int32("44"),
+    GOOD_ID: Int32("13"),
+    PRICE: 1287.55,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c33"),
+    INFO_ID: Int32("52"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2146.23,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c34"),
+    INFO_ID: Int32("53"),
+    BUYR_ID: Int32("37"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2546.61,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c35"),
+    INFO_ID: Int32("54"),
+    BUYR_ID: Int32("48"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1866.23,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c36"),
+    INFO_ID: Int32("55"),
+    BUYR_ID: Int32("6"),
+    GOOD_ID: Int32("13"),
+    PRICE: 2795.11,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c37"),
+    INFO_ID: Int32("56"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("12"),
+    PRICE: 1995.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c38"),
+    INFO_ID: Int32("57"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("8"),
+    PRICE: 2484.54,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c39"),
+    INFO_ID: Int32("58"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("29"),
+    PRICE: 1797.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c3a"),
+    INFO_ID: Int32("59"),
+    BUYR_ID: Int32("21"),
+    GOOD_ID: Int32("8"),
+    PRICE: 1965.74,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c3b"),
+    INFO_ID: Int32("60"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("28"),
+    PRICE: 989.42,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c3c"),
+    INFO_ID: Int32("61"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("19"),
+    PRICE: 2183.85,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c3d"),
+    INFO_ID: Int32("62"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1254.13,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c3e"),
+    INFO_ID: Int32("63"),
+    BUYR_ID: Int32("27"),
+    GOOD_ID: Int32("8"),
+    PRICE: 1332.58,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c3f"),
+    INFO_ID: Int32("64"),
+    BUYR_ID: Int32("11"),
+    GOOD_ID: Int32("15"),
+    PRICE: 679.29,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c40"),
+    INFO_ID: Int32("65"),
+    BUYR_ID: Int32("46"),
+    GOOD_ID: Int32("6"),
+    PRICE: 742.93,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c41"),
+    INFO_ID: Int32("66"),
+    BUYR_ID: Int32("34"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1290.73,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c42"),
+    INFO_ID: Int32("67"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2681.17,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c43"),
+    INFO_ID: Int32("68"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2458.38,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c44"),
+    INFO_ID: Int32("69"),
+    BUYR_ID: Int32("6"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2531.28,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c45"),
+    INFO_ID: Int32("70"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1548.95,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c46"),
+    INFO_ID: Int32("71"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("11"),
+    PRICE: 2436.8,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c47"),
+    INFO_ID: Int32("72"),
+    BUYR_ID: Int32("35"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2200.64,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c48"),
+    INFO_ID: Int32("73"),
+    BUYR_ID: Int32("39"),
+    GOOD_ID: Int32("16"),
+    PRICE: 2076.95,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c49"),
+    INFO_ID: Int32("74"),
+    BUYR_ID: Int32("10"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2394.54,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c4a"),
+    INFO_ID: Int32("75"),
+    BUYR_ID: Int32("18"),
+    GOOD_ID: Int32("2"),
+    PRICE: 2052.19,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c4b"),
+    INFO_ID: Int32("76"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("21"),
+    PRICE: 2298.02,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c4c"),
+    INFO_ID: Int32("77"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("26"),
+    PRICE: 754.13,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c4d"),
+    INFO_ID: Int32("78"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("27"),
+    PRICE: 2854.99,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c4e"),
+    INFO_ID: Int32("79"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("29"),
+    PRICE: 2194.86,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c4f"),
+    INFO_ID: Int32("80"),
+    BUYR_ID: Int32("44"),
+    GOOD_ID: Int32("11"),
+    PRICE: 2697.95,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c50"),
+    INFO_ID: Int32("81"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2470.58,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c51"),
+    INFO_ID: Int32("82"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("33"),
+    PRICE: 1557.01,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c52"),
+    INFO_ID: Int32("83"),
+    BUYR_ID: Int32("49"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2334.68,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c53"),
+    INFO_ID: Int32("84"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2140.78,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c54"),
+    INFO_ID: Int32("85"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("13"),
+    PRICE: 2755.16,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c55"),
+    INFO_ID: Int32("86"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("22"),
+    PRICE: 664.03,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c56"),
+    INFO_ID: Int32("87"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("5"),
+    PRICE: 931.37,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c57"),
+    INFO_ID: Int32("88"),
+    BUYR_ID: Int32("42"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2397.39,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c58"),
+    INFO_ID: Int32("89"),
+    BUYR_ID: Int32("49"),
+    GOOD_ID: Int32("19"),
+    PRICE: 2445.3,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c59"),
+    INFO_ID: Int32("90"),
+    BUYR_ID: Int32("50"),
+    GOOD_ID: Int32("4"),
+    PRICE: 813.71,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c5a"),
+    INFO_ID: Int32("91"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("20"),
+    PRICE: 1021.99,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c5b"),
+    INFO_ID: Int32("92"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1106.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c5c"),
+    INFO_ID: Int32("93"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2774.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c5d"),
+    INFO_ID: Int32("94"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("13"),
+    PRICE: 1455.4,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c5e"),
+    INFO_ID: Int32("95"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2008.45,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c5f"),
+    INFO_ID: Int32("96"),
+    BUYR_ID: Int32("40"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2012.64,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c60"),
+    INFO_ID: Int32("97"),
+    BUYR_ID: Int32("45"),
+    GOOD_ID: Int32("2"),
+    PRICE: 1060.09,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c61"),
+    INFO_ID: Int32("98"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1787.69,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c62"),
+    INFO_ID: Int32("99"),
+    BUYR_ID: Int32("50"),
+    GOOD_ID: Int32("27"),
+    PRICE: 1644.99,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c63"),
+    INFO_ID: Int32("100"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("11"),
+    PRICE: 1802.82,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c64"),
+    INFO_ID: Int32("101"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("8"),
+    PRICE: 1390.11,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c65"),
+    INFO_ID: Int32("102"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("31"),
+    PRICE: 2295.88,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c66"),
+    INFO_ID: Int32("103"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1025.7,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c67"),
+    INFO_ID: Int32("104"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1544.87,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c68"),
+    INFO_ID: Int32("105"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("2"),
+    PRICE: 1911.45,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c69"),
+    INFO_ID: Int32("106"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("22"),
+    PRICE: 2089.49,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c6a"),
+    INFO_ID: Int32("107"),
+    BUYR_ID: Int32("37"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2972.03,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c6b"),
+    INFO_ID: Int32("108"),
+    BUYR_ID: Int32("45"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1924.45,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c6c"),
+    INFO_ID: Int32("109"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1917.02,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c6d"),
+    INFO_ID: Int32("110"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1639.76,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c6e"),
+    INFO_ID: Int32("111"),
+    BUYR_ID: Int32("34"),
+    GOOD_ID: Int32("31"),
+    PRICE: 1420.24,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c6f"),
+    INFO_ID: Int32("112"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("19"),
+    PRICE: 1482.75,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c70"),
+    INFO_ID: Int32("113"),
+    BUYR_ID: Int32("46"),
+    GOOD_ID: Int32("23"),
+    PRICE: 2333.35,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c71"),
+    INFO_ID: Int32("114"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("15"),
+    PRICE: 1317.15,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c72"),
+    INFO_ID: Int32("115"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2608.96,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c73"),
+    INFO_ID: Int32("116"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2653.89,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c74"),
+    INFO_ID: Int32("117"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2008.03,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c75"),
+    INFO_ID: Int32("118"),
+    BUYR_ID: Int32("11"),
+    GOOD_ID: Int32("11"),
+    PRICE: 2928.84,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c76"),
+    INFO_ID: Int32("119"),
+    BUYR_ID: Int32("15"),
+    GOOD_ID: Int32("1"),
+    PRICE: 1266.66,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c77"),
+    INFO_ID: Int32("120"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1602.45,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c78"),
+    INFO_ID: Int32("121"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1797.28,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c79"),
+    INFO_ID: Int32("122"),
+    BUYR_ID: Int32("33"),
+    GOOD_ID: Int32("2"),
+    PRICE: 2256.23,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c7a"),
+    INFO_ID: Int32("123"),
+    BUYR_ID: Int32("9"),
+    GOOD_ID: Int32("18"),
+    PRICE: 2999.16,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c7b"),
+    INFO_ID: Int32("124"),
+    BUYR_ID: Int32("29"),
+    GOOD_ID: Int32("8"),
+    PRICE: 2661.04,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c7c"),
+    INFO_ID: Int32("125"),
+    BUYR_ID: Int32("42"),
+    GOOD_ID: Int32("30"),
+    PRICE: 2053.38,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c7d"),
+    INFO_ID: Int32("126"),
+    BUYR_ID: Int32("44"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1392.42,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c7e"),
+    INFO_ID: Int32("127"),
+    BUYR_ID: Int32("8"),
+    GOOD_ID: Int32("12"),
+    PRICE: 1677.09,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c7f"),
+    INFO_ID: Int32("128"),
+    BUYR_ID: Int32("25"),
+    GOOD_ID: Int32("10"),
+    PRICE: 2167.66,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c80"),
+    INFO_ID: Int32("129"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("8"),
+    PRICE: 712.21,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c81"),
+    INFO_ID: Int32("130"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("17"),
+    PRICE: 2479.76,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c82"),
+    INFO_ID: Int32("131"),
+    BUYR_ID: Int32("46"),
+    GOOD_ID: Int32("6"),
+    PRICE: 623.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c83"),
+    INFO_ID: Int32("132"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1703.33,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c84"),
+    INFO_ID: Int32("133"),
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1580.78,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c85"),
+    INFO_ID: Int32("134"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2047.3,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c86"),
+    INFO_ID: Int32("135"),
+    BUYR_ID: Int32("6"),
+    GOOD_ID: Int32("7"),
+    PRICE: 801.12,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c87"),
+    INFO_ID: Int32("136"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("9"),
+    PRICE: 2729.53,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c88"),
+    INFO_ID: Int32("137"),
+    BUYR_ID: Int32("44"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1624.65,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c89"),
+    INFO_ID: Int32("138"),
+    BUYR_ID: Int32("47"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2748.31,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c8a"),
+    INFO_ID: Int32("139"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1600.26,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c8b"),
+    INFO_ID: Int32("140"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("10"),
+    PRICE: 1825.69,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c8c"),
+    INFO_ID: Int32("141"),
+    BUYR_ID: Int32("29"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2855.5,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c8d"),
+    INFO_ID: Int32("142"),
+    BUYR_ID: Int32("46"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1697.77,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c8e"),
+    INFO_ID: Int32("143"),
+    BUYR_ID: Int32("48"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2225.89,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c8f"),
+    INFO_ID: Int32("144"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("5"),
+    PRICE: 926.73,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c90"),
+    INFO_ID: Int32("145"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("4"),
+    PRICE: 818.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c91"),
+    INFO_ID: Int32("146"),
+    BUYR_ID: Int32("21"),
+    GOOD_ID: Int32("10"),
+    PRICE: 1009.9,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c92"),
+    INFO_ID: Int32("147"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("30"),
+    PRICE: 1285.39,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c93"),
+    INFO_ID: Int32("148"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("36"),
+    PRICE: 1360.54,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c94"),
+    INFO_ID: Int32("149"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2480.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c95"),
+    INFO_ID: Int32("150"),
+    BUYR_ID: Int32("9"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2135.63,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c96"),
+    INFO_ID: Int32("151"),
+    BUYR_ID: Int32("32"),
+    GOOD_ID: Int32("1"),
+    PRICE: 1775.98,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c97"),
+    INFO_ID: Int32("152"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("3"),
+    PRICE: 885.45,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c98"),
+    INFO_ID: Int32("153"),
+    BUYR_ID: Int32("29"),
+    GOOD_ID: Int32("17"),
+    PRICE: 1515.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c99"),
+    INFO_ID: Int32("154"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("11"),
+    PRICE: 800.1,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c9a"),
+    INFO_ID: Int32("155"),
+    BUYR_ID: Int32("45"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2272.21,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c9b"),
+    INFO_ID: Int32("156"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("12"),
+    PRICE: 927.8,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c9c"),
+    INFO_ID: Int32("157"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("16"),
+    PRICE: 2195.27,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c9d"),
+    INFO_ID: Int32("158"),
+    BUYR_ID: Int32("9"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1740.18,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c9e"),
+    INFO_ID: Int32("159"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("15"),
+    PRICE: 713.5,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052c9f"),
+    INFO_ID: Int32("160"),
+    BUYR_ID: Int32("32"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2419.36,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca0"),
+    INFO_ID: Int32("161"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("12"),
+    PRICE: 674.3,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca1"),
+    INFO_ID: Int32("162"),
+    BUYR_ID: Int32("46"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2841.95,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca2"),
+    INFO_ID: Int32("163"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("28"),
+    PRICE: 1191.59,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca3"),
+    INFO_ID: Int32("164"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("23"),
+    PRICE: 2234.89,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca4"),
+    INFO_ID: Int32("165"),
+    BUYR_ID: Int32("37"),
+    GOOD_ID: Int32("30"),
+    PRICE: 2878.3,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca5"),
+    INFO_ID: Int32("166"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("25"),
+    PRICE: 1478.21,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca6"),
+    INFO_ID: Int32("167"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("18"),
+    PRICE: 2138.08,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca7"),
+    INFO_ID: Int32("168"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2229.62,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca8"),
+    INFO_ID: Int32("169"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("32"),
+    PRICE: 2191.57,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ca9"),
+    INFO_ID: Int32("170"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("10"),
+    PRICE: 1445.99,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052caa"),
+    INFO_ID: Int32("171"),
+    BUYR_ID: Int32("35"),
+    GOOD_ID: Int32("3"),
+    PRICE: 1911.89,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cab"),
+    INFO_ID: Int32("172"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("33"),
+    PRICE: 2076.73,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cac"),
+    INFO_ID: Int32("173"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("3"),
+    PRICE: 944.56,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cad"),
+    INFO_ID: Int32("174"),
+    BUYR_ID: Int32("19"),
+    GOOD_ID: Int32("3"),
+    PRICE: 1304.02,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cae"),
+    INFO_ID: Int32("175"),
+    BUYR_ID: Int32("39"),
+    GOOD_ID: Int32("17"),
+    PRICE: 2586.81,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052caf"),
+    INFO_ID: Int32("176"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("21"),
+    PRICE: 2304.9,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb0"),
+    INFO_ID: Int32("177"),
+    BUYR_ID: Int32("10"),
+    GOOD_ID: Int32("23"),
+    PRICE: 1301.26,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb1"),
+    INFO_ID: Int32("178"),
+    BUYR_ID: Int32("35"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2510.28,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb2"),
+    INFO_ID: Int32("179"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2338.96,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb3"),
+    INFO_ID: Int32("180"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("20"),
+    PRICE: 735.75,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb4"),
+    INFO_ID: Int32("181"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("20"),
+    PRICE: 1546.8,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb5"),
+    INFO_ID: Int32("182"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("16"),
+    PRICE: 1359.41,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb6"),
+    INFO_ID: Int32("183"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("2"),
+    PRICE: 2834.32,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb7"),
+    INFO_ID: Int32("184"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("3"),
+    PRICE: 1521.38,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb8"),
+    INFO_ID: Int32("185"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("1"),
+    PRICE: 2574.86,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cb9"),
+    INFO_ID: Int32("186"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("3"),
+    PRICE: 720.34,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cba"),
+    INFO_ID: Int32("187"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("30"),
+    PRICE: 2816.17,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cbb"),
+    INFO_ID: Int32("188"),
+    BUYR_ID: Int32("40"),
+    GOOD_ID: Int32("4"),
+    PRICE: 781.86,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cbc"),
+    INFO_ID: Int32("189"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("12"),
+    PRICE: 2975.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cbd"),
+    INFO_ID: Int32("190"),
+    BUYR_ID: Int32("15"),
+    GOOD_ID: Int32("28"),
+    PRICE: 773.67,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cbe"),
+    INFO_ID: Int32("191"),
+    BUYR_ID: Int32("45"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1892.69,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cbf"),
+    INFO_ID: Int32("192"),
+    BUYR_ID: Int32("40"),
+    GOOD_ID: Int32("28"),
+    PRICE: 1642.74,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc0"),
+    INFO_ID: Int32("193"),
+    BUYR_ID: Int32("43"),
+    GOOD_ID: Int32("30"),
+    PRICE: 1921.34,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc1"),
+    INFO_ID: Int32("194"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("33"),
+    PRICE: 2349.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc2"),
+    INFO_ID: Int32("195"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2524.37,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc3"),
+    INFO_ID: Int32("196"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("20"),
+    PRICE: 1072.5,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc4"),
+    INFO_ID: Int32("197"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2657.64,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc5"),
+    INFO_ID: Int32("198"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("23"),
+    PRICE: 1263.61,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc6"),
+    INFO_ID: Int32("199"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("14"),
+    PRICE: 611.55,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc7"),
+    INFO_ID: Int32("200"),
+    BUYR_ID: Int32("11"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1320.13,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc8"),
+    INFO_ID: Int32("201"),
+    BUYR_ID: Int32("42"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2187.2,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cc9"),
+    INFO_ID: Int32("202"),
+    BUYR_ID: Int32("41"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2457.54,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cca"),
+    INFO_ID: Int32("203"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("7"),
+    PRICE: 681.92,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ccb"),
+    INFO_ID: Int32("204"),
+    BUYR_ID: Int32("26"),
+    GOOD_ID: Int32("25"),
+    PRICE: 2752.58,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ccc"),
+    INFO_ID: Int32("205"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("7"),
+    PRICE: 759.2,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ccd"),
+    INFO_ID: Int32("206"),
+    BUYR_ID: Int32("11"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1133.52,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cce"),
+    INFO_ID: Int32("207"),
+    BUYR_ID: Int32("11"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2878.01,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ccf"),
+    INFO_ID: Int32("208"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2092.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd0"),
+    INFO_ID: Int32("209"),
+    BUYR_ID: Int32("15"),
+    GOOD_ID: Int32("10"),
+    PRICE: 2356.42,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd1"),
+    INFO_ID: Int32("210"),
+    BUYR_ID: Int32("25"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2893.26,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd2"),
+    INFO_ID: Int32("211"),
+    BUYR_ID: Int32("17"),
+    GOOD_ID: Int32("8"),
+    PRICE: 2544.69,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd3"),
+    INFO_ID: Int32("212"),
+    BUYR_ID: Int32("19"),
+    GOOD_ID: Int32("3"),
+    PRICE: 854.52,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd4"),
+    INFO_ID: Int32("213"),
+    BUYR_ID: Int32("44"),
+    GOOD_ID: Int32("14"),
+    PRICE: 1382.68,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd5"),
+    INFO_ID: Int32("214"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("31"),
+    PRICE: 1275.19,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd6"),
+    INFO_ID: Int32("215"),
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2416.67,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd7"),
+    INFO_ID: Int32("216"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("2"),
+    PRICE: 2385.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd8"),
+    INFO_ID: Int32("217"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("23"),
+    PRICE: 1150.47,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cd9"),
+    INFO_ID: Int32("218"),
+    BUYR_ID: Int32("35"),
+    GOOD_ID: Int32("16"),
+    PRICE: 1491.95,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cda"),
+    INFO_ID: Int32("219"),
+    BUYR_ID: Int32("21"),
+    GOOD_ID: Int32("14"),
+    PRICE: 1406.02,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cdb"),
+    INFO_ID: Int32("220"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("19"),
+    PRICE: 2298.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cdc"),
+    INFO_ID: Int32("221"),
+    BUYR_ID: Int32("27"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1768.31,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cdd"),
+    INFO_ID: Int32("222"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("38"),
+    PRICE: 1567.92,
+    TIME: ISODate("2022-12-11T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cde"),
+    INFO_ID: Int32("223"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("6"),
+    PRICE: 789.64,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cdf"),
+    INFO_ID: Int32("224"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("17"),
+    PRICE: 1112.8,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce0"),
+    INFO_ID: Int32("225"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("27"),
+    PRICE: 628.34,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce1"),
+    INFO_ID: Int32("226"),
+    BUYR_ID: Int32("36"),
+    GOOD_ID: Int32("29"),
+    PRICE: 2876.68,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce2"),
+    INFO_ID: Int32("227"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("23"),
+    PRICE: 1396.79,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce3"),
+    INFO_ID: Int32("228"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("32"),
+    PRICE: 691.17,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce5"),
+    INFO_ID: Int32("230"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("8"),
+    PRICE: 2078.51,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce6"),
+    INFO_ID: Int32("231"),
+    BUYR_ID: Int32("18"),
+    GOOD_ID: Int32("9"),
+    PRICE: 1396.55,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce7"),
+    INFO_ID: Int32("232"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1276.08,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce8"),
+    INFO_ID: Int32("233"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2586.54,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ce9"),
+    INFO_ID: Int32("234"),
+    BUYR_ID: Int32("29"),
+    GOOD_ID: Int32("26"),
+    PRICE: 2857.97,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cea"),
+    INFO_ID: Int32("235"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1885.35,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ceb"),
+    INFO_ID: Int32("236"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("32"),
+    PRICE: 1528.23,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cec"),
+    INFO_ID: Int32("237"),
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("30"),
+    PRICE: 2074.44,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052ced"),
+    INFO_ID: Int32("238"),
+    BUYR_ID: Int32("6"),
+    GOOD_ID: Int32("12"),
+    PRICE: 1861.26,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cee"),
+    INFO_ID: Int32("239"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1074.48,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cef"),
+    INFO_ID: Int32("240"),
+    BUYR_ID: Int32("29"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1563.77,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf0"),
+    INFO_ID: Int32("241"),
+    BUYR_ID: Int32("35"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2559.03,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf1"),
+    INFO_ID: Int32("242"),
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1633.86,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf2"),
+    INFO_ID: Int32("243"),
+    BUYR_ID: Int32("8"),
+    GOOD_ID: Int32("3"),
+    PRICE: 1077.56,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf3"),
+    INFO_ID: Int32("244"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("3"),
+    PRICE: 1791.84,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf4"),
+    INFO_ID: Int32("245"),
+    BUYR_ID: Int32("19"),
+    GOOD_ID: Int32("33"),
+    PRICE: 1762.91,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf5"),
+    INFO_ID: Int32("246"),
+    BUYR_ID: Int32("23"),
+    GOOD_ID: Int32("29"),
+    PRICE: 2557.96,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf6"),
+    INFO_ID: Int32("247"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("33"),
+    PRICE: 898.05,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf7"),
+    INFO_ID: Int32("248"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("2"),
+    PRICE: 2352.04,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf8"),
+    INFO_ID: Int32("249"),
+    BUYR_ID: Int32("8"),
+    GOOD_ID: Int32("2"),
+    PRICE: 617.28,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cf9"),
+    INFO_ID: Int32("250"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("27"),
+    PRICE: 2589.94,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cfa"),
+    INFO_ID: Int32("251"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2016.78,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cfb"),
+    INFO_ID: Int32("252"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("35"),
+    PRICE: 751.92,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cfc"),
+    INFO_ID: Int32("253"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("28"),
+    PRICE: 749.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cfd"),
+    INFO_ID: Int32("254"),
+    BUYR_ID: Int32("10"),
+    GOOD_ID: Int32("12"),
+    PRICE: 2397.91,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cfe"),
+    INFO_ID: Int32("255"),
+    BUYR_ID: Int32("8"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2579.38,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052cff"),
+    INFO_ID: Int32("256"),
+    BUYR_ID: Int32("15"),
+    GOOD_ID: Int32("9"),
+    PRICE: 2104.54,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d00"),
+    INFO_ID: Int32("257"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("3"),
+    PRICE: 2570.32,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d01"),
+    INFO_ID: Int32("258"),
+    BUYR_ID: Int32("32"),
+    GOOD_ID: Int32("4"),
+    PRICE: 1499.21,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d02"),
+    INFO_ID: Int32("259"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1783.86,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d03"),
+    INFO_ID: Int32("260"),
+    BUYR_ID: Int32("28"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1165.89,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d04"),
+    INFO_ID: Int32("261"),
+    BUYR_ID: Int32("20"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1561.83,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d05"),
+    INFO_ID: Int32("262"),
+    BUYR_ID: Int32("37"),
+    GOOD_ID: Int32("17"),
+    PRICE: 2197.9,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d06"),
+    INFO_ID: Int32("263"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("4"),
+    PRICE: 2468.07,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d07"),
+    INFO_ID: Int32("264"),
+    BUYR_ID: Int32("17"),
+    GOOD_ID: Int32("7"),
+    PRICE: 972.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d08"),
+    INFO_ID: Int32("265"),
+    BUYR_ID: Int32("24"),
+    GOOD_ID: Int32("22"),
+    PRICE: 1964.59,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d09"),
+    INFO_ID: Int32("266"),
+    BUYR_ID: Int32("29"),
+    GOOD_ID: Int32("34"),
+    PRICE: 2122.25,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d0a"),
+    INFO_ID: Int32("267"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("29"),
+    PRICE: 2297.18,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d0b"),
+    INFO_ID: Int32("268"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("36"),
+    PRICE: 878.68,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d0c"),
+    INFO_ID: Int32("269"),
+    BUYR_ID: Int32("8"),
+    GOOD_ID: Int32("2"),
+    PRICE: 2265.26,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d0d"),
+    INFO_ID: Int32("270"),
+    BUYR_ID: Int32("12"),
+    GOOD_ID: Int32("1"),
+    PRICE: 1762.24,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d0e"),
+    INFO_ID: Int32("271"),
+    BUYR_ID: Int32("37"),
+    GOOD_ID: Int32("16"),
+    PRICE: 2351.23,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d0f"),
+    INFO_ID: Int32("272"),
+    BUYR_ID: Int32("30"),
+    GOOD_ID: Int32("22"),
+    PRICE: 1994.48,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d10"),
+    INFO_ID: Int32("273"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2884.1,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d11"),
+    INFO_ID: Int32("274"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("6"),
+    PRICE: 607.08,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d12"),
+    INFO_ID: Int32("275"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("35"),
+    PRICE: 1912.58,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d13"),
+    INFO_ID: Int32("276"),
+    BUYR_ID: Int32("26"),
+    GOOD_ID: Int32("30"),
+    PRICE: 1222.71,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d15"),
+    INFO_ID: Int32("278"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1082.72,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d16"),
+    INFO_ID: Int32("279"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1053.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d17"),
+    INFO_ID: Int32("280"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("9"),
+    PRICE: 2696.76,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d18"),
+    INFO_ID: Int32("281"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("13"),
+    PRICE: 1950.32,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d19"),
+    INFO_ID: Int32("282"),
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1089.28,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d1a"),
+    INFO_ID: Int32("283"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1423.43,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d1b"),
+    INFO_ID: Int32("284"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1017.9,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d1c"),
+    INFO_ID: Int32("285"),
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("36"),
+    PRICE: 2093.7,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d1d"),
+    INFO_ID: Int32("286"),
+    BUYR_ID: Int32("21"),
+    GOOD_ID: Int32("6"),
+    PRICE: 1538.63,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d1e"),
+    INFO_ID: Int32("287"),
+    BUYR_ID: Int32("33"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2836.89,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d1f"),
+    INFO_ID: Int32("288"),
+    BUYR_ID: Int32("34"),
+    GOOD_ID: Int32("33"),
+    PRICE: 1092.96,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d20"),
+    INFO_ID: Int32("289"),
+    BUYR_ID: Int32("35"),
+    GOOD_ID: Int32("17"),
+    PRICE: 1522.24,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d21"),
+    INFO_ID: Int32("290"),
+    BUYR_ID: Int32("7"),
+    GOOD_ID: Int32("23"),
+    PRICE: 2491.87,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d22"),
+    INFO_ID: Int32("291"),
+    BUYR_ID: Int32("31"),
+    GOOD_ID: Int32("31"),
+    PRICE: 2860.59,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d23"),
+    INFO_ID: Int32("292"),
+    BUYR_ID: Int32("15"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2571.68,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d24"),
+    INFO_ID: Int32("293"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("7"),
+    PRICE: 2636.69,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d25"),
+    INFO_ID: Int32("294"),
+    BUYR_ID: Int32("22"),
+    GOOD_ID: Int32("21"),
+    PRICE: 2296.79,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d26"),
+    INFO_ID: Int32("295"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("8"),
+    PRICE: 1801.11,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d27"),
+    INFO_ID: Int32("296"),
+    BUYR_ID: Int32("26"),
+    GOOD_ID: Int32("26"),
+    PRICE: 1684.27,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d28"),
+    INFO_ID: Int32("297"),
+    BUYR_ID: Int32("6"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1296.35,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d29"),
+    INFO_ID: Int32("298"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("8"),
+    PRICE: 2125.4,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d2b"),
+    INFO_ID: Int32("300"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("5"),
+    PRICE: 878.95,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d2c"),
+    INFO_ID: Int32("301"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("14"),
+    PRICE: 1106.66,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d2d"),
+    INFO_ID: Int32("302"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("22"),
+    PRICE: 1511.46,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d2e"),
+    INFO_ID: Int32("303"),
+    BUYR_ID: Int32("4"),
+    GOOD_ID: Int32("6"),
+    PRICE: 2283.24,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d2f"),
+    INFO_ID: Int32("304"),
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("10"),
+    PRICE: 2259.37,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d30"),
+    INFO_ID: Int32("305"),
+    BUYR_ID: Int32("16"),
+    GOOD_ID: Int32("5"),
+    PRICE: 1906.63,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d31"),
+    INFO_ID: Int32("306"),
+    BUYR_ID: Int32("17"),
+    GOOD_ID: Int32("20"),
+    PRICE: 1687.93,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d32"),
+    INFO_ID: Int32("307"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("7"),
+    PRICE: 1824.75,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d33"),
+    INFO_ID: Int32("308"),
+    BUYR_ID: Int32("14"),
+    GOOD_ID: Int32("32"),
+    PRICE: 1622.15,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d34"),
+    INFO_ID: Int32("309"),
+    BUYR_ID: Int32("3"),
+    GOOD_ID: Int32("34"),
+    PRICE: 856.36,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d35"),
+    INFO_ID: Int32("310"),
+    BUYR_ID: Int32("13"),
+    GOOD_ID: Int32("26"),
+    PRICE: 2324.47,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d36"),
+    INFO_ID: Int32("311"),
+    BUYR_ID: Int32("21"),
+    GOOD_ID: Int32("6"),
+    PRICE: 857.89,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d37"),
+    INFO_ID: Int32("312"),
+    BUYR_ID: Int32("5"),
+    GOOD_ID: Int32("5"),
+    PRICE: 2294.4,
+    TIME: ISODate("2006-04-13T12:57:03.000Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68bb94e2ad1420b205b7317c"),
+    INFO_ID: 1757123810034,
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("37"),
+    PRICE: 2849.28,
+    TIME: ISODate("2025-09-06T01:56:50.034Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68bb94f8ad1420b205b7317d"),
+    INFO_ID: 1757123832735,
+    BUYR_ID: Int32("2"),
+    GOOD_ID: Int32("37"),
+    PRICE: 2859.28,
+    TIME: ISODate("2025-09-06T01:57:12.735Z")
+} ]);
+db.getCollection("price_info").insert([ {
+    _id: ObjectId("68bb98a4617fe33a3c147a83"),
+    INFO_ID: 1757124772675,
+    BUYR_ID: Int32("1"),
+    GOOD_ID: Int32("37"),
+    PRICE: 2869.28,
+    TIME: ISODate("2025-09-06T02:12:52.675Z")
+} ]);
+
+// ----------------------------
+// Collection structure for seller
+// ----------------------------
+db.getCollection("seller").drop();
+db.createCollection("seller");
+
+// ----------------------------
+// Documents of seller
+// ----------------------------
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d38"),
+    SELLER_ID: Int32("1"),
+    SELLER_NAME: "Zeng Ziyi",
+    EMAIL: "zeng10@icloud.com",
+    SELLER_PASS: "mezDEWTzMU",
+    POSITION: "46th Floor, No. 829, Dongtai Fifth Street, Dongguan, China",
+    SELLER_INTRO: "iIVarffa0K",
+    PHONE: "13131300737",
+    PASS_SALT: "icv105G2wM",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("1"),
+    TOTAL_SELL_AMT: Int32("29")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d39"),
+    SELLER_ID: Int32("2"),
+    SELLER_NAME: "Daniel Wood",
+    EMAIL: "wood9@yahoo.com",
+    SELLER_PASS: "a5KCpiCAiz",
+    POSITION: "18th Floor, No. 794, Section 3, Hongxing Road, Jinjiang District, Chengdu, China",
+    SELLER_INTRO: "pt5FigWBJF",
+    PHONE: "2859625952",
+    PASS_SALT: "oIeF5UUdQy",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("8"),
+    TOTAL_SELL_AMT: Int32("473")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d3a"),
+    SELLER_ID: Int32("3"),
+    SELLER_NAME: "Qian Zitao",
+    EMAIL: "zitaoqi@gmail.com",
+    SELLER_PASS: "1E0QmFO2mN",
+    POSITION: "Room 33, No. 961, Daxin South Road, Daxin Business District, Tianhe District, Zhongshan, China",
+    SELLER_INTRO: "W6jAuz2geo",
+    PHONE: "15497902120",
+    PASS_SALT: "8HcP5uRkpf",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("5"),
+    TOTAL_SELL_AMT: Int32("966")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d3b"),
+    SELLER_ID: Int32("4"),
+    SELLER_NAME: "Xue Yuning",
+    EMAIL: "yuningxue@icloud.com",
+    SELLER_PASS: "cg1iAajcJq",
+    POSITION: "Room 8, China Resources Building, No. 91, Erxianqiao East Third Road, Chenghua District, Chengdu, China",
+    SELLER_INTRO: "sRfJcFnK0y",
+    PHONE: "2836091261",
+    PASS_SALT: "8b9dYIV079",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("0"),
+    TOTAL_SELL_AMT: Int32("950")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d3c"),
+    SELLER_ID: Int32("5"),
+    SELLER_NAME: "Troy Peterson",
+    EMAIL: "trp@outlook.com",
+    SELLER_PASS: "hs0eHQaF7O",
+    POSITION: "Room 9, China Resources Building, 147, Dongtai Fifth Street, Dongguan, China",
+    SELLER_INTRO: "MEcoWJZ1JQ",
+    PHONE: "7691589128",
+    PASS_SALT: "dJBoH7iUdJ",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("990")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d3d"),
+    SELLER_ID: Int32("6"),
+    SELLER_NAME: "Xue Ziyi",
+    EMAIL: "zixue@gmail.com",
+    SELLER_PASS: "G3Bnn50kPB",
+    POSITION: "Building 11, No. 938, County Road 028, Yanqing District, Beijing, China",
+    SELLER_INTRO: "FMbbGXQqo2",
+    PHONE: "19133819612",
+    PASS_SALT: "PXNKZDeKDT",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("588")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d3e"),
+    SELLER_ID: Int32("7"),
+    SELLER_NAME: "Dong Yunxi",
+    EMAIL: "yunxidon5@yahoo.com",
+    SELLER_PASS: "D9HQV5yJCi",
+    POSITION: "Room 47, China Resources Building, No. 418, County Road 028, Yanqing District, Beijing, China",
+    SELLER_INTRO: "FwRROrf7Uk",
+    PHONE: "1088548378",
+    PASS_SALT: "M6gNrblcc2",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("3"),
+    TOTAL_SELL_AMT: Int32("522")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d3f"),
+    SELLER_ID: Int32("8"),
+    SELLER_NAME: "Lu Anqi",
+    EMAIL: "luanqi829@gmail.com",
+    SELLER_PASS: "dd3FDvam4x",
+    POSITION: "Building 33, No. 704, West Chang'an Avenue, Xicheng District, Beijing, China",
+    SELLER_INTRO: "PATScslxdr",
+    PHONE: "14846222060",
+    PASS_SALT: "6F1DZ2slMH",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("2"),
+    TOTAL_SELL_AMT: Int32("370")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d40"),
+    SELLER_ID: Int32("9"),
+    SELLER_NAME: "Li Jialun",
+    EMAIL: "jiali@gmail.com",
+    SELLER_PASS: "50gHwDUu13",
+    POSITION: "Room 23, China Resources Building, No. 385, Hongqiao Road, Xuhui District, Shanghai, China",
+    SELLER_INTRO: "IVMTlBWo0j",
+    PHONE: "2173135466",
+    PASS_SALT: "QCAZL7C6wN",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("4"),
+    TOTAL_SELL_AMT: Int32("966")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d41"),
+    SELLER_ID: Int32("10"),
+    SELLER_NAME: "Huang Lan",
+    EMAIL: "lan1@gmail.com",
+    SELLER_PASS: "nCX8eVkOl7",
+    POSITION: "Building 16, No. 6, Qingshuihe 1st Road, Luohu District, Shenzhen, China",
+    SELLER_INTRO: "Te2jfxcHmY",
+    PHONE: "7552405903",
+    PASS_SALT: "LMprBfpvPs",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("1"),
+    TOTAL_SELL_AMT: Int32("494")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d42"),
+    SELLER_ID: Int32("11"),
+    SELLER_NAME: "Mike Wilson",
+    EMAIL: "mwilson@gmail.com",
+    SELLER_PASS: "hApULmhurd",
+    POSITION: "Room 33, China Resources Building, No. 726, Fuxingmennei Street, Xicheng District, Beijing, China",
+    SELLER_INTRO: "q672mB5i2d",
+    PHONE: "17135387102",
+    PASS_SALT: "wTpsKVlbgY",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("4"),
+    TOTAL_SELL_AMT: Int32("359")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d43"),
+    SELLER_ID: Int32("12"),
+    SELLER_NAME: "Xia Xiaoming",
+    EMAIL: "xiaomingxia331@hotmail.com",
+    SELLER_PASS: "saXu2r6SbC",
+    POSITION: "Room 48, China Resources Building, No. 455, Binchuan Road, Minhang District, Shanghai, China",
+    SELLER_INTRO: "doJV0TsohW",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "216054497",
+    PASS_SALT: "r7VIUVlA1T",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("2"),
+    TOTAL_SELL_AMT: Int32("880")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d44"),
+    SELLER_ID: Int32("13"),
+    SELLER_NAME: "Juan Garcia",
+    EMAIL: "juangarcia@yahoo.com",
+    SELLER_PASS: "vH0ubpeLz0",
+    POSITION: "Qingshuihe 1st Road, Luohu District, Shenzhen, China 9th Floor, 825 Heyi Road",
+    SELLER_INTRO: "RNlKbLt6fR",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7555757565",
+    PASS_SALT: "wdG8oR6vOY",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("4"),
+    TOTAL_SELL_AMT: Int32("492")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d45"),
+    SELLER_ID: Int32("14"),
+    SELLER_NAME: "Lucille Mendoza",
+    EMAIL: "lucilme1110@hotmail.com",
+    SELLER_PASS: "wlEbfCdGU6",
+    POSITION: "Room 8, China Resources Building, 580 Fuxingmennei Street, Xicheng District, Beijing, China",
+    SELLER_INTRO: "ycWo14m1pW",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "106438100",
+    PASS_SALT: "7FQnWsUqbS",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("3"),
+    TOTAL_SELL_AMT: Int32("193")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d46"),
+    SELLER_ID: Int32("15"),
+    SELLER_NAME: "Irene Wells",
+    EMAIL: "irewe@gmail.com",
+    SELLER_PASS: "jb3tiq8HNI",
+    POSITION: "Room 1, China Resources Building, 637 Tianbei 1st Road, Luohu District, Shenzhen, China",
+    SELLER_INTRO: "zVoOedjKZv",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "75567749060",
+    PASS_SALT: "h18ZO8duj2",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("2"),
+    TOTAL_SELL_AMT: Int32("190")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d47"),
+    SELLER_ID: Int32("16"),
+    SELLER_NAME: "Kung Jialun",
+    EMAIL: "gong87@icloud.com",
+    SELLER_PASS: "NoIMdAbmSN",
+    POSITION: "Room 18, 362 Fuxingmennei Street, Xicheng District, Beijing, China",
+    SELLER_INTRO: "C7Xda7ODQx",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "1069080328",
+    PASS_SALT: "U9lpPFTMvh",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("10"),
+    TOTAL_SELL_AMT: Int32("111")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d48"),
+    SELLER_ID: Int32("17"),
+    SELLER_NAME: "Hazel Dunn",
+    EMAIL: "dunh@outlook.com",
+    SELLER_PASS: "U9ENFMlXDr",
+    POSITION: "Room 31, China Resources Building, 639 Fuxingmennei Street, Xicheng District, Beijing, China",
+    SELLER_INTRO: "huL7JQXMkE",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16817058697",
+    PASS_SALT: "hNg3sirvt4",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("8"),
+    TOTAL_SELL_AMT: Int32("703")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d49"),
+    SELLER_ID: Int32("18"),
+    SELLER_NAME: "Sun Zitao",
+    EMAIL: "zitaosu@gmail.com",
+    SELLER_PASS: "8nRdibzq1p",
+    POSITION: "Building 16, 219 Jingtian East 1st Street, Futian District, Shenzhen, China",
+    SELLER_INTRO: "Q76wa0Nxj0",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "75591013854",
+    PASS_SALT: "K0ivXTllCc",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("3"),
+    TOTAL_SELL_AMT: Int32("823")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d4a"),
+    SELLER_ID: Int32("19"),
+    SELLER_NAME: "Phyllis Carter",
+    EMAIL: "cphyllis222@gmail.com",
+    SELLER_PASS: "CutnGBs7aE",
+    POSITION: "Building 37, 480 Zhongshan 5th Road, Zimaling Business District, Zhongshan, China",
+    SELLER_INTRO: "sjPC45grjY",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "17481538914",
+    PASS_SALT: "ffxYavNqjR",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("9"),
+    TOTAL_SELL_AMT: Int32("852")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d4b"),
+    SELLER_ID: Int32("20"),
+    SELLER_NAME: "Xiong Rui",
+    EMAIL: "ruixion@icloud.com",
+    SELLER_PASS: "aljRYxyFJz",
+    POSITION: "23rd Floor, 326 Tianhe Road, Tianhe District, Guangzhou, China",
+    SELLER_INTRO: "tBuWZ6jvR8",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "17033707146",
+    PASS_SALT: "w2qZGD94oU",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("6"),
+    TOTAL_SELL_AMT: Int32("867")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d4c"),
+    SELLER_ID: Int32("21"),
+    SELLER_NAME: "Wei Anqi",
+    EMAIL: "anqiwei@hotmail.com",
+    SELLER_PASS: "gH9QuiEYMr",
+    POSITION: "Room 12, China Resources Building, 599 Sanlitun Road, Chaoyang District, Beijing, China",
+    SELLER_INTRO: "mcdluB4cRx",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "1070742969",
+    PASS_SALT: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFTUFJTCI6ImFucWl3ZWlAaG90bWFpbC5jb20iLCJQZXJtaXNzaW9uIjoxLCJwaWRzIjoiWy0xLCAwLCAxLCAxMiwgMTMsIDIsIDMsIDMyLCA0LCA1XSIsImlhdCI6MTc1NzEyNTI2NSwiZXhwIjoxNzU4NDIxMjY1fQ.z4sb-R2RgtqSHJ_LT396v9-uwRtlc7124jl_1olJre4",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("4"),
+    TOTAL_SELL_AMT: Int32("646")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d4d"),
+    SELLER_ID: Int32("22"),
+    SELLER_NAME: "Lei Yunxi",
+    EMAIL: "leiyunx311@gmail.com",
+    SELLER_PASS: "c3irGK4Sxq",
+    POSITION: "Room 39, China Resources Building, 431 Huaxia Street, Jinghua Business District, Zhongshan, China",
+    SELLER_INTRO: "rKTVkCK6ae",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7608385670",
+    PASS_SALT: "oSWMY2eMvu",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("1"),
+    TOTAL_SELL_AMT: Int32("415")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d4e"),
+    SELLER_ID: Int32("23"),
+    SELLER_NAME: "Fan Ziyi",
+    EMAIL: "fanz@gmail.com",
+    SELLER_PASS: "KpmdUvvW9Y",
+    POSITION: "Room 21, 468 Tianhe Road, Tianhe District, Guangzhou, China",
+    SELLER_INTRO: "8Q6Uwh3jnT",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "17431765424",
+    PASS_SALT: "eSAimaBeQw",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("9"),
+    TOTAL_SELL_AMT: Int32("864")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d4f"),
+    SELLER_ID: Int32("24"),
+    SELLER_NAME: "Zhu Yuning",
+    EMAIL: "yuningzh@outlook.com",
+    SELLER_PASS: "vzHqQ5VlRs",
+    POSITION: "Building 41, 933 Hongqiao Road, Xuhui District, Shanghai, China",
+    SELLER_INTRO: "d7AFmpBSzs",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "214224398",
+    PASS_SALT: "ejKcYlES04",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("4"),
+    TOTAL_SELL_AMT: Int32("862")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d50"),
+    SELLER_ID: Int32("25"),
+    SELLER_NAME: "Hou Zhiyuan",
+    EMAIL: "houzhiy@gmail.com",
+    SELLER_PASS: "rqnX3GyNUb",
+    POSITION: "914 Shennan East Road, Caiwuwei, Luohu District, Shenzhen, China Building 8",
+    SELLER_INTRO: "tZwV9NGZCb",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16571298121",
+    PASS_SALT: "T2UaHDJ0uM",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("1"),
+    TOTAL_SELL_AMT: Int32("354")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d51"),
+    SELLER_ID: Int32("26"),
+    SELLER_NAME: "Carl Rodriguez",
+    EMAIL: "carrodriguez@gmail.com",
+    SELLER_PASS: "P1Y5JEPkPW",
+    POSITION: "Building 32, No. 406, Section 4, Renmin South Road, Jinjiang District, Chengdu, China",
+    SELLER_INTRO: "Bcz3kLmizi",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "2861817975",
+    PASS_SALT: "iRvDxrUN9T",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("30")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d52"),
+    SELLER_ID: Int32("27"),
+    SELLER_NAME: "Andrew Simmons",
+    EMAIL: "simmonsandrew82@gmail.com",
+    SELLER_PASS: "ZObbz08qGo",
+    POSITION: "Room 19, China Resources Building, No. 311, Section 4, Renmin South Road, Jinjiang District, Chengdu, China",
+    SELLER_INTRO: "v8Jk2rMoUN",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "13565078002",
+    PASS_SALT: "16JyAhhw90",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("897")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d53"),
+    SELLER_ID: Int32("28"),
+    SELLER_NAME: "Brenda Bennett",
+    EMAIL: "brendbe@yahoo.com",
+    SELLER_PASS: "RISGtXqhjl",
+    POSITION: "Building 8, No. 761 West Chang'an Avenue, Xicheng District, Beijing, China",
+    SELLER_INTRO: "0bcB7qfyvE",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "100391086",
+    PASS_SALT: "WHz9YFrb8m",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("257")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d54"),
+    SELLER_ID: Int32("29"),
+    SELLER_NAME: "Zhong Zhiyuan",
+    EMAIL: "zhzhon@outlook.com",
+    SELLER_PASS: "nWtEq5zl7P",
+    POSITION: "Building 28, No. 980, Lane 2, Nanjie, Huanqu District, Dongguan, China",
+    SELLER_INTRO: "M7q4FcqmwK",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7697207465",
+    PASS_SALT: "p7t0ODRbID",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("0"),
+    TOTAL_SELL_AMT: Int32("924")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d55"),
+    SELLER_ID: Int32("30"),
+    SELLER_NAME: "Lucille Chavez",
+    EMAIL: "lucilcha@outlook.com",
+    SELLER_PASS: "M6NfUbNWhi",
+    POSITION: "Building 18, No. 26, Binchuan Road, Minhang District, Shanghai, China",
+    SELLER_INTRO: "Z3vu7e58AT",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "17432578478",
+    PASS_SALT: "CH4C5c08aV",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("171")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d56"),
+    SELLER_ID: Int32("31"),
+    SELLER_NAME: "Shi Xiaoming",
+    EMAIL: "xiaomingsh@outlook.com",
+    SELLER_PASS: "RN89Mok8zS",
+    POSITION: "Building 24, No. 523, Huaxia Street, Jinghua Business District, Zhongshan, China",
+    SELLER_INTRO: "MK5U720pHe",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16695716538",
+    PASS_SALT: "7Mmj3nfIFO",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("3"),
+    TOTAL_SELL_AMT: Int32("746")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d57"),
+    SELLER_ID: Int32("32"),
+    SELLER_NAME: "Ruby Ferguson",
+    EMAIL: "ruby50@yahoo.com",
+    SELLER_PASS: "8MpL6DXPoX",
+    POSITION: "Room 29, China Resources Building, No. 834, Xiaoping East Road, Baiyun District, Guangzhou, China",
+    SELLER_INTRO: "vDEbqtTHtQ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16722446145",
+    PASS_SALT: "hGFnUSPWhI",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("2"),
+    TOTAL_SELL_AMT: Int32("408")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d58"),
+    SELLER_ID: Int32("33"),
+    SELLER_NAME: "Zhong Xiuying",
+    EMAIL: "xiuzh@mail.com",
+    SELLER_PASS: "uup2GutmMg",
+    POSITION: "Building 42, No. 10, Shennan East Road, Caiwuwei, Luohu District, Shenzhen, China",
+    SELLER_INTRO: "YA3gDI60zJ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "75515467808",
+    PASS_SALT: "e4bnKNUUZz",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("6"),
+    TOTAL_SELL_AMT: Int32("322")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d59"),
+    SELLER_ID: Int32("34"),
+    SELLER_NAME: "Pan Jiehong",
+    EMAIL: "jipan@icloud.com",
+    SELLER_PASS: "lZ3zk2Vn2n",
+    POSITION: "Room 20, China Resources Building, No. 793, Lane 5, Tangyuan Street, Airport Road, Baiyun District, Guangzhou, China",
+    SELLER_INTRO: "N5vvNPdlnF",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "18245990761",
+    PASS_SALT: "gbKRd6nD0V",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("2"),
+    TOTAL_SELL_AMT: Int32("468")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d5a"),
+    SELLER_ID: Int32("35"),
+    SELLER_NAME: "Gary Nguyen",
+    EMAIL: "garnguy524@mail.com",
+    SELLER_PASS: "k7tK0DMSFo",
+    POSITION: "Building 29, No. 366, Lane 5, Tangyuan Street, Airport Road, Baiyun District, Guangzhou, China",
+    SELLER_INTRO: "2kmzF45fys",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16965377456",
+    PASS_SALT: "HgxN0BZKqM",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("524")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d5b"),
+    SELLER_ID: Int32("36"),
+    SELLER_NAME: "Sean Rodriguez",
+    EMAIL: "rsean@gmail.com",
+    SELLER_PASS: "7mfDa95ilf",
+    POSITION: "Building 12, No. 240, Xihuan Road, Buji Town, Longgang District, Shenzhen, China",
+    SELLER_INTRO: "TzFR9B6sxP",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "15035758681",
+    PASS_SALT: "QjdACLe8mS",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("0"),
+    TOTAL_SELL_AMT: Int32("174")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d5c"),
+    SELLER_ID: Int32("37"),
+    SELLER_NAME: "Frank Russell",
+    EMAIL: "frrussell@outlook.com",
+    SELLER_PASS: "FweDdvPxXa",
+    POSITION: "Building 12, No. 688, Wangfujing East Street, Dongdan, Dongcheng District, Beijing, China",
+    SELLER_INTRO: "9eeP13gGgg",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "1043713209",
+    PASS_SALT: "wXX68FY8Ul",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("8"),
+    TOTAL_SELL_AMT: Int32("643")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d5d"),
+    SELLER_ID: Int32("38"),
+    SELLER_NAME: "Joel Garcia",
+    EMAIL: "gjo@hotmail.com",
+    SELLER_PASS: "HS3fBMyBpk",
+    POSITION: "Room 28, Jianxiang Road, Pudong New Area, Shanghai, China",
+    SELLER_INTRO: "hioPsd8ujv",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "2196703617",
+    PASS_SALT: "vTZ0DLqfdr",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("2"),
+    TOTAL_SELL_AMT: Int32("688")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d5e"),
+    SELLER_ID: Int32("39"),
+    SELLER_NAME: "Craig Porter",
+    EMAIL: "porter3@gmail.com",
+    SELLER_PASS: "8isjnEvvhu",
+    POSITION: "Building 35, No. 447, Lane 15, Kengmei, Dongguan, China",
+    SELLER_INTRO: "yVV31dvurX",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "76903790807",
+    PASS_SALT: "s7GuzxV7HD",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("5"),
+    TOTAL_SELL_AMT: Int32("207")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d5f"),
+    SELLER_ID: Int32("40"),
+    SELLER_NAME: "Wang Anqi",
+    EMAIL: "anqi303@yahoo.com",
+    SELLER_PASS: "SJ9gaFEPir",
+    POSITION: "27th Floor, Shanhu Road, Dongguan, China",
+    SELLER_INTRO: "PSwIPWAPLJ",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "15027333937",
+    PASS_SALT: "ueVjRSztUk",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("9"),
+    TOTAL_SELL_AMT: Int32("154")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d60"),
+    SELLER_ID: Int32("41"),
+    SELLER_NAME: "Tang Jiehong",
+    EMAIL: "tangji@outlook.com",
+    SELLER_PASS: "sVJBEYrCWU",
+    POSITION: "Room 10, China Resources Building, 785 Shennan Avenue, Futian District, Shenzhen, China",
+    SELLER_INTRO: "JgZWiBEJNT",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7558813879",
+    PASS_SALT: "AkL0bEyScM",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("8"),
+    TOTAL_SELL_AMT: Int32("36")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d61"),
+    SELLER_ID: Int32("42"),
+    SELLER_NAME: "Qian Xiaoming",
+    EMAIL: "xiaomingqi726@outlook.com",
+    SELLER_PASS: "TCnTU2jGCf",
+    POSITION: "Room 33, No. 442, County Road 028, Yanqing District, Beijing, China",
+    SELLER_INTRO: "fBaRSUWN2w",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "1045665290",
+    PASS_SALT: "6zX5ESvzGJ",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("4"),
+    TOTAL_SELL_AMT: Int32("201")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d62"),
+    SELLER_ID: Int32("43"),
+    SELLER_NAME: "Micheal Lee",
+    EMAIL: "michealle45@yahoo.com",
+    SELLER_PASS: "JwAn9r0S9U",
+    POSITION: "25th Floor, 48, Ganlan Road, Pudong New Area, Shanghai, China",
+    SELLER_INTRO: "BAKDCylvHX",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "211399316",
+    PASS_SALT: "63KCmy8Adk",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("9"),
+    TOTAL_SELL_AMT: Int32("884")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d63"),
+    SELLER_ID: Int32("44"),
+    SELLER_NAME: "Qin Zhiyuan",
+    EMAIL: "qin8@hotmail.com",
+    SELLER_PASS: "K1p3wBesD9",
+    POSITION: "42nd Floor, No. 841, 68, Qinghe Middle Street, Haidian District, Beijing, China",
+    SELLER_INTRO: "BvHqha2rho",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "101830857",
+    PASS_SALT: "UstugHB9bs",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("9"),
+    TOTAL_SELL_AMT: Int32("670")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d64"),
+    SELLER_ID: Int32("45"),
+    SELLER_NAME: "Xue Yuning",
+    EMAIL: "xueyuning@icloud.com",
+    SELLER_PASS: "LZaDMdOJxv",
+    POSITION: "15th Floor, 418, Daxin South Road, Daxin Business District, Tianhe District, Zhongshan, China",
+    SELLER_INTRO: "CcBLOnbrHx",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "7600377674",
+    PASS_SALT: "D5fxEnSDx7",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("5"),
+    TOTAL_SELL_AMT: Int32("971")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d65"),
+    SELLER_ID: Int32("46"),
+    SELLER_NAME: "Lu Anqi",
+    EMAIL: "luanq2@mail.com",
+    SELLER_PASS: "TJATF4dErj",
+    POSITION: "Room 14, China Resources Building, 723, Xihuan Road, Buji Town, Longgang District, Shenzhen, China",
+    SELLER_INTRO: "9mvjQKSEzd",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "75537839792",
+    PASS_SALT: "SeixbD6yKL",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("5"),
+    TOTAL_SELL_AMT: Int32("719")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d66"),
+    SELLER_ID: Int32("47"),
+    SELLER_NAME: "He Xiaoming",
+    EMAIL: "hxiaoming@mail.com",
+    SELLER_PASS: "nRCIvZLsO5",
+    POSITION: "Room 2, China Resources Building, 982, Zhongshan 2nd Road, Yuexiu District, Guangzhou, China",
+    SELLER_INTRO: "eQieGB9Dgb",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "207288565",
+    PASS_SALT: "MTYLlU8Ar3",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("793")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d67"),
+    SELLER_ID: Int32("48"),
+    SELLER_NAME: "Shen Shihan",
+    EMAIL: "shihan101@hotmail.com",
+    SELLER_PASS: "cZXcpS7U2n",
+    POSITION: "Room 10, China Resources Building, 561, Dongzhimen Inner Street, Dongcheng District, Beijing, China",
+    SELLER_INTRO: "0JOfTEOW2C",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "16407556539",
+    PASS_SALT: "F7TQYulxur",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("2"),
+    TOTAL_SELL_AMT: Int32("352")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d68"),
+    SELLER_ID: Int32("49"),
+    SELLER_NAME: "Louise Mendez",
+    EMAIL: "mendezl@gmail.com",
+    SELLER_PASS: "a2BVoocMjA",
+    POSITION: "34th Floor, No. 938, Tianbei 1st Road, Luohu District, Shenzhen, China",
+    SELLER_INTRO: "Udy7rIT242",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "75542616103",
+    PASS_SALT: "V8UjDk2Ic0",
+    SELLER_STATUS: Int32("0"),
+    SELLER_SCORE: Int32("8"),
+    TOTAL_SELL_AMT: Int32("304")
+} ]);
+db.getCollection("seller").insert([ {
+    _id: ObjectId("68ba6368409e84318d052d69"),
+    SELLER_ID: Int32("50"),
+    SELLER_NAME: "Janet Campbell",
+    EMAIL: "jcampbell@mail.com",
+    SELLER_PASS: "388hQVkPsQ",
+    POSITION: "4th Floor, No. 944, Xiaoping East Road, Baiyun District, Guangzhou, China",
+    SELLER_INTRO: "JDNdTwIAEl",
+    AVATAR_URL: null,
+    AVATAR_PATH: null,
+    PHONE: "19515733363",
+    PASS_SALT: "IiLdTxNnXe",
+    SELLER_STATUS: Int32("1"),
+    SELLER_SCORE: Int32("7"),
+    TOTAL_SELL_AMT: Int32("65")
+} ]);

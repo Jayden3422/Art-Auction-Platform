@@ -1,0 +1,100 @@
+@import "../../assets/main.less";
+
+#msg {
+    margin: 15px auto;
+    position: fixed;
+    width: 80vw;
+    z-index: 9;
+}
+.tags {
+    margin-top: -1.25rem;
+}
+.card {
+    width: 100%;
+    border-radius: .625rem;
+    overflow: hidden;
+    border: 1px solid @back_color;
+    margin-bottom: 1.25rem;
+    &:hover {
+        border: 1px solid @deep_color;
+    }
+    .header {
+        padding: .625rem 1.25rem;
+        width: 100%;
+        background-color: @main_color;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bottomo {
+        padding: .3125rem .9375rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        .left {
+            width: 18.75rem;
+        }
+        .right {
+            margin-left: 1.25rem;
+            .title{
+                font-size: 1.25rem;
+            }
+            .content {
+                text-indent: 2em;
+            }
+            .price {
+                margin-left: 1.25rem;
+                color: @note-color;
+                font-size: 1.5625rem;
+                font-weight: 600;
+            }
+            .center {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                .consignee {
+                    background-color: @back_color;
+                    border: 1px solid @text-color;
+                    border-radius: .625rem;
+                    overflow: hidden;
+                    width: 43.75rem;
+                    .tit {
+                        background-color: @text-color;
+                        padding-left: .625rem;
+                        color: white;
+                    }
+                    .content {
+                        div {
+                            margin: .3125rem 0;
+                        }
+                    }
+                }
+                .pay {
+                    margin-right: 1.875rem;
+                }
+            }
+        }
+    }
+    .PD {
+        .step {
+            margin: 1.25rem auto;
+            width: 80%;
+        }
+        .info {
+            margin-left: 1.875rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        color: @text-color;
+        .items{
+            display: flex;
+            .item{
+                margin: 0 .9375rem;
+            }
+        }
+    }
+}

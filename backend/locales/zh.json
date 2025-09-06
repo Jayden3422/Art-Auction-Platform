@@ -1,0 +1,8 @@
+{
+    "hello": "你好",
+    "createWs": "创建ws服务",
+    "servicePort": "服务端口",
+    "newClient": "新客户端已连接",
+    "clientClosed": "客户端已关闭连接",
+    "wrong": "出错了"
+}

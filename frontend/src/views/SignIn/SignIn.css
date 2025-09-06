@@ -1,0 +1,28 @@
+#msg {
+  margin-top: -80px;
+  left: 50%;
+  margin-left: -30vw;
+  position: absolute;
+  width: 60vw;
+  z-index: 9;
+}
+.title {
+  margin: 1.25rem auto;
+  font-size: 1.875rem;
+  text-align: center;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+.signin {
+  margin-left: 5rem;
+  width: 100%;
+}
+.card {
+  width: 70vw;
+  margin: 2.1429rem auto;
+  padding: 0.7143rem 0 2.1429rem 0;
+  background-color: white;
+  border-radius: 0.7143rem;
+}

@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  font-family: "宋体", "微软雅黑", "黑体";
+  margin: 0;
+  padding: 0;
+}
+.outputpdf-body {
+  height: 100%;
+  overflow: auto;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 16px;
+  width: 100%;
+  height: 10vh;
+  background-color: #fff;
+}
+.ctn {
+  display: flex;
+  justify-content: center;
+}
+.ctn .pdf-ctn {
+  width: 1300px;
+  margin-bottom: 15vh;
+}
+.ctn .pdf-ctn .pdf-panel {
+  position: relative;
+}
+.allInfo {
+  width: 100%;
+}
+.allInfo table {
+  width: 100%;
+}
+.allInfo thead {
+  height: 36px;
+  background-color: #bfbfbf;
+  color: #000;
+  font-size: 18px;
+}
+.deviceInfos-table {
+  width: 100%;
+}
+.deviceInfos-table thead {
+  height: 36px;
+  background-color: #bfbfbf;
+  color: #000;
+  font-size: 18px;
+}
+.detection {
+  width: 100%;
+}
+.detection table {
+  width: 100%;
+}
+.detection tr {
+  height: 36px;
+  color: #000;
+}
+.detection tr .itemEcharts {
+  width: 100%;
+  height: 180px;
+}
+.detection tr .itemTxt {
+  margin-left: 40px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.detection thead {
+  width: 100%;
+  height: 36px;
+  color: #000;
+  font-size: 18px;
+}
+.historical {
+  width: 100%;
+}
+.historical table {
+  width: 100%;
+}
+.historical tr {
+  height: 36px;
+  color: #000;
+}
+.historical tr .itemEcharts {
+  width: 100%;
+  height: 350px;
+}
+.historical tr .itemTxt {
+  margin-left: 40px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.historical thead {
+  width: 100%;
+  height: 36px;
+  color: #000;
+  font-size: 18px;
+}
+.historical tbody {
+  width: 100%;
+}
+.historical .basics-tr td:nth-child(2) {
+  justify-content: center;
+}
+.historical .pieTd {
+  height: 350px;
+}
+.basics-tr {
+  height: 36px;
+  color: #000;
+  display: flex;
+}
+.basics-tr td:first-child {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfbfbf;
+}
+.basics-tr td:nth-child(2) {
+  width: calc(100% - 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ /deep/ table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #333;
+}
+.pdf-header {
+  font-weight: bold;
+  padding: 1.5vw 3.3vw;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 0;
+  /* .pageNum {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.8vw;
+        font-weight: 600;
+  
+        .pdf-footer-page-count {
+            margin-right: 1vw;
+        }
+    } */
+}
+.pdf-header .headerCon {
+  width: 100%;
+  border-bottom: 0.25vw solid rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: space-between;
+}
+.pdf-header .headerCon .headerTitle {
+  font-size: 2.1875vw;
+  transform: translate(2%, 65%);
+  line-height: 2.1875vw;
+  margin-left: 0.5vw;
+}
+.pdf-header .headerCon .logoPng {
+  width: 15%;
+  transform: translate(0%, 10%);
+  margin-top: -0.2vw;
+}
+.a4main {
+  padding-top: 300px;
+  width: 100%;
+}
+.a4main .title {
+  width: 100%;
+  height: 80px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.a4main .table {
+  margin: 0 auto;
+  margin-top: 800px;
+  width: 68%;
+}
+.a4main .table .tr:nth-child(odd) {
+  background-color: #bfbfbf;
+}
+.a4main .tr {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 26px;
+}
+.a4main .tr .td:nth-child(odd) {
+  width: 32%;
+  padding-left: 5px;
+}
+.a4main .tr .td:nth-child(even) {
+  width: 68%;
+}
+.statement {
+  padding-top: 180px;
+  width: 100%;
+}
+.statement .title {
+  font-weight: 600;
+  font-size: 37.89px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statement .title2 {
+  font-weight: 600;
+  margin-top: 260px;
+}
+.statement .content {
+  margin-top: 37.89px;
+  padding: 0 84.2px;
+  font-size: 23.8567px;
+  text-align: justify;
+  /*兼容ie*/
+  text-justify: distribute-all-lines;
+  line-height: 34px;
+  text-indent: 14px;
+}
+.statement .content2 {
+  margin-top: 50px;
+  margin-bottom: 400px;
+  font-size: 26px;
+  text-indent: 40px;
+}

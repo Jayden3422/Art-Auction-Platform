@@ -1,0 +1,95 @@
+#msg {
+  margin: 60px auto;
+  position: fixed;
+  width: 80vw;
+  z-index: 9;
+}
+.nowPrice {
+  display: inline-block;
+  margin-left: 1.25rem;
+  color: #f5222d;
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+.detail #msg {
+  margin: -3.75rem auto;
+  position: absolute;
+  width: 80vw;
+  z-index: 9;
+}
+.detail .top {
+  display: flex;
+}
+.detail .top .left {
+  width: 30vw;
+  object-fit: contain;
+}
+.detail .top .right {
+  margin-left: 1.25rem;
+}
+.detail .top .right .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.detail .top .right .time {
+  margin-top: 0.3125rem;
+  margin-left: 0.3125rem;
+  font-size: 1.125rem;
+}
+.detail .top .right .useTimer {
+  margin-left: 1.875rem;
+}
+.detail .top .right .useTimer .tit {
+  margin-left: -1.875rem;
+  margin-top: 0.625rem;
+  padding: 0.3125rem 0.625rem;
+  font-size: 1.0625rem;
+}
+.detail .top .right .useTimer .endPrice {
+  margin: 1.625rem 0;
+  margin-bottom: 2rem;
+  font-size: 2.1875rem;
+  color: #fa8c16;
+}
+.detail .top .right .useTimer .ant-btn {
+  position: absolute;
+  right: 0;
+  margin-top: 5rem;
+  margin-right: 8.75rem;
+  font-size: 1.875rem;
+  padding: 0.375rem 2.5rem 1.5625rem 2.5rem;
+}
+.detail .top .right .useTimer .ant-btn-lg {
+  height: 3.75rem;
+}
+.detail .top .right .info {
+  margin-top: -0.625rem;
+}
+.detail .top .right .info .infoCon {
+  margin-left: 0.7143rem;
+  display: flex;
+  justify-content: space-between;
+}
+.detail .top .right .info .infoCon .infoRight .ant-btn {
+  height: 4rem;
+  margin-top: 1.4286rem;
+  margin-right: 8.75rem;
+  font-size: 1.875rem;
+  padding: 0.375rem 2.5rem 1.5625rem 2.5rem;
+}
+.detail .top .right .info .tit {
+  margin-left: 1.25rem;
+  color: #f5222d;
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+.detail .top .right .info .intro {
+  margin-left: 0.625rem;
+  margin-top: 0.8125rem;
+  color: #808080;
+  text-indent: 2em;
+  font-size: 0.9375rem;
+}
+.detail .top .right .info .txt {
+  margin-top: 0.4375rem;
+}

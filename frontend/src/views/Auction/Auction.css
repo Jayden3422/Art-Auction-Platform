@@ -1,0 +1,16 @@
+#msg {
+  margin: -3.75rem auto;
+  position: absolute;
+  width: 80vw;
+  z-index: 9;
+}
+.addBtn {
+  position: absolute;
+  right: 0;
+  margin-right: 3.125rem;
+  margin-top: 0.625rem;
+  z-index: 99;
+}
+.ant-tabs {
+  margin-top: -1.25rem;
+}

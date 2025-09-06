@@ -1,0 +1,8 @@
+{
+    "hello": "Hello",
+    "createWs": "Create WS service",
+    "servicePort": "Service port",
+    "newClient": "New client connected",
+    "clientClosed": "Client closed connection",
+    "wrong": "An error occurred"
+}

@@ -1,0 +1,93 @@
+<template>
+  <a-layout id="components-layout-demo-custom-trigger">
+    <a-layout-sider v-model:collapsed="collapsed" :trigger="null" collapsible>
+      <div class="logo">
+        <span>Jayden</span>
+        {{collapsed? "" : "Art Auction"}}
+      </div>
+      <a-menu v-model:selectedKeys="selectedKeys" theme="dark" mode="inline">
+        <template v-if="routesList.length">
+          <router-link v-for="(item, index) in routesList" :to="item.path" custom v-slot="{ navigate }">
+            <a-menu-item :key="item.path" @click="navigate" @keypress.enter="navigate" role="link">
+              <Icon :id="item.icon"/>
+              <span>{{item.title}}</span>
+            </a-menu-item>
+          </router-link>
+        </template>
+      </a-menu>
+    </a-layout-sider>
+    <a-layout>
+      <a-layout-header style="background: #fff; padding: 0">
+        <menu-unfold-outlined
+          v-if="collapsed"
+          class="trigger"
+          @click="() => (collapsed = !collapsed)"
+        />
+        <menu-fold-outlined v-else class="trigger" @click="() => (collapsed = !collapsed)" />
+        <a-button @click="out">{{ $t('message.loginOut') }}</a-button>
+        <a-button @click="switchLanguage">中文/English</a-button>
+      </a-layout-header>
+      <a-layout-content
+        :style="{ margin: '24px 16px', padding: '24px', background: '#fff', minHeight: '280px' }"
+      >
+        <Suspense>
+          <router-view></router-view>
+        </Suspense>
+      </a-layout-content>
+    </a-layout>
+  </a-layout>
+</template>
+<script>
+import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons-vue';
+import router from '@/router';
+import Cookie from 'js-cookie';
+import { defineComponent, reactive, ref, toRefs } from 'vue';
+import Icon from "../../components/Icon.vue";
+import { jwtDecode } from "jwt-decode";
+import { getAPI } from '@/utils/api';
+import { message } from 'ant-design-vue';
+import { useStore } from 'vuex';
+import { useI18n } from 'vue-i18n'
+export default defineComponent({
+  components: {
+    Icon,
+    MenuUnfoldOutlined,
+    MenuFoldOutlined
+  },
+  async setup() {
+    const { t } = useI18n();
+    const store = useStore();
+    var pids = jwtDecode(Cookie.get('token')).pids;
+    var list = reactive({
+      routesList: []
+    })
+    // 退出登录
+    const out = () => {
+      Cookie.remove("token");
+      router.go(0);
+    }
+    
+    const { locale } = useI18n()
+    const switchLanguage = () => {
+      locale.value = locale.value === 'en' ? 'zh' : 'en'
+    }
+    await getAPI("/all/getDics").then(res => {
+      store.commit("setClassList", JSON.parse(res.data[1].VALUE));
+      list.routesList = JSON.parse(res.data[0].VALUE).filter(r => pids.includes(r.icon));
+    }).catch(e => {
+      message.error(t('message.dictFail'));
+    })
+    return {
+      ...toRefs(list),
+      out,
+      selectedKeys: ref([router.currentRoute.value.matched[1].path]),
+      collapsed: ref(false),// 是否关闭侧边栏
+      switchLanguage,
+      t
+    };
+  },
+});
+</script>
+<style scoped>
+  @import url('./Home.css');
+</style>

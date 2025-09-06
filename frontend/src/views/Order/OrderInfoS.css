@@ -1,0 +1,8 @@
+#msg {
+  margin-top: -60px;
+  left: 50%;
+  margin-left: -30vw;
+  position: absolute;
+  width: 60vw;
+  z-index: 9;
+}

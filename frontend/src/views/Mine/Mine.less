@@ -1,0 +1,72 @@
+@import "../../assets/main.less";
+
+#msg {
+    margin-top: -56px;
+    left: 50%;
+    margin-left: -28vw;
+    position: absolute;
+    width: 60vw;
+    z-index: 9;
+}
+
+.mine {
+    .top {
+        background-color: @back_color;
+        padding: .625rem 1.25rem;
+        border: 1px solid @text-color;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .left {
+            width: 7.5rem;
+            border-radius: 3.75rem;
+        }
+
+        .right {
+            margin-left: 1.0714rem;
+
+            .titley {
+                width: 1050px;
+                font-size: 1.5625rem;
+                display: flex;
+                justify-content: space-between;
+
+                .tag {
+                    font-size: .9375rem;
+                }
+            }
+
+            .intro {
+                margin-top: .4375rem;
+                margin-bottom: 1.5625rem;
+                font-size: 1.0625rem;
+                color: @text-color;
+                text-overflow: -o-ellipsis-lastline;
+                overflow: hidden;
+                /* 溢出内容隐藏 */
+                text-overflow: ellipsis;
+                /* 文本溢出部分用省略号表示 */
+                display: -webkit-box;
+                /* 弹性伸缩盒子模型显示 */
+                -webkit-line-clamp: 2;
+                /* 限制在一个块元素显示的文本的行数 行数最好让后台人员设置 */
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+                /* 设置或检索伸缩盒对象的子元素的排列方式 盒子中内容竖直排列 */
+            }
+        }
+    }
+
+    .info {
+        margin-bottom: 1.25rem;
+        div {
+            margin-top: 1.25rem;
+            margin-left: .625rem;
+        }
+    }
+
+    .ant-btn {
+        margin-bottom: 1.25rem;
+    }
+}

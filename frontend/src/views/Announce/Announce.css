@@ -1,0 +1,45 @@
+#msg {
+  margin: -3.4375rem 0;
+  position: absolute;
+  width: 60vw;
+  z-index: 9;
+}
+.add {
+  margin-bottom: 0.625rem;
+}
+.card {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ebebeb;
+  margin-bottom: 1.25rem;
+}
+.card:hover {
+  border: 1px solid #0958d9;
+}
+.card .header {
+  padding: 0.625rem 1.25rem;
+  width: 100%;
+  background-color: #1890ff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .bottomy {
+  padding: 0.3125rem 0.9375rem;
+}
+.card .bottomy .title {
+  font-size: 1.25rem;
+}
+.card .bottomy .content {
+  text-indent: 2em;
+}
+.card .footer {
+  display: flex;
+  justify-content: flex-end;
+  color: #808080;
+}
+.card .footer div {
+  margin-right: 0.9375rem;
+}

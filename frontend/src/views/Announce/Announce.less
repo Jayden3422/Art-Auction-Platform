@@ -1,0 +1,47 @@
+@import "../../assets/main.less";
+
+#msg {
+    margin: -3.4375rem 0;
+    position: absolute;
+    width: 60vw;
+    z-index: 9;
+}
+.add {
+    margin-bottom: .625rem;
+}
+.card {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid @back_color;
+    margin-bottom: 1.25rem;
+    &:hover {
+        border: 1px solid @deep_color;
+    }
+    .header {
+        padding: .625rem 1.25rem;
+        width: 100%;
+        background-color: @main_color;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bottomy {
+        padding: .3125rem .9375rem;
+        .title{
+            font-size: 1.25rem;
+        }
+        .content {
+            text-indent: 2em;
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        color: @text-color;
+        div{
+            margin-right: .9375rem;
+        }
+    }
+}

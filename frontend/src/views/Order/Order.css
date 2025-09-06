@@ -1,0 +1,94 @@
+#msg {
+  margin: 15px auto;
+  position: fixed;
+  width: 80vw;
+  z-index: 9;
+}
+.tags {
+  margin-top: -1.25rem;
+}
+.card {
+  width: 100%;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  border: 1px solid #ebebeb;
+  margin-bottom: 1.25rem;
+}
+.card:hover {
+  border: 1px solid #0958d9;
+}
+.card .header {
+  padding: 0.625rem 1.25rem;
+  width: 100%;
+  background-color: #1890ff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .bottomo {
+  padding: 0.3125rem 0.9375rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card .bottomo .left {
+  width: 18.75rem;
+}
+.card .bottomo .right {
+  margin-left: 1.25rem;
+}
+.card .bottomo .right .title {
+  font-size: 1.25rem;
+}
+.card .bottomo .right .content {
+  text-indent: 2em;
+}
+.card .bottomo .right .price {
+  margin-left: 1.25rem;
+  color: #f5222d;
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+.card .bottomo .right .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.card .bottomo .right .center .consignee {
+  background-color: #ebebeb;
+  border: 1px solid #808080;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  width: 43.75rem;
+}
+.card .bottomo .right .center .consignee .tit {
+  background-color: #808080;
+  padding-left: 0.625rem;
+  color: white;
+}
+.card .bottomo .right .center .consignee .content div {
+  margin: 0.3125rem 0;
+}
+.card .bottomo .right .center .pay {
+  margin-right: 1.875rem;
+}
+.card .PD .step {
+  margin: 1.25rem auto;
+  width: 80%;
+}
+.card .PD .info {
+  margin-left: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+.card .footer {
+  display: flex;
+  justify-content: space-between;
+  color: #808080;
+}
+.card .footer .items {
+  display: flex;
+}
+.card .footer .items .item {
+  margin: 0 0.9375rem;
+}

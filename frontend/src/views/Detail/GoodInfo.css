@@ -1,0 +1,16 @@
+#msg {
+  margin-top: -80px;
+  left: 50%;
+  margin-left: -40vw;
+  position: absolute;
+  width: 60vw;
+  z-index: 9;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.signin {
+  margin-left: -3.125rem;
+  width: 100vw;
+}

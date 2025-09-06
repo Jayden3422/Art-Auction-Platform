@@ -1,0 +1,161 @@
+<template>
+    <div>
+        <div v-if="List.length != 0" class="goodsList">
+            <div v-for="(item, index) in List" class="card" @click="detail(index)">
+                <img :src="item.IMG_URL" />
+                <div class="content">
+                    <div class="title">
+                        <div class="tit">{{ $t('message.bidStarts') }}: ￥{{ item.UPSET_PRICE }}</div>
+                        <div class="count">{{ $t('message.quantity') }}: {{ item.COUNT }}</div>
+                    </div>
+                    <div class="name">
+                        {{ item.NAME }}
+                    </div>
+                    <div class="time">{{ timeList[index].START_TIME }} ~</div>
+                    <div class="time">
+                        {{ timeList[index].END_TIME }}
+                    </div>
+                    <div class="intro">
+                        {{ item.INTRODUCTION }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div v-else>
+            <a-empty />
+        </div>
+    </div>
+</template>
+
+<script>
+import { reactive } from "@vue/reactivity";
+import { fullDate } from "../../components/date";
+import { getAPI, postAPI } from "../../utils/api";
+import router from '@/router';
+import { useI18n } from 'vue-i18n';
+export default {
+    props: [
+        "state",
+        "permission"
+    ],
+    emits: ["isErr"],
+    async setup(props, context) {
+        const { t } = useI18n();
+        // 获取数据
+        var List = reactive([]);
+        if(props.permission.per == 1) {
+        // 如果是卖家
+            var sellerForm = {
+                UPLOADER_ID: props.permission.SELLER_ID
+            }
+            if (props.state == "0") {
+                async function getN() {
+                    await postAPI("/seller/getAllNear", sellerForm).then((res) => {
+                        if (res.status == 200) {
+                            List = reactive(res.data);
+                        } else {
+                            context.emit("isErr");
+                        }
+                    });
+                }
+                await getN();
+            } else if (props.state == "1") {
+                async function getS() {
+                    await postAPI("/seller/getAllSale", sellerForm).then((res) => {
+                        if (res.status == 200) {
+                            List = reactive(res.data);
+                        } else {
+                            context.emit("isErr");
+                        }
+                    });
+                }
+                await getS();
+            } else {
+                async function getE() {
+                    await postAPI("/seller/getAllEnd", sellerForm).then((res) => {
+                        if (res.status == 200) {
+                            List = reactive(res.data);
+                        } else {
+                            context.emit("isErr");
+                        }
+                    });
+                }
+                await getE();
+            }
+        }else {
+            // 如果是买家或者管理员
+            if (props.state == "0") {
+                async function getN() {
+                    await getAPI("/all/getAllNear").then((res) => {
+                        if (res.status == 200) {
+                            List = reactive(res.data);
+                        } else {
+                            context.emit("isErr");
+                        }
+                    });
+                }
+                await getN();
+            } else if (props.state == "1") {
+                async function getS() {
+                    await getAPI("/all/getAllSale").then((res) => {
+                        if (res.status == 200) {
+                            List = reactive(res.data);
+                        } else {
+                            context.emit("isErr");
+                        }
+                    });
+                }
+                await getS();
+            } else {
+                async function getE() {
+                    await getAPI("/all/getAllEnd").then((res) => {
+                        if (res.status == 200) {
+                            List = reactive(res.data);
+                        } else {
+                            context.emit("isErr");
+                        }
+                    });
+                }
+                await getE();
+            }
+        }
+        // 处理时间后的数组
+        var timeList = reactive([]);
+        for (let i = 0; i < List.length; i++) {
+            timeList.push({
+                START_TIME: fullDate(List[i].START_TIME),
+                END_TIME: fullDate(List[i].END_TIME),
+            });
+        }
+        // 打开详情页
+        function detail(index) {
+            var form = List[index]
+            var routeData;
+            if(props.permission.per == 0) {
+            // 买家进入拍卖页
+                routeData = router.resolve({
+                    path: "/home/detail",
+                    query: {GOOD_ID: form.GOOD_ID}
+                });
+            }else {
+            // 卖家和管理员进入详情页
+                routeData = router.resolve({
+                    path: "/home/details",
+                    query: {GOOD_ID: form.GOOD_ID}
+                });
+            }
+            window.open(routeData.href, "_blank");
+        }
+        return {
+            List,
+            timeList,
+            detail,
+            t
+        };
+    },
+};
+</script>
+
+<style scoped>
+@import url("./GoodsList.css");
+</style>

@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    font-family: "宋体", "微软雅黑", "黑体";
+    margin: 0;
+    padding: 0;
+}
+
+.outputpdf-body {
+    height: 100%;
+    overflow: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 16px;
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+}
+
+.ctn {
+    display: flex;
+    justify-content: center;
+
+    .pdf-ctn {
+        width: 1300px;
+        margin-bottom: 15vh;
+
+        .pdf-panel {
+            position: relative;
+        }
+    }
+}
+
+.allInfo {
+    width: 100%;
+    //border: 1px solid #333;
+
+    table {
+        width: 100%;
+    }
+
+    thead {
+        height: 36px;
+        background-color: #bfbfbf;
+        color: #000;
+        font-size: 18px;
+    }
+}
+
+.deviceInfos-table {
+    width: 100%;
+
+    thead {
+        height: 36px;
+        background-color: #bfbfbf;
+        color: #000;
+        font-size: 18px;
+    }
+}
+
+.detection {
+    width: 100%;
+
+    table {
+        width: 100%;
+    }
+
+    tr {
+        height: 36px;
+        color: #000;
+
+        .itemEcharts {
+            width: 100%;
+            height: 180px;
+        }
+
+        .itemTxt {
+            margin-left: 40px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .txtItem {}
+        }
+    }
+
+    thead {
+        width: 100%;
+        height: 36px;
+        color: #000;
+        font-size: 18px;
+    }
+}
+
+.historical {
+    width: 100%;
+
+    table {
+        width: 100%;
+    }
+
+    tr {
+        height: 36px;
+        color: #000;
+
+        .itemEcharts {
+            width: 100%;
+            height: 350px;
+        }
+
+        .itemTxt {
+            margin-left: 40px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .txtItem {}
+        }
+    }
+
+    thead {
+        width: 100%;
+        height: 36px;
+        color: #000;
+        font-size: 18px;
+    }
+
+    tbody {
+        width: 100%;
+    }
+
+    .basics-tr {
+        td:nth-child(2) {
+            justify-content: center;
+        }
+    }
+
+    .pieTd {
+        height: 350px;
+    }
+}
+
+.basics-tr {
+    height: 36px;
+    color: #000;
+    display: flex;
+
+    td:first-child {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bfbfbf;
+    }
+
+    td:nth-child(2) {
+        width: calc(100% - 20%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/deep/table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #333;
+}
+
+.pdf-header {
+    font-weight: bold;
+    padding: 1.5vw 3.3vw;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 0;
+
+    .headerCon {
+        width: 100%;
+        border-bottom: 0.25vw solid rgba(0, 0, 0, 0.85);
+        display: flex;
+        justify-content: space-between;
+
+        .headerTitle {
+            font-size: 2.1875vw;
+            transform: translate(2%, 65%);
+            line-height: 2.1875vw;
+            margin-left: 0.5vw;
+        }
+
+        .logoPng {
+            width: 15%;
+            transform: translate(0%, 10%);
+            margin-top: -0.2vw;
+        }
+    }
+
+    /* .pageNum {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.8vw;
+        font-weight: 600;
+  
+        .pdf-footer-page-count {
+            margin-right: 1vw;
+        }
+    } */
+}
+
+.a4main {
+    padding-top: 300px;
+    width: 100%;
+
+    .title {
+        width: 100%;
+        height: 80px;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .table {
+        margin: 0 auto;
+        margin-top: 800px;
+        width: 68%;
+    }
+
+    .table .tr:nth-child(odd) {
+        background-color: #bfbfbf;
+    }
+
+    .tr {
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 26px;
+
+        .td {
+            //height: 4.2vw;
+            //line-height: 4.2vw;
+        }
+
+        .td:nth-child(odd) {
+            width: 32%;
+            padding-left: 5px;
+        }
+
+        .td:nth-child(even) {
+            width: 68%;
+        }
+    }
+}
+
+.statement {
+    padding-top: 180px;
+    width: 100%;
+
+    .title {
+        font-weight: 600;
+        font-size: 37.89px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title2 {
+        font-weight: 600;
+        margin-top: 260px;
+    }
+
+    .content {
+        margin-top: 37.89px;
+        padding: 0 84.2px;
+        font-size: 23.8567px;
+        text-align: justify;
+        /*兼容ie*/
+        text-justify: distribute-all-lines;
+        line-height: 34px;
+        text-indent: 14px;
+    }
+
+    .content2 {
+        margin-top: 50px;
+        margin-bottom: 400px;
+        font-size: 26px;
+        text-indent: 40px;
+    }
+}
