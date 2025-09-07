@@ -9,20 +9,20 @@ const instance = axios.create({
     'token': Cookie.get('token')
   }
 });
-// 添加响应拦截器
+// Add a response interceptor
 instance.interceptors.response.use(function (response) {
-  // 对响应数据做点什么
+  // Do something with the response data
   return response;
 }, function (error) {
-  // 对响应错误做点什么
-  //接收到响应数据并成功后的一些共有的处理，关闭loading等
+  // Do something with the response error
+  // Common processing after successfully receiving the response data, such as closing the loading window
 
   return response
 }, error => {
-  /***** 接收到异常响应的处理开始 *****/
+  /***** Start processing for an exception response *****/
   if (error && error.response) {
-    // 1.公共错误处理
-    // 2.根据响应码具体处理
+    // 1. Common error handling
+    // 2. Specific processing based on the response code
     switch (error.response.status) {
       case 400:
         error.message = 'Bad request'
@@ -73,9 +73,7 @@ instance.interceptors.response.use(function (response) {
   }
 
   Message.error(error.message)
-  /***** 处理结束 *****/
-  //如果不需要错误处理，以上的处理过程都可省略
-
+  // Processing completed
   return Promise.reject(error);
 });
 export default instance

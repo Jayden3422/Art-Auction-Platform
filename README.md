@@ -61,6 +61,14 @@ The internationalization feature is configured using the **`vue-i18n`** library.
 
 There is a language switch button at the top of the page.
 
+### RESTful
+
+In `frontend\src\utils` I encapsulated Axios to implement RESTful endpoints.
+
+RESTful endpoints are specific URLs in a web API. They follow REST principles. REST means Representational State Transfer. It uses standard HTTP methods like GET, POST, PUT, and DELETE.
+
+In my project, I created these endpoints. For example, a GET endpoint fetches real-time data from the back-end server. A POST endpoint sends user inputs or updates. This setup lets the front-end talk to the back-end easily. It keeps data sync fast and handles errors well. 
+
 ### Artwork auction module
 
 The Artwork Auction module primarily implements platform functions related to artwork auctions. The front-end displays images and basic information about artworks, and uses two-way `WebSocket` technology to enable users to view other users' bids in real time.

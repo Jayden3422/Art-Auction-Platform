@@ -1,11 +1,11 @@
-// 导入封装好的axios实例
+// axios
 import request from './request.js'
 
 const http ={
     /**
-     * methods: 请求
-     * @param url 请求地址 
-     * @param params 请求参数
+     * methods
+     * @param url
+     * @param params
      */
     get(url,params){
         const config = {
@@ -40,5 +40,5 @@ const http ={
         return request(config)
     }
 }
-//导出
+
 export default http
